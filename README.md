@@ -17,3 +17,11 @@ A collection of machine learning projects implementing various algorithms and fr
 4. **Count number of Object using Python-OpenCV**
    - Uses OpenCV for image processing to detect and count objects (e.g., apples) in an image.
    - Includes techniques like Gaussian Blur, Canny Edge Detection, and Contours.
+
+5. **Credit Card Fraud Detection**
+   - Implements a machine learning model to detect fraudulent credit card transactions.
+   - Focuses on handling imbalanced datasets and evaluating precision/recall.
+
+6. **Handwritten Digit Recognition**
+   - A Neural Network implementation for recognizing handwritten digits from the MNIST dataset.
+   - built using TensorFlow/Keras with deep layers for high accuracy.
