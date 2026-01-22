@@ -372,7 +372,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **Harsh Choudhary**
 - 🔗 [GitHub](https://github.com/HarshChoudhary2003)
 - 💼 [LinkedIn](https://linkedin.com/in/harshchoudhary2003)
-- 📧 Email: harsh.choudhary@example.com
+- 📧 Email: hc504360@gmail.com
 
 ---
 
