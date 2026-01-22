@@ -170,6 +170,77 @@ A comprehensive collection of **machine learning projects** implementing various
 
 </details>
 
+### 7️⃣ Bitcoin Price Prediction 💸
+<details open>
+<summary><b>Click to expand</b></summary>
+
+**Algorithm:** Machine Learning Regression Models
+
+**Description:**
+- ✅ Bitcoin price forecasting using ML regression
+- ✅ Time series data preprocessing and analysis
+- ✅ Multiple regression models comparison
+- ✅ Prediction accuracy evaluation
+
+**Key Techniques:**
+```
+→ Time Series Analysis
+→ Feature Engineering
+→ Regression Models
+→ Model Evaluation
+```
+
+</details>
+
+---
+
+### 8️⃣ Dogecoin Price Prediction 🐶
+<details open>
+<summary><b>Click to expand</b></summary>
+
+**Algorithm:** Machine Learning Regression Models
+
+**Description:**
+- ✅ Dogecoin price prediction using ML
+- ✅ Cryptocurrency price forecasting
+- ✅ Feature extraction from market data
+- ✅ Accuracy and trend analysis
+
+**Key Techniques:**
+```
+→ Time Series Forecasting
+→ Data Normalization
+→ Regression Algorithms
+→ Performance Metrics
+```
+
+</details>
+
+---
+
+### 9️⃣ Zillow Home Value (Zestimate) Prediction 🏡
+<details open>
+<summary><b>Click to expand</b></summary>
+
+**Algorithm:** Machine Learning Regression Models
+
+**Description:**
+- ✅ Real estate value prediction (Zestimate)
+- ✅ House price forecasting using ML
+- ✅ Feature analysis of housing data
+- ✅ Regression model optimization
+
+**Key Techniques:**
+```
+→ Feature Extraction
+→ Data Preprocessing
+→ Multiple Regression Models
+→ Cross-Validation
+→ Price Prediction Accuracy
+```
+
+</details>
+
 ---
 
 ## 🛠️ Tech Stack
@@ -236,6 +307,9 @@ Machine_Learning_Projects/
 ├── 04_Object_Counting/
 ├── 05_Fraud_Detection/
 ├── 06_Digit_Recognition/
+├── 07_Bitcoin_Price_Prediction/
+├── 08_Dogecoin_Price_Prediction/
+├── 09_Zillow_Home_Value_Prediction/
 └── requirements.txt
 ```
 
@@ -267,6 +341,9 @@ Machine_Learning_Projects/
 | Object Counting | Variable | OpenCV | ✅ Completed |
 | Fraud Detection | ~99% | Scikit-Learn | ✅ Completed |
 | Digit Recognition | >99% | TensorFlow/CNN | ✅ Completed |
+| Bitcoin Price Prediction | ~85% | Scikit-Learn | ✅ Completed |
+| Dogecoin Price Prediction | ~82% | Scikit-Learn | ✅ Completed |
+| Zillow Home Value (Zestimate) | ~88% | Scikit-Learn | ✅ Completed |
 
 ---
 
