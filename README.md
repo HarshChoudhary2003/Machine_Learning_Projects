@@ -241,6 +241,56 @@ A comprehensive collection of **machine learning projects** implementing various
 
 </details>
 
+### 🔟 Microsoft Stock Price Prediction 📈
+
+<details open>
+<summary><b>Click to expand</b></summary>
+
+**Framework:** TensorFlow/Keras (Deep Learning)
+
+**Description:**
+- ✅ Stock price prediction using deep learning
+- ✅ Time series forecasting with neural networks
+- ✅ Historical price data analysis
+- ✅ Model evaluation and accuracy metrics
+
+**Key Technologies:**
+```
+→ TensorFlow/Keras
+→ LSTM Networks
+→ Time Series Processing
+→ Data Normalization
+```
+
+</details>
+
+---
+
+### 🔛 Sales Forecast Prediction - Python 📉
+
+<details open>
+<summary><b>Click to expand</b></summary>
+
+**Algorithm:** Machine Learning Regression Models
+
+**Description:**
+- ✅ Sales forecasting using machine learning
+- ✅ Time series data processing
+- ✅ Trend analysis and predictions
+- ✅ Business analytics and reporting
+
+**Key Techniques:**
+```
+→ Time Series Analysis
+→ Trend Forecasting
+→ Regression Models
+→ Business Intelligence
+```
+
+</details>
+
+---
+
 ---
 
 ## 🛠️ Tech Stack
@@ -298,18 +348,18 @@ python script.py
 ## 📊 Project Structure
 ```
 Machine_Learning_Projects/
-├── 01_Text_Classification/
-│   ├── notebooks/
-│   ├── data/
-│   └── models/
-├── 02_Email_Spam_Detection/
-├── 03_SMS_Spam_Detection/
-├── 04_Object_Counting/
-├── 05_Fraud_Detection/
-├── 06_Digit_Recognition/
-├── 07_Bitcoin_Price_Prediction/
-├── 08_Dogecoin_Price_Prediction/
-├── 09_Zillow_Home_Value_Prediction/
+├── Bitcoin Price Prediction using Machine Learning in Python/
+├── Classification of Text Documents using Naive Bayes/
+├── Count number of Object using Python-OpenCV/
+├── Credit Card Fraud Detection - ML/
+├── Detecting Spam Emails Using Tensorflow/
+├── Dogecoin Price Prediction with Machine Learning/
+├── Handwritten Digit Recognition using Neural Network/
+├── Microsoft Stock Price Prediction with Machine Learning/
+├── SMS Spam Detection using TensorFlow/
+├── Sales Forecast Prediction - Python/
+├── Stock Price Prediction using Machine Learning in Python/
+├── Zillow Home Value (Zestimate) Prediction in ML/
 └── requirements.txt
 ```
 
