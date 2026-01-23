@@ -5,3 +5,7 @@ __pycache__/
 *.pyd
 .DS_Store
 creditcard.csv
+mlruns/
+.env
+*.pkl
+node_modules/
