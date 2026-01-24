@@ -1,0 +1,18 @@
+# Python / Streamlit / MLflow ignore rules
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+mlruns/
+models/
+datasets/
+*.pkl
+*.h5
+*.csv
+*.db
+*.xlsx
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
