@@ -9,3 +9,4 @@ mlruns/
 .env
 *.pkl
 node_modules/
+venv/

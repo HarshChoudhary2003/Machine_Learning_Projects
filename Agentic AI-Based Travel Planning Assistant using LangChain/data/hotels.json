@@ -1,0 +1,500 @@
+[
+    {
+        "hotel_id": "HOT0001",
+        "name": "Grand Palace Hotel",
+        "city": "Delhi",
+        "stars": 4,
+        "price_per_night": 3897,
+        "amenities": [
+            "wifi",
+            "pool"
+        ]
+    },
+    {
+        "hotel_id": "HOT0002",
+        "name": "Comfort Suites",
+        "city": "Delhi",
+        "stars": 5,
+        "price_per_night": 3650,
+        "amenities": [
+            "gym",
+            "breakfast",
+            "wifi",
+            "parking"
+        ]
+    },
+    {
+        "hotel_id": "HOT0003",
+        "name": "Green Leaf Resort",
+        "city": "Delhi",
+        "stars": 4,
+        "price_per_night": 6123,
+        "amenities": [
+            "pool",
+            "parking"
+        ]
+    },
+    {
+        "hotel_id": "HOT0004",
+        "name": "Sunrise Hotel",
+        "city": "Delhi",
+        "stars": 2,
+        "price_per_night": 4783,
+        "amenities": [
+            "wifi",
+            "parking",
+            "spa",
+            "breakfast"
+        ]
+    },
+    {
+        "hotel_id": "HOT0005",
+        "name": "Blue Lagoon Resort",
+        "city": "Delhi",
+        "stars": 2,
+        "price_per_night": 2743,
+        "amenities": [
+            "gym",
+            "breakfast"
+        ]
+    },
+    {
+        "hotel_id": "HOT0006",
+        "name": "Green Leaf Resort",
+        "city": "Mumbai",
+        "stars": 2,
+        "price_per_night": 1471,
+        "amenities": [
+            "gym",
+            "parking",
+            "pool"
+        ]
+    },
+    {
+        "hotel_id": "HOT0007",
+        "name": "Budget Stay Inn",
+        "city": "Mumbai",
+        "stars": 2,
+        "price_per_night": 2316,
+        "amenities": [
+            "pool",
+            "breakfast",
+            "spa",
+            "gym",
+            "wifi"
+        ]
+    },
+    {
+        "hotel_id": "HOT0008",
+        "name": "Royal Heritage",
+        "city": "Mumbai",
+        "stars": 2,
+        "price_per_night": 2104,
+        "amenities": [
+            "gym",
+            "breakfast",
+            "pool",
+            "wifi"
+        ]
+    },
+    {
+        "hotel_id": "HOT0009",
+        "name": "Comfort Suites",
+        "city": "Mumbai",
+        "stars": 5,
+        "price_per_night": 5787,
+        "amenities": [
+            "breakfast",
+            "spa",
+            "gym",
+            "wifi"
+        ]
+    },
+    {
+        "hotel_id": "HOT0010",
+        "name": "Budget Stay Inn",
+        "city": "Mumbai",
+        "stars": 5,
+        "price_per_night": 5536,
+        "amenities": [
+            "breakfast",
+            "gym",
+            "spa",
+            "wifi"
+        ]
+    },
+    {
+        "hotel_id": "HOT0011",
+        "name": "Comfort Suites",
+        "city": "Goa",
+        "stars": 5,
+        "price_per_night": 2828,
+        "amenities": [
+            "spa",
+            "pool",
+            "wifi",
+            "gym"
+        ]
+    },
+    {
+        "hotel_id": "HOT0012",
+        "name": "Green Leaf Resort",
+        "city": "Goa",
+        "stars": 3,
+        "price_per_night": 2357,
+        "amenities": [
+            "spa",
+            "gym",
+            "pool",
+            "breakfast"
+        ]
+    },
+    {
+        "hotel_id": "HOT0013",
+        "name": "Green Leaf Resort",
+        "city": "Goa",
+        "stars": 2,
+        "price_per_night": 6259,
+        "amenities": [
+            "parking",
+            "breakfast",
+            "spa",
+            "pool"
+        ]
+    },
+    {
+        "hotel_id": "HOT0014",
+        "name": "Royal Heritage",
+        "city": "Goa",
+        "stars": 5,
+        "price_per_night": 1232,
+        "amenities": [
+            "wifi",
+            "parking",
+            "breakfast",
+            "pool"
+        ]
+    },
+    {
+        "hotel_id": "HOT0015",
+        "name": "Budget Stay Inn",
+        "city": "Goa",
+        "stars": 4,
+        "price_per_night": 2248,
+        "amenities": [
+            "wifi",
+            "spa",
+            "pool",
+            "gym"
+        ]
+    },
+    {
+        "hotel_id": "HOT0016",
+        "name": "Royal Heritage",
+        "city": "Bangalore",
+        "stars": 3,
+        "price_per_night": 4242,
+        "amenities": [
+            "wifi",
+            "parking",
+            "gym"
+        ]
+    },
+    {
+        "hotel_id": "HOT0017",
+        "name": "Royal Heritage",
+        "city": "Bangalore",
+        "stars": 4,
+        "price_per_night": 5633,
+        "amenities": [
+            "breakfast",
+            "wifi"
+        ]
+    },
+    {
+        "hotel_id": "HOT0018",
+        "name": "Green Leaf Resort",
+        "city": "Bangalore",
+        "stars": 5,
+        "price_per_night": 5018,
+        "amenities": [
+            "breakfast",
+            "gym"
+        ]
+    },
+    {
+        "hotel_id": "HOT0019",
+        "name": "Grand Palace Hotel",
+        "city": "Bangalore",
+        "stars": 4,
+        "price_per_night": 6430,
+        "amenities": [
+            "parking",
+            "spa",
+            "wifi",
+            "pool",
+            "gym"
+        ]
+    },
+    {
+        "hotel_id": "HOT0020",
+        "name": "Budget Stay Inn",
+        "city": "Bangalore",
+        "stars": 2,
+        "price_per_night": 3043,
+        "amenities": [
+            "wifi",
+            "gym",
+            "parking",
+            "pool",
+            "spa"
+        ]
+    },
+    {
+        "hotel_id": "HOT0021",
+        "name": "Sea View Resort",
+        "city": "Chennai",
+        "stars": 5,
+        "price_per_night": 6372,
+        "amenities": [
+            "spa",
+            "parking",
+            "breakfast"
+        ]
+    },
+    {
+        "hotel_id": "HOT0022",
+        "name": "Grand Palace Hotel",
+        "city": "Chennai",
+        "stars": 4,
+        "price_per_night": 1733,
+        "amenities": [
+            "breakfast",
+            "spa",
+            "wifi",
+            "parking"
+        ]
+    },
+    {
+        "hotel_id": "HOT0023",
+        "name": "Royal Heritage",
+        "city": "Chennai",
+        "stars": 5,
+        "price_per_night": 6303,
+        "amenities": [
+            "gym",
+            "wifi",
+            "pool"
+        ]
+    },
+    {
+        "hotel_id": "HOT0024",
+        "name": "Budget Stay Inn",
+        "city": "Chennai",
+        "stars": 3,
+        "price_per_night": 5112,
+        "amenities": [
+            "gym",
+            "spa",
+            "pool",
+            "wifi"
+        ]
+    },
+    {
+        "hotel_id": "HOT0025",
+        "name": "Budget Stay Inn",
+        "city": "Chennai",
+        "stars": 4,
+        "price_per_night": 1312,
+        "amenities": [
+            "pool",
+            "breakfast",
+            "spa"
+        ]
+    },
+    {
+        "hotel_id": "HOT0026",
+        "name": "City Center Hotel",
+        "city": "Hyderabad",
+        "stars": 5,
+        "price_per_night": 4332,
+        "amenities": [
+            "spa",
+            "wifi",
+            "pool"
+        ]
+    },
+    {
+        "hotel_id": "HOT0027",
+        "name": "Sea View Resort",
+        "city": "Hyderabad",
+        "stars": 2,
+        "price_per_night": 6370,
+        "amenities": [
+            "spa",
+            "pool",
+            "wifi",
+            "breakfast",
+            "gym"
+        ]
+    },
+    {
+        "hotel_id": "HOT0028",
+        "name": "Royal Heritage",
+        "city": "Hyderabad",
+        "stars": 2,
+        "price_per_night": 4802,
+        "amenities": [
+            "pool",
+            "parking",
+            "gym"
+        ]
+    },
+    {
+        "hotel_id": "HOT0029",
+        "name": "Blue Lagoon Resort",
+        "city": "Hyderabad",
+        "stars": 5,
+        "price_per_night": 5247,
+        "amenities": [
+            "wifi",
+            "pool",
+            "gym",
+            "spa"
+        ]
+    },
+    {
+        "hotel_id": "HOT0030",
+        "name": "City Center Hotel",
+        "city": "Hyderabad",
+        "stars": 3,
+        "price_per_night": 2972,
+        "amenities": [
+            "wifi",
+            "pool",
+            "gym"
+        ]
+    },
+    {
+        "hotel_id": "HOT0031",
+        "name": "Green Leaf Resort",
+        "city": "Kolkata",
+        "stars": 2,
+        "price_per_night": 3720,
+        "amenities": [
+            "wifi",
+            "pool",
+            "gym"
+        ]
+    },
+    {
+        "hotel_id": "HOT0032",
+        "name": "Budget Stay Inn",
+        "city": "Kolkata",
+        "stars": 2,
+        "price_per_night": 6481,
+        "amenities": [
+            "gym",
+            "parking"
+        ]
+    },
+    {
+        "hotel_id": "HOT0033",
+        "name": "Grand Palace Hotel",
+        "city": "Kolkata",
+        "stars": 3,
+        "price_per_night": 2554,
+        "amenities": [
+            "breakfast",
+            "wifi",
+            "spa",
+            "parking",
+            "pool"
+        ]
+    },
+    {
+        "hotel_id": "HOT0034",
+        "name": "Grand Palace Hotel",
+        "city": "Kolkata",
+        "stars": 3,
+        "price_per_night": 3887,
+        "amenities": [
+            "parking",
+            "spa",
+            "wifi",
+            "pool"
+        ]
+    },
+    {
+        "hotel_id": "HOT0035",
+        "name": "Grand Palace Hotel",
+        "city": "Kolkata",
+        "stars": 2,
+        "price_per_night": 5932,
+        "amenities": [
+            "gym",
+            "spa"
+        ]
+    },
+    {
+        "hotel_id": "HOT0036",
+        "name": "Sunrise Hotel",
+        "city": "Jaipur",
+        "stars": 2,
+        "price_per_night": 5709,
+        "amenities": [
+            "breakfast",
+            "parking",
+            "spa",
+            "pool"
+        ]
+    },
+    {
+        "hotel_id": "HOT0037",
+        "name": "Grand Palace Hotel",
+        "city": "Jaipur",
+        "stars": 4,
+        "price_per_night": 4333,
+        "amenities": [
+            "gym",
+            "pool"
+        ]
+    },
+    {
+        "hotel_id": "HOT0038",
+        "name": "City Center Hotel",
+        "city": "Jaipur",
+        "stars": 2,
+        "price_per_night": 3355,
+        "amenities": [
+            "pool",
+            "spa"
+        ]
+    },
+    {
+        "hotel_id": "HOT0039",
+        "name": "Grand Palace Hotel",
+        "city": "Jaipur",
+        "stars": 4,
+        "price_per_night": 3293,
+        "amenities": [
+            "gym",
+            "wifi",
+            "breakfast",
+            "spa",
+            "pool"
+        ]
+    },
+    {
+        "hotel_id": "HOT0040",
+        "name": "Sea View Resort",
+        "city": "Jaipur",
+        "stars": 5,
+        "price_per_night": 3673,
+        "amenities": [
+            "breakfast",
+            "parking",
+            "pool"
+        ]
+    }
+]

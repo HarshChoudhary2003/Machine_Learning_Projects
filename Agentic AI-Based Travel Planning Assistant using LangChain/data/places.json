@@ -1,0 +1,282 @@
+[
+    {
+        "place_id": "PLC0001",
+        "name": "Famous Fort",
+        "city": "Delhi",
+        "type": "lake",
+        "rating": 4.6
+    },
+    {
+        "place_id": "PLC0002",
+        "name": "Beautiful Temple",
+        "city": "Delhi",
+        "type": "temple",
+        "rating": 4.2
+    },
+    {
+        "place_id": "PLC0003",
+        "name": "Historic Fort",
+        "city": "Delhi",
+        "type": "museum",
+        "rating": 4.2
+    },
+    {
+        "place_id": "PLC0004",
+        "name": "Popular Museum",
+        "city": "Delhi",
+        "type": "lake",
+        "rating": 4.5
+    },
+    {
+        "place_id": "PLC0005",
+        "name": "Famous Fort",
+        "city": "Delhi",
+        "type": "lake",
+        "rating": 3.5
+    },
+    {
+        "place_id": "PLC0006",
+        "name": "Famous Museum",
+        "city": "Mumbai",
+        "type": "park",
+        "rating": 3.8
+    },
+    {
+        "place_id": "PLC0007",
+        "name": "Beautiful Fort",
+        "city": "Mumbai",
+        "type": "park",
+        "rating": 3.9
+    },
+    {
+        "place_id": "PLC0008",
+        "name": "Historic Temple",
+        "city": "Mumbai",
+        "type": "fort",
+        "rating": 3.7
+    },
+    {
+        "place_id": "PLC0009",
+        "name": "Famous Lake",
+        "city": "Mumbai",
+        "type": "beach",
+        "rating": 4.3
+    },
+    {
+        "place_id": "PLC0010",
+        "name": "Famous Fort",
+        "city": "Mumbai",
+        "type": "market",
+        "rating": 3.6
+    },
+    {
+        "place_id": "PLC0011",
+        "name": "Popular Lake",
+        "city": "Goa",
+        "type": "museum",
+        "rating": 4.2
+    },
+    {
+        "place_id": "PLC0012",
+        "name": "Famous Park",
+        "city": "Goa",
+        "type": "museum",
+        "rating": 4.5
+    },
+    {
+        "place_id": "PLC0013",
+        "name": "Historic Park",
+        "city": "Goa",
+        "type": "fort",
+        "rating": 4.1
+    },
+    {
+        "place_id": "PLC0014",
+        "name": "Beautiful Park",
+        "city": "Goa",
+        "type": "fort",
+        "rating": 4.3
+    },
+    {
+        "place_id": "PLC0015",
+        "name": "Beautiful Lake",
+        "city": "Goa",
+        "type": "market",
+        "rating": 4.0
+    },
+    {
+        "place_id": "PLC0016",
+        "name": "Historic Fort",
+        "city": "Bangalore",
+        "type": "market",
+        "rating": 4.1
+    },
+    {
+        "place_id": "PLC0017",
+        "name": "Popular Fort",
+        "city": "Bangalore",
+        "type": "park",
+        "rating": 4.2
+    },
+    {
+        "place_id": "PLC0018",
+        "name": "Beautiful Fort",
+        "city": "Bangalore",
+        "type": "beach",
+        "rating": 3.6
+    },
+    {
+        "place_id": "PLC0019",
+        "name": "Scenic Museum",
+        "city": "Bangalore",
+        "type": "market",
+        "rating": 4.1
+    },
+    {
+        "place_id": "PLC0020",
+        "name": "Historic Fort",
+        "city": "Bangalore",
+        "type": "temple",
+        "rating": 4.5
+    },
+    {
+        "place_id": "PLC0021",
+        "name": "Historic Lake",
+        "city": "Chennai",
+        "type": "monument",
+        "rating": 4.2
+    },
+    {
+        "place_id": "PLC0022",
+        "name": "Scenic Temple",
+        "city": "Chennai",
+        "type": "beach",
+        "rating": 4.8
+    },
+    {
+        "place_id": "PLC0023",
+        "name": "Popular Temple",
+        "city": "Chennai",
+        "type": "market",
+        "rating": 4.0
+    },
+    {
+        "place_id": "PLC0024",
+        "name": "Popular Museum",
+        "city": "Chennai",
+        "type": "park",
+        "rating": 3.9
+    },
+    {
+        "place_id": "PLC0025",
+        "name": "Historic Temple",
+        "city": "Chennai",
+        "type": "museum",
+        "rating": 3.6
+    },
+    {
+        "place_id": "PLC0026",
+        "name": "Scenic Museum",
+        "city": "Hyderabad",
+        "type": "lake",
+        "rating": 3.8
+    },
+    {
+        "place_id": "PLC0027",
+        "name": "Historic Lake",
+        "city": "Hyderabad",
+        "type": "market",
+        "rating": 4.0
+    },
+    {
+        "place_id": "PLC0028",
+        "name": "Scenic Park",
+        "city": "Hyderabad",
+        "type": "museum",
+        "rating": 4.5
+    },
+    {
+        "place_id": "PLC0029",
+        "name": "Popular Lake",
+        "city": "Hyderabad",
+        "type": "park",
+        "rating": 4.6
+    },
+    {
+        "place_id": "PLC0030",
+        "name": "Scenic Temple",
+        "city": "Hyderabad",
+        "type": "temple",
+        "rating": 4.2
+    },
+    {
+        "place_id": "PLC0031",
+        "name": "Famous Fort",
+        "city": "Kolkata",
+        "type": "beach",
+        "rating": 4.9
+    },
+    {
+        "place_id": "PLC0032",
+        "name": "Historic Temple",
+        "city": "Kolkata",
+        "type": "temple",
+        "rating": 4.9
+    },
+    {
+        "place_id": "PLC0033",
+        "name": "Scenic Museum",
+        "city": "Kolkata",
+        "type": "temple",
+        "rating": 4.9
+    },
+    {
+        "place_id": "PLC0034",
+        "name": "Famous Temple",
+        "city": "Kolkata",
+        "type": "market",
+        "rating": 4.1
+    },
+    {
+        "place_id": "PLC0035",
+        "name": "Scenic Museum",
+        "city": "Kolkata",
+        "type": "museum",
+        "rating": 4.5
+    },
+    {
+        "place_id": "PLC0036",
+        "name": "Beautiful Park",
+        "city": "Jaipur",
+        "type": "park",
+        "rating": 3.7
+    },
+    {
+        "place_id": "PLC0037",
+        "name": "Beautiful Fort",
+        "city": "Jaipur",
+        "type": "park",
+        "rating": 4.5
+    },
+    {
+        "place_id": "PLC0038",
+        "name": "Famous Park",
+        "city": "Jaipur",
+        "type": "fort",
+        "rating": 3.7
+    },
+    {
+        "place_id": "PLC0039",
+        "name": "Scenic Temple",
+        "city": "Jaipur",
+        "type": "monument",
+        "rating": 3.7
+    },
+    {
+        "place_id": "PLC0040",
+        "name": "Scenic Park",
+        "city": "Jaipur",
+        "type": "park",
+        "rating": 4.6
+    }
+]
