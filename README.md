@@ -17,100 +17,100 @@ A comprehensive collection of **machine learning projects** implementing various
 
 ---
 
-## 🎏 Projects
+## 🎯 Projects
 
-### 1️⃣ AI-Energy-Saver 🔌
-**Focus:** Energy Optimization using ML
+### 1. AI-Energy-Saver 🔌
+**Focus:** Energy Optimization using Machine Learning
 
-### 2️⃣ Agentic AI-Based Travel Planning Assistant 🤤
-**Framework:** LangChain, AI Agents
+### 2. Agentic AI-Based Travel Planning Assistant 🧳
+**Framework:** LangChain, AI Agents  
 **Description:**
 - Intelligent travel planning using agentic AI
 - Multi-step reasoning and planning
 - Integration with travel APIs
 
-### 3️⃣ Bitcoin Price Prediction 💸
-**Algorithm:** Machine Learning Regression Models
+### 3. Bitcoin Price Prediction 💰
+**Algorithm:** Machine Learning Regression Models  
 **Key Techniques:** Time Series Analysis → Feature Engineering → Regression Models
 
-### 4️⃣ Classification of Text Documents using Naive Bayes 📄
-**Algorithm:** Naive Bayes Classifier
-**Key Techniques:** Text Preprocessing → Tokenization → Vectorization → Naive Bayes Algorithm
+### 4. Classification of Text Documents 📄
+**Algorithm:** Naive Bayes Classifier  
+**Key Techniques:** Text Preprocessing → Tokenization → Vectorization → Classification
 
-### 5️⃣ Count Number of Objects using Python-OpenCV 🔍
-**Library:** OpenCV (Computer Vision)
+### 5. Count Number of Objects using OpenCV 🎯
+**Library:** OpenCV (Computer Vision)  
 **Key Techniques:** Gaussian Blur → Canny Edge Detection → Contour Detection → Image Thresholding
 
-### 6️⃣ Credit Card Fraud Detection 💳
-**Algorithm:** Machine Learning Classification Models
+### 6. Credit Card Fraud Detection 💳
+**Algorithm:** Classification Models  
 **Key Techniques:** Data Imbalance Handling → Feature Scaling → Model Selection → ROC-AUC Analysis
 
-### 7️⃣ Customer Churn Analysis Prediction 📈
-**Algorithm:** Classification Models
+### 7. Customer Churn Analysis Prediction 📊
+**Algorithm:** Classification Models  
 **Focus:** Analyzing and predicting customer churn patterns
 
-### 8️⃣ Customer Churn Prediction (Telecom SaaS) 📞
-**Algorithm:** Classification Models
+### 8. Customer Churn Prediction (Telecom SaaS) 📱
+**Algorithm:** Classification Models  
 **Description:**
 - Telecom industry customer retention prediction
 - Feature analysis of customer behavior
 - Churn risk scoring
 
-### 9️⃣ Detecting Spam Emails Using TensorFlow 📧
-**Framework:** TensorFlow/Keras (Deep Learning)
+### 9. Detecting Spam Emails Using TensorFlow 📧
+**Framework:** TensorFlow/Keras (Deep Learning)  
 **Key Technologies:** TensorFlow 2.x → Keras API → Word Embeddings → Neural Networks
 
-### 1️⃣⃣ Dogecoin Price Prediction 🐶
-**Algorithm:** Machine Learning Regression Models
+### 10. Dogecoin Price Prediction 🐕
+**Algorithm:** Machine Learning Regression Models  
 **Key Techniques:** Time Series Forecasting → Data Normalization → Regression Algorithms
 
-### 1️⃣⃣ EMI Calculator 💰
-**Focus:** Financial Calculations using ML
+### 11. EMI Calculator 🏦
+**Focus:** Financial Calculations using Machine Learning
 
-### 1️⃣⃣ Handwritten Digit Recognition using Neural Network ✍️
-**Framework:** TensorFlow/Keras (Deep Learning)
+### 12. Handwritten Digit Recognition 🔢
+**Framework:** TensorFlow/Keras (Deep Learning)  
 **Key Technologies:** Convolutional Neural Networks (CNN) → Image Preprocessing → Model Training
 
-### 1️⃣⃣ Microsoft Stock Price Prediction 📈
-**Framework:** TensorFlow/Keras (Deep Learning)
+### 13. Microsoft Stock Price Prediction 📈
+**Framework:** TensorFlow/Keras (Deep Learning)  
 **Key Technologies:** TensorFlow/Keras → LSTM Networks → Time Series Processing
 
-### 1️⃣⃣ NETFLIX MOVIES AND TV SHOWS CLUSTERING 🜟
-**Algorithm:** Clustering Algorithms
+### 14. Netflix Movies and TV Shows Clustering 🎬
+**Algorithm:** Clustering Algorithms  
 **Focus:** Unsupervised learning for content categorization
 
-### 1️⃣⃣ Real Estate Investment Advisor 🏠
+### 15. Real Estate Investment Advisor 🏠
 **Focus:** Property price prediction and investment analysis
 
-### 1️⃣⃣ SMS Spam Detection using TensorFlow 💱
-**Framework:** TensorFlow/Keras (Deep Learning)
+### 16. SMS Spam Detection 📨
+**Framework:** TensorFlow/Keras (Deep Learning)  
 **Key Technologies:** TensorFlow → Text Processing → Neural Networks
 
-### 1️⃣⃣ Sales Forecast Prediction - Python 📹
-**Algorithm:** Machine Learning Regression Models
+### 17. Sales Forecast Prediction 📉
+**Algorithm:** Machine Learning Regression Models  
 **Key Techniques:** Time Series Analysis → Trend Forecasting → Business Intelligence
 
-### 1️⃣⃣ Stock Price Prediction using Machine Learning in Python 📈
-**Algorithm:** ML Regression Models
+### 18. Stock Price Prediction 📊
+**Algorithm:** Machine Learning Regression Models  
 **Focus:** Traditional stock market forecasting
 
-### 1️⃣⃣ Tesla Stock Price Prediction 🚗
-**Algorithm:** Machine Learning Regression Models
+### 19. Tesla Stock Price Prediction 🚗
+**Algorithm:** Machine Learning Regression Models  
 **Focus:** Company-specific stock price forecasting
 
-### 2️⃣⃣ Zillow Home Value (Zestimate) Prediction 🏡
-**Algorithm:** Machine Learning Regression Models
+### 20. Zillow Home Value Prediction 🏡
+**Algorithm:** Machine Learning Regression Models  
 **Key Techniques:** Feature Extraction → Data Preprocessing → Multiple Regression Models → Price Prediction Accuracy
 
 ---
 
-## 🚧️ Tech Stack
+## 🛠️ Tech Stack
 
 | Category | Technologies |
 |---|---|
 | **Languages** | ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white) |
-| **ML Libraries** | ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.0+-orange?logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-1.0+-lightblue?logo=pandas&logoColor=white) |
-| **Deep Learning** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0+-orange?logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-2.0+-red?logo=keras&logoColor=white) |
+| **ML Libraries** | ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Latest-orange?logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-Latest-lightblue?logo=pandas&logoColor=white) |
+| **Deep Learning** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0+-orange?logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-Latest-red?logo=keras&logoColor=white) |
 | **Computer Vision** | ![OpenCV](https://img.shields.io/badge/OpenCV-4.0+-green?logo=opencv&logoColor=white) |
 | **Data Processing** | ![NumPy](https://img.shields.io/badge/NumPy-Latest-blue?logo=numpy&logoColor=white) |
 | **Visualization** | ![Matplotlib](https://img.shields.io/badge/Matplotlib-Latest-brightblue?logo=python&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-Latest-lightblue?logo=python&logoColor=white) |
@@ -120,8 +120,10 @@ A comprehensive collection of **machine learning projects** implementing various
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Python 3.8 or higher
 - pip package manager
+- Git
 
 ### Installation
 
@@ -132,8 +134,12 @@ cd Machine_Learning_Projects
 
 # Create virtual environment
 python -m venv venv
+
+# Activate virtual environment
+# On Linux/macOS:
 source venv/bin/activate
-# On Windows: venv\Scripts\activate
+# On Windows:
+venv\\Scripts\\activate
 
 # Install dependencies
 pip install -r requirements.txt
@@ -143,17 +149,18 @@ pip install -r requirements.txt
 
 ```bash
 # Navigate to specific project
-cd project-folder
+cd "project-folder-name"
 
-# Run the notebook or script
+# Run Jupyter notebook
 jupyter notebook notebook.ipynb
-# OR
+
+# OR run Python script
 python script.py
 ```
 
 ---
 
-## 📊 Project Structure
+## 📂 Project Structure
 
 ```
 Machine_Learning_Projects/
@@ -177,70 +184,63 @@ Machine_Learning_Projects/
 ├── Stock Price Prediction using Machine Learning in Python/
 ├── Tesla Stock Price Prediction/
 ├── Zillow Home Value (Zestimate) Prediction in ML/
-└── requirements.txt
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
 ## 💡 Key Learnings
 
-✨ **Data Preprocessing** - Cleaning, handling missing values, normalization
-
-✨ **Feature Engineering** - Creating meaningful features from raw data
-
-✨ **Model Selection** - Choosing appropriate algorithms for different problems
-
-✨ **Hyperparameter Tuning** - Optimizing model performance
-
-✨ **Evaluation Metrics** - Accuracy, Precision, Recall, F1-Score, ROC-AUC
-
-✨ **Deep Learning** - Building and training neural networks
-
-✨ **Time Series Analysis** - Forecasting and trend analysis
-
-✨ **Computer Vision** - Image processing and object detection
-
-✨ **NLP & Text Processing** - Text classification and sentiment analysis
+✨ **Data Preprocessing** - Cleaning, handling missing values, data normalization  
+✨ **Feature Engineering** - Creating meaningful features from raw data  
+✨ **Model Selection** - Choosing appropriate algorithms for different problems  
+✨ **Hyperparameter Tuning** - Optimizing model performance  
+✨ **Evaluation Metrics** - Accuracy, Precision, Recall, F1-Score, ROC-AUC  
+✨ **Deep Learning** - Building and training neural networks  
+✨ **Time Series Analysis** - Forecasting and trend analysis  
+✨ **Computer Vision** - Image processing and object detection  
+✨ **NLP & Text Processing** - Text classification and sentiment analysis  
 
 ---
 
 ## 📊 Results Summary
 
-| Project | Focus Area | Status |
-|---|---|---|
-| Text Classification | NLP | ✅ Completed |
-| Email Spam Detection | Deep Learning | ✅ Completed |
-| SMS Spam Detection | Deep Learning | ✅ Completed |
-| Object Counting | Computer Vision | ✅ Completed |
-| Fraud Detection | Classification | ✅ Completed |
-| Digit Recognition | Deep Learning/CNN | ✅ Completed |
-| Bitcoin Price Prediction | Time Series | ✅ Completed |
-| Dogecoin Price Prediction | Time Series | ✅ Completed |
-| Zillow Home Value Prediction | Regression | ✅ Completed |
-| Stock Price Prediction | Time Series | ✅ Completed |
-| Tesla Stock Price Prediction | Time Series | ✅ Completed |
-| Customer Churn Analysis | Classification | ✅ Completed |
-| Netflix Clustering | Unsupervised Learning | ✅ Completed |
-| Travel Planning AI | AI Agents | ✅ Completed |
-| Real Estate Investment | Regression | ✅ Completed |
+| # | Project | Focus Area | Status |
+|---|---|---|---|
+| 1 | Text Classification | NLP | ✅ Completed |
+| 2 | Email Spam Detection | Deep Learning | ✅ Completed |
+| 3 | SMS Spam Detection | Deep Learning | ✅ Completed |
+| 4 | Object Counting | Computer Vision | ✅ Completed |
+| 5 | Fraud Detection | Classification | ✅ Completed |
+| 6 | Digit Recognition | Deep Learning/CNN | ✅ Completed |
+| 7 | Bitcoin Price Prediction | Time Series | ✅ Completed |
+| 8 | Dogecoin Price Prediction | Time Series | ✅ Completed |
+| 9 | Zillow Home Value Prediction | Regression | ✅ Completed |
+| 10 | Stock Price Prediction | Time Series | ✅ Completed |
+| 11 | Tesla Stock Price Prediction | Time Series | ✅ Completed |
+| 12 | Customer Churn Analysis | Classification | ✅ Completed |
+| 13 | Netflix Clustering | Unsupervised Learning | ✅ Completed |
+| 14 | Travel Planning AI | AI Agents | ✅ Completed |
+| 15 | Real Estate Investment | Regression | ✅ Completed |
 
 ---
 
-## 🤘 Contributing
+## 🤝 Contributing
 
-Feel free to fork this repository and submit pull requests for any improvements!
+Contributions are welcome! To contribute:
 
 1. Fork the repository
-2. Create a feature branch (git checkout -b feature/AmazingFeature)
-3. Commit your changes (git commit -m 'Add some AmazingFeature')
-4. Push to the branch (git push origin feature/AmazingFeature)
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
 ---
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -254,7 +254,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## ⭐ If you find this repository helpful, please give it a star!
+## ⭐ Support
+
+If you find this repository helpful, please consider giving it a star! Your support motivates me to continue creating more projects.
 
 [![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-red)](https://github.com/HarshChoudhary2003/Machine_Learning_Projects)
-[![Visitors](https://visitor-badge.glitch.me/badge?page_id=HarshChoudhary2003.Machine_Learning_Projects)](https://github.com/HarshChoudhary2003/Machine_Learning_Projects)
