@@ -1,0 +1,13 @@
+# Ignore the virtual environment folder
+venv/
+env/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore Mac system files
+.DS_Store
+
+# NOTE: We are purposefully NOT ignoring 'jobs.db' 
+# so the recruiter can run your app immediately without scraping first.
