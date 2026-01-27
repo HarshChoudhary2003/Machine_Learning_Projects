@@ -1,261 +1,152 @@
-# 🚀 Machine Learning Projects
+<div align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=250&section=header&text=Machine%20Learning%20Projects&fontSize=70&animation=fadeIn&fontAlignY=35" width="100%" />
 
-[Overview](#overview) • [Projects](#projects) • [Tech Stack](#tech-stack) • [Getting Started](#getting-started)
+  <p align="center">
+    <a href="#-overview">Overview</a> •
+    <a href="#-projects">Projects</a> •
+    <a href="#-tech-stack">Tech Stack</a> •
+    <a href="#-getting-started">Getting Started</a> •
+    <a href="#-contact">Contact</a>
+  </p>
 
-[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Advanced-blue?style=for-the-badge&logo=python)]()
-[![Deep Learning](https://img.shields.io/badge/Deep%20Learning-TensorFlow%20%26%20Keras-orange?style=for-the-badge&logo=tensorflow)]()
-[![Computer Vision](https://img.shields.io/badge/Computer%20Vision-OpenCV-brightgreen?style=for-the-badge&logo=opencv)]()
-[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)]()
+  [![GitHub Stars](https://img.shields.io/github/stars/HarshChoudhary2003/Machine_Learning_Projects?style=for-the-badge&color=ffd700&logo=github)](https://github.com/HarshChoudhary2003/Machine_Learning_Projects/stargazers)
+  [![GitHub Forks](https://img.shields.io/github/forks/HarshChoudhary2003/Machine_Learning_Projects?style=for-the-badge&color=00ff00&logo=github)](https://github.com/HarshChoudhary2003/Machine_Learning_Projects/network/members)
+  [![License](https://img.shields.io/github/license/HarshChoudhary2003/Machine_Learning_Projects?style=for-the-badge&color=blue&logo=opensourceinitiative)](https://github.com/HarshChoudhary2003/Machine_Learning_Projects/blob/main/LICENSE)
+  [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+</div>
 
 ---
 
 ## 📋 Overview
 
-A comprehensive collection of **machine learning projects** implementing various algorithms, frameworks, and real-world applications. Each project demonstrates end-to-end ML workflows including data preprocessing, feature engineering, model training, and evaluation.
+Welcome to the **Machine Learning Projects** hub! This repository is a curated collection of 23+ end-to-end projects covering the entire spectrum of Data Science and AI. From classical regression to advanced Deep Learning and Agentic AI, each project is a testament to the power of data.
 
-> 💡 These projects showcase practical implementations of NLP, Computer Vision, Time Series Forecasting, Classification, and Traditional ML techniques.
+### 🌟 Key Highlights
+- **Diverse Domains:** Finance, Healthcare, Real Estate, E-commerce, and more.
+- **End-to-End Workflows:** Exploratory Data Analysis (EDA), Feature Engineering, Model Selection, and Hyperparameter Tuning.
+- **Modern Tech:** Leveraging LLMs, AI Agents (LangChain), and Deep Learning (TensorFlow/CNN/LSTM).
 
 ---
 
 ## 🎯 Projects
 
-### 1. AI-Energy-Saver 🔌
-**Focus:** Energy Optimization using Machine Learning
+<details open>
+<summary><b>🔥 Featured & Advanced Projects</b></summary>
 
-### 2. Agentic AI-Based Travel Planning Assistant 🧳
-**Framework:** LangChain, AI Agents  
-**Description:**
-- Intelligent travel planning using agentic AI
-- Multi-step reasoning and planning
-- Integration with travel APIs
+### 1. Agentic AI Travel Assistant 🧳
+- **Tech:** LangChain, AI Agents, OpenAI/Groq
+- **Goal:** Autonomous travel planning using real-time API integrations.
+- **Key Outcome:** Dynamic itinerary generation with multi-agent orchestration.
 
-### 3. Bitcoin Price Prediction 💰
-**Algorithm:** Machine Learning Regression Models  
-**Key Techniques:** Time Series Analysis → Feature Engineering → Regression Models
+### 2. AI Energy Saver ⚡
+- **Goal:** Predict and optimize energy consumption patterns.
+- **Impact:** Reducing carbon footprint through data-driven insights.
 
-### 4. Classification of Text Documents 📄
-**Algorithm:** Naive Bayes Classifier  
-**Key Techniques:** Text Preprocessing → Tokenization → Vectorization → Classification
+### 3. Microsoft & Tesla Stock Prediction 📈
+- **Model:** LSTM (Long Short-Term Memory)
+- **Insight:** Time-series analysis for high-volatility financial data.
+</details>
 
-### 5. Count Number of Objects using OpenCV 🎯
-**Library:** OpenCV (Computer Vision)  
-**Key Techniques:** Gaussian Blur → Canny Edge Detection → Contour Detection → Image Thresholding
+<details>
+<summary><b>📂 Machine Learning (Regression & Classification)</b></summary>
 
-### 6. Credit Card Fraud Detection 💳
-**Algorithm:** Classification Models  
-**Key Techniques:** Data Imbalance Handling → Feature Scaling → Model Selection → ROC-AUC Analysis
+| Project | Algorithm/Library | Focus |
+| :--- | :--- | :--- |
+| Bitcoin Price Prediction | Regression | Financial Forecasting |
+| Credit Card Fraud Detection | Classification | Security & Anomaly Detection |
+| Customer Churn Analysis | Classification | Business Retention |
+| Dogecoin Prediction | Regression | Crypto Market Trends |
+| Zillow Home Value | Regression | Real Estate Valuation |
+| Fake News Detector | NLP/ML | Information Integrity |
+</details>
 
-### 7. Customer Churn Analysis Prediction 📊
-**Algorithm:** Classification Models  
-**Focus:** Analyzing and predicting customer churn patterns
+<details>
+<summary><b>🧠 Deep Learning & Computer Vision</b></summary>
 
-### 8. Customer Churn Prediction (Telecom SaaS) 📱
-**Algorithm:** Classification Models  
-**Description:**
-- Telecom industry customer retention prediction
-- Feature analysis of customer behavior
-- Churn risk scoring
-
-### 9. Detecting Spam Emails Using TensorFlow 📧
-**Framework:** TensorFlow/Keras (Deep Learning)  
-**Key Technologies:** TensorFlow 2.x → Keras API → Word Embeddings → Neural Networks
-
-### 10. Dogecoin Price Prediction 🐕
-**Algorithm:** Machine Learning Regression Models  
-**Key Techniques:** Time Series Forecasting → Data Normalization → Regression Algorithms
-
-### 11. EMI Calculator 🏦
-**Focus:** Financial Calculations using Machine Learning
-
-### 12. Handwritten Digit Recognition 🔢
-**Framework:** TensorFlow/Keras (Deep Learning)  
-**Key Technologies:** Convolutional Neural Networks (CNN) → Image Preprocessing → Model Training
-
-### 13. Microsoft Stock Price Prediction 📈
-**Framework:** TensorFlow/Keras (Deep Learning)  
-**Key Technologies:** TensorFlow/Keras → LSTM Networks → Time Series Processing
-
-### 14. Netflix Movies and TV Shows Clustering 🎬
-**Algorithm:** Clustering Algorithms  
-**Focus:** Unsupervised learning for content categorization
-
-### 15. Real Estate Investment Advisor 🏠
-**Focus:** Property price prediction and investment analysis
-
-### 16. SMS Spam Detection 📨
-**Framework:** TensorFlow/Keras (Deep Learning)  
-**Key Technologies:** TensorFlow → Text Processing → Neural Networks
-
-### 17. Sales Forecast Prediction 📉
-**Algorithm:** Machine Learning Regression Models  
-**Key Techniques:** Time Series Analysis → Trend Forecasting → Business Intelligence
-
-### 18. Stock Price Prediction 📊
-**Algorithm:** Machine Learning Regression Models  
-**Focus:** Traditional stock market forecasting
-
-### 19. Tesla Stock Price Prediction 🚗
-**Algorithm:** Machine Learning Regression Models  
-**Focus:** Company-specific stock price forecasting
-
-### 20. Zillow Home Value Prediction 🏡
-**Algorithm:** Machine Learning Regression Models  
-**Key Techniques:** Feature Extraction → Data Preprocessing → Multiple Regression Models → Price Prediction Accuracy
+- **Handwritten Digit Recognition:** CNN-based image classification (MNIST).
+- **Object Counting (OpenCV):** Real-time object detection and contour analysis.
+- **Spam Detection:** Deep Neural Networks for text classification.
+- **Netflix Clustering:** Unsupervised learning for content recommendation.
+</details>
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Skills
 
-| Category | Technologies |
-|---|---|
-| **Languages** | ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white) |
-| **ML Libraries** | ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Latest-orange?logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-Latest-lightblue?logo=pandas&logoColor=white) |
-| **Deep Learning** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0+-orange?logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-Latest-red?logo=keras&logoColor=white) |
-| **Computer Vision** | ![OpenCV](https://img.shields.io/badge/OpenCV-4.0+-green?logo=opencv&logoColor=white) |
-| **Data Processing** | ![NumPy](https://img.shields.io/badge/NumPy-Latest-blue?logo=numpy&logoColor=white) |
-| **Visualization** | ![Matplotlib](https://img.shields.io/badge/Matplotlib-Latest-brightblue?logo=python&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-Latest-lightblue?logo=python&logoColor=white) |
+### 💻 Programming & Database
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+### 🤖 Machine Learning & AI
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-%235C3EE8.svg?style=for-the-badge&logo=OpenCV&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+
+---
+
+## 📊 Repository Stats
+
+![GitHub Repo Size](https://img.shields.io/github/repo-size/HarshChoudhary2003/Machine_Learning_Projects?style=for-the-badge)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/HarshChoudhary2003/Machine_Learning_Projects?style=for-the-badge)
+![GitHub Contributors](https://img.shields.io/github/contributors/HarshChoudhary2003/Machine_Learning_Projects?style=for-the-badge)
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### ⚙️ Prerequisites
+Ensure you have Python 3.8+ installed.
 
-- Python 3.8 or higher
-- pip package manager
-- Git
-
-### Installation
-
+### 📥 Installation
 ```bash
-# Clone the repository
 git clone https://github.com/HarshChoudhary2003/Machine_Learning_Projects.git
 cd Machine_Learning_Projects
-
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# On Linux/macOS:
-source venv/bin/activate
-# On Windows:
-venv\\Scripts\\activate
-
-# Install dependencies
 pip install -r requirements.txt
 ```
 
-### Running Projects
-
-```bash
-# Navigate to specific project
-cd "project-folder-name"
-
-# Run Jupyter notebook
-jupyter notebook notebook.ipynb
-
-# OR run Python script
-python script.py
-```
+### 📖 Usage
+Navigate to any project directory and open the `.ipynb` file in Jupyter or Google Colab to explore the code.
 
 ---
 
-## 📂 Project Structure
+## 📚 Learning & Outcomes
 
-```
-Machine_Learning_Projects/
-├── AI-Energy-Saver/
-├── Agentic AI-Based Travel Planning Assistant using LangChain/
-├── Bitcoin Price Prediction using Machine Learning in Python/
-├── Classification of Text Documents using Naive Bayes/
-├── Count number of Object using Python-OpenCV/
-├── Credit Card Fraud Detection - ML/
-├── Customer Churn Analysis Prediction/
-├── Customer Churn Prediction (Telecom SaaS)/
-├── Detecting Spam Emails Using Tensorflow/
-├── Dogecoin Price Prediction with Machine Learning/
-├── EMI/
-├── Handwritten Digit Recognition using Neural Network/
-├── Microsoft Stock Price Prediction with Machine Learning/
-├── NETFLIX MOVIES AND TV SHOWS CLUSTERING/
-├── Real Estate Investment Advisor/
-├── SMS Spam Detection using TensorFlow/
-├── Sales Forecast Prediction - Python/
-├── Stock Price Prediction using Machine Learning in Python/
-├── Tesla Stock Price Prediction/
-├── Zillow Home Value (Zestimate) Prediction in ML/
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 💡 Key Learnings
-
-✨ **Data Preprocessing** - Cleaning, handling missing values, data normalization  
-✨ **Feature Engineering** - Creating meaningful features from raw data  
-✨ **Model Selection** - Choosing appropriate algorithms for different problems  
-✨ **Hyperparameter Tuning** - Optimizing model performance  
-✨ **Evaluation Metrics** - Accuracy, Precision, Recall, F1-Score, ROC-AUC  
-✨ **Deep Learning** - Building and training neural networks  
-✨ **Time Series Analysis** - Forecasting and trend analysis  
-✨ **Computer Vision** - Image processing and object detection  
-✨ **NLP & Text Processing** - Text classification and sentiment analysis  
-
----
-
-## 📊 Results Summary
-
-| # | Project | Focus Area | Status |
-|---|---|---|---|
-| 1 | Text Classification | NLP | ✅ Completed |
-| 2 | Email Spam Detection | Deep Learning | ✅ Completed |
-| 3 | SMS Spam Detection | Deep Learning | ✅ Completed |
-| 4 | Object Counting | Computer Vision | ✅ Completed |
-| 5 | Fraud Detection | Classification | ✅ Completed |
-| 6 | Digit Recognition | Deep Learning/CNN | ✅ Completed |
-| 7 | Bitcoin Price Prediction | Time Series | ✅ Completed |
-| 8 | Dogecoin Price Prediction | Time Series | ✅ Completed |
-| 9 | Zillow Home Value Prediction | Regression | ✅ Completed |
-| 10 | Stock Price Prediction | Time Series | ✅ Completed |
-| 11 | Tesla Stock Price Prediction | Time Series | ✅ Completed |
-| 12 | Customer Churn Analysis | Classification | ✅ Completed |
-| 13 | Netflix Clustering | Unsupervised Learning | ✅ Completed |
-| 14 | Travel Planning AI | AI Agents | ✅ Completed |
-| 15 | Real Estate Investment | Regression | ✅ Completed |
+This journey helped me master:
+- [x] **Data Cleaning:** Handling missing values, outliers, and imbalanced data.
+- [x] **Model Deployment:** Thinking about how models behave in real-world scenarios.
+- [x] **Optimization:** Using GridSearch and RandomSearch for best results.
+- [x] **Visualization:** Creating impactful stories using Matplotlib and Seaborn.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! To contribute:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+Contributions make the open-source community an amazing place!
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
 ---
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👨‍💻 Author
+## 📧 Contact
 
 **Harsh Choudhary**
-
-- 🔗 [GitHub](https://github.com/HarshChoudhary2003)
-- 💼 [LinkedIn](https://linkedin.com/in/harshchoudhary2003)
-- 📧 Email: [hc504360@gmail.com](mailto:hc504360@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/harsh-choudhary)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HarshChoudhary2003)
 
 ---
 
-## ⭐ Support
+<div align="center">
+  <img src="https://forthebadge.com/images/featured/featured-built-with-love.svg" />
+  <img src="https://forthebadge.com/images/featured/featured-made-with-python.svg" />
+</div>
 
-If you find this repository helpful, please consider giving it a star! Your support motivates me to continue creating more projects.
-
-[![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-red)](https://github.com/HarshChoudhary2003/Machine_Learning_Projects)
+<p align="center">
+  <b>If you liked this project, please consider giving it a ⭐!</b>
+</p>
