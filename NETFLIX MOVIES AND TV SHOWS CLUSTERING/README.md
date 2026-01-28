@@ -1,63 +1,155 @@
-# Netflix Movies & TV Shows Analysis & Machine Learning Project 
+<div align="center">
 
-![Netflix Banner](https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg)
+# 🎬 Netflix Movies and TV Shows Clustering
 
----
+### *Unsupervised Learning for Content Recommendation*
 
-## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Problem Statement](#problem-statement)
-3. [Dataset Description](#dataset-description)
-4. [Data Cleaning & Preprocessing](#data-cleaning--preprocessing)
-5. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-6. [Feature Engineering](#feature-engineering)
-7. [Machine Learning Models](#machine-learning-models)
-8. [Model Evaluation](#model-evaluation)
-9. [Business Impact](#business-impact)
-10. [Future Work](#future-work)
-11. [Conclusion](#conclusion)
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
 
+<img src="https://img.shields.io/badge/Status-Complete-success?style=flat-square" />
+<img src="https://img.shields.io/badge/ML%20Type-Clustering-orange?style=flat-square" />
+<img src="https://img.shields.io/badge/Platform-Netflix-E50914?style=flat-square" />
 
 ---
 
-## Project Overview
-Netflix offers a wide variety of movies and TV shows. The primary goal of this project is to analyze Netflix content, uncover trends, and build machine learning models to predict content categories or types based on features like title, genre, cast, director, and description.  
+*Cluster Netflix content to build a recommendation system using unsupervised machine learning.*
 
-The project workflow includes:  
-- Data cleaning and preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Feature engineering and text vectorization  
-- Model building with ML algorithms  
-- Hyperparameter tuning and evaluation  
-- Saving the best model for deployment  
-
-This project can help streaming platforms improve content recommendations, optimize genre predictions, and understand viewer trends.
+</div>
 
 ---
 
-## Problem Statement
-Netflix hosts thousands of titles, each with various attributes like genre, director, cast, and ratings. The problem is to:  
-- Analyze Netflix content trends over time.  
-- Predict the type of content (Movie/TV Show) or other categorical features using ML.  
-- Optimize content recommendation and content production strategies.
+## 📋 Table of Contents
+
+- [Overview](#-overview)
+- [Dataset](#-dataset)
+- [Methodology](#-methodology)
+- [Installation](#-installation)
+- [Results](#-results)
+- [Applications](#-applications)
 
 ---
 
-## Dataset Description
-- **Source:** [Netflix Dataset on Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)  
-- **Columns:** `title`, `director`, `cast`, `country`, `date_added`, `release_year`, `rating`, `duration`, `listed_in`, `description`  
-- **Size:** ~5,000 entries  
-- **Format:** CSV  
+## 🎯 Overview
 
-The dataset contains textual, categorical, and numeric features requiring preprocessing.
+Netflix has thousands of movies and TV shows. This project uses **unsupervised learning** to cluster similar content, enabling personalized recommendations and content discovery.
+
+### 🌟 Objectives
+- 🎬 Cluster similar content together
+- 📊 Analyze content distribution
+- 🔍 Discover hidden patterns
+- 🎯 Build recommendation foundation
 
 ---
 
-## Data Cleaning & Preprocessing
-Steps performed:  
-1. Removed duplicates: `df.drop_duplicates()`  
-2. Filled missing values for categorical columns:  
-```python
-df['director'] = df['director'].fillna('Unknown')
-df['cast'] = df['cast'].fillna('Unknown')
-df['country'] = df['country'].fillna('Unknown')
+## 📊 Dataset
+
+| Attribute | Description |
+|-----------|-------------|
+| **Files** | `NETFLIX MOVIES AND TV SHOWS CLUSTERING.csv` |
+| **Size** | ~3 MB |
+| **Content** | Netflix catalog metadata |
+
+### Features Analyzed
+- 🎬 Title, Type (Movie/TV Show)
+- 📅 Release year
+- 🌍 Country of origin
+- 🎭 Genre/Listed in
+- ⏱️ Duration
+- 📝 Description
+
+---
+
+## 🔬 Methodology
+
+### Clustering Pipeline
+```
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│   Data Load     │ --> │   Text Process  │ --> │   Vectorize     │
+│                 │     │   (NLP)         │     │   (TF-IDF)      │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+                                                        │
+┌─────────────────┐     ┌─────────────────┐     ┌───────▼─────────┐
+│   Visualize     │ <-- │   Clustering    │ <-- │   Dim Reduce    │
+│   Clusters      │     │   (K-Means)     │     │   (PCA)         │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+```
+
+### Techniques Used
+- 📝 **NLP** - Text preprocessing
+- 📊 **TF-IDF** - Feature extraction
+- 📉 **PCA** - Dimensionality reduction
+- 🎯 **K-Means** - Clustering algorithm
+- 🌳 **Hierarchical** - Alternative clustering
+
+---
+
+## 🚀 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/HarshChoudhary2003/Machine_Learning_Projects.git
+
+# Navigate to project directory
+cd "Machine_Learning_Projects/NETFLIX MOVIES AND TV SHOWS CLUSTERING"
+
+# Install dependencies
+pip install pandas numpy scikit-learn nltk matplotlib seaborn wordcloud jupyter
+```
+
+---
+
+## 💻 Usage
+
+```bash
+# EDA Notebook
+jupyter notebook Sample_EDA_Submission_Template.ipynb
+
+# ML Notebook
+jupyter notebook Sample_ML_Submission_Template.ipynb
+```
+
+---
+
+## 📈 Results
+
+### Content Distribution
+```
+┌────────────────────────────────────────────┐
+│           NETFLIX CONTENT TYPE             │
+├────────────────────────────────────────────┤
+│  🎬 Movies:    ████████████████████  70%   │
+│  📺 TV Shows:  ████████              30%   │
+└────────────────────────────────────────────┘
+```
+
+### Cluster Insights
+| Cluster | Theme | Example Content |
+|---------|-------|-----------------|
+| 1 | Action/Adventure | Action movies |
+| 2 | Drama/Romance | Romantic films |
+| 3 | Documentary | Documentaries |
+| 4 | Kids/Family | Children's content |
+
+---
+
+## 💡 Applications
+
+| Use Case | Description |
+|----------|-------------|
+| 🎯 **Recommendations** | Suggest similar content |
+| 📊 **Content Strategy** | Identify gaps |
+| 🔍 **Discovery** | Help users find content |
+| 📈 **Analytics** | Understand content mix |
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, please consider giving it a star!
+
+Made with ❤️ by [Harsh Choudhary](https://github.com/HarshChoudhary2003)
+
+</div>

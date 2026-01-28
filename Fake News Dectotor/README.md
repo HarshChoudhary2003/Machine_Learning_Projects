@@ -1,85 +1,168 @@
-# 📰 Fake News Detection and Data Explorer Dashboard
+<div align="center">
 
-## Project Overview
+# 📰 Fake News Detector
 
-This project is a Python-based interactive web application built using **Streamlit**. It serves two main purposes:
+### *NLP-Powered Misinformation Detection*
 
-1.  **Data Exploration:** It provides a detailed visual dashboard to explore the two provided datasets (`Fake.csv` and `True.csv`), comparing key features like article subject distribution and text length.
-2.  **Real-time Prediction:** It allows users to paste a new news article into the sidebar and instantly runs a basic **Machine Learning (ML) classifier** to predict whether the article is likely **Fake** or **Real** news.
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
 
-This application demonstrates a complete data science workflow, from data loading and visualization to model training and deployment.
+<img src="https://img.shields.io/badge/Status-Complete-success?style=flat-square" />
+<img src="https://img.shields.io/badge/Domain-NLP-blue?style=flat-square" />
+<img src="https://img.shields.io/badge/Impact-Social%20Good-brightgreen?style=flat-square" />
+
+---
+
+*Detect fake news articles using machine learning and natural language processing techniques.*
+
+</div>
+
+---
+
+## 📋 Table of Contents
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Dataset](#-dataset)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Model Details](#-model-details)
+
+---
+
+## 🎯 Overview
+
+Misinformation poses a significant threat to society. This project builds a **machine learning system** to automatically classify news articles as real or fake, helping combat the spread of false information.
+
+### 🌟 Key Objectives
+- 🔍 Detect fake news accurately
+- 📊 Analyze text patterns
+- 🌐 Web interface for easy use
+- 💾 Pre-trained models ready to use
+
+---
 
 ## ✨ Features
 
-* **Interactive Dashboard:** Visualize article counts, unique subjects, and text length distributions using dynamic Plotly charts.
-* **Real-time Analysis:** Dedicated sidebar form for pasting new articles.
-* **Instant Prediction:** The integrated Logistic Regression model provides an immediate classification (Fake/Real) and a confidence score for user-submitted text.
-* **Cached Performance:** The ML model is trained once and cached (`@st.cache_resource`), ensuring fast predictions and application responsiveness.
+| Feature | Description |
+|---------|-------------|
+| 🔍 **Detection** | Classify news as real/fake |
+| 📊 **Confidence** | Probability scores |
+| 🌐 **Web App** | Streamlit interface |
+| 📝 **Text Analysis** | NLP feature extraction |
+| 💾 **Saved Models** | Pre-trained & ready |
 
-## 🛠️ Technology Stack
+---
 
-* **Language:** Python
-* **Web Framework:** Streamlit
-* **Data Analysis:** Pandas
-* **Visualization:** Plotly Express
-* **Machine Learning:** Scikit-learn (for TF-IDF Vectorization and Logistic Regression)
+## 📊 Dataset
 
-## 🚀 Getting Started
+| File | Description | Size |
+|------|-------------|------|
+| `Fake.csv` | Fake news articles | ~63 MB |
+| `True.csv` | Real news articles | ~54 MB |
 
-Follow these steps to set up and run the application locally.
+### Combined Dataset
+- 📰 **Total Articles**: 40,000+
+- 📊 **Balanced Classes**: ~50% each
+- 📝 **Features**: Title, Text, Subject, Date
 
-### Prerequisites
+---
 
-You need Python (3.7+) installed on your system.
+## 📁 Project Structure
 
-1.  **Clone the Repository (or Download Files):**
+```
+Fake News Dectotor/
+├── Fake_News_detection.ipynb  # Model development
+├── app.py                      # Streamlit web app
+├── pac_model.pkl               # Trained PA Classifier
+├── tfidf_vectorizer.pkl        # TF-IDF vectorizer
+├── Fake.csv                    # Fake news dataset
+├── True.csv                    # Real news dataset
+└── requirements.txt            # Dependencies
+```
 
-    ```bash
-    git clone [https://github.com/HarshChoudhary2003/fake-news-dashboard.git]
-    cd fake-news-dashboard
-    ```
-    *(Replace the URL with your actual GitHub repository URL)*
+---
 
-2.  **Install Dependencies:**
-    Install all required Python packages using `pip`.
+## 🚀 Installation
 
-    ```bash
-    pip install streamlit pandas plotly scikit-learn numpy
-    ```
+```bash
+# Clone the repository
+git clone https://github.com/HarshChoudhary2003/Machine_Learning_Projects.git
 
-3.  **Ensure Data Files are Present:**
-    Make sure the following files are in your project directory:
-    * `creative_app.py` (The main application file)
-    * `Fake.csv`
-    * `True.csv`
+# Navigate to project directory
+cd "Machine_Learning_Projects/Fake News Dectotor"
 
-### Running the Application
+# Install dependencies
+pip install -r requirements.txt
+```
 
-1.  **Run the Streamlit App:**
-    Execute the main Python file using the Streamlit CLI.
+---
 
-    ```bash
-    streamlit run creative_app.py
-    ```
+## 💻 Usage
 
-2.  **Access the App:**
-    Your browser should automatically open the application at `http://localhost:8501`.
+### Run Web App
+```bash
+streamlit run app.py
+```
+
+### Run Notebook
+```bash
+jupyter notebook Fake_News_detection.ipynb
+```
+
+---
 
 ## 🧠 Model Details
 
-The fake news classification relies on a **text processing pipeline** trained on the combined `Fake.csv` and `True.csv` datasets:
+### Algorithm
+The project uses **Passive Aggressive Classifier** with **TF-IDF** vectorization.
 
-* **Vectorizer:** **TF-IDF (Term Frequency-Inverse Document Frequency)** is used to convert the article text into a numerical format, capturing the importance of words.
-* **Classifier:** A **Logistic Regression** model is trained on the vectorized text to classify the article content.
-* **Training:** The model training occurs automatically on the first launch of the `creative_app.py` file and is cached, so it does not re-train on every refresh.
+### Pipeline
+```
+┌──────────────┐     ┌──────────────┐     ┌──────────────┐
+│  Input Text  │ --> │   TF-IDF     │ --> │     PAC      │
+│              │     │  Vectorizer  │     │  Classifier  │
+└──────────────┘     └──────────────┘     └──────────────┘
+                                                 │
+                                          ┌──────▼──────┐
+                                          │  Prediction │
+                                          │  Real/Fake  │
+                                          └─────────────┘
+```
 
-## ✍️ Usage Instructions
-
-1.  **Data Exploration:** Use the default view (**Summary Dashboard**) and the tabs provided to explore the existing data distributions.
-2.  **Article Prediction:**
-    * Go to the **sidebar**.
-    * In the **"Analyze New Article"** section, paste the **Article Title** and the **Article Text**.
-    * Click the **"Analyze Article"** button.
-    * The main view will switch to **"New Article Initial Analysis and Prediction"**, showing the text features and the model's classification (REAL/FAKE) and confidence score.
+### Performance
+| Metric | Score |
+|--------|-------|
+| **Accuracy** | ~93%+ |
+| **Precision** | High |
+| **Recall** | High |
+| **F1-Score** | High |
 
 ---
+
+## 🔍 How to Use the Web App
+
+1. 📝 Enter or paste news article text
+2. 🔘 Click "Check" button
+3. ✅ See prediction result
+4. 📊 View confidence score
+
+---
+
+## ⚠️ Limitations
+
+- Works best on English news articles
+- Training data from specific time period
+- Should be used as one verification tool among many
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, please consider giving it a star!
+
+Made with ❤️ by [Harsh Choudhary](https://github.com/HarshChoudhary2003)
+
+</div>
