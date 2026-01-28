@@ -64,10 +64,10 @@ This repository is a comprehensive collection of **25+ end-to-end projects** spa
 ┌─────────────────────────────────────────────────────────────────────┐
 │                    🎯 KEY HIGHLIGHTS                                │
 ├─────────────────────────────────────────────────────────────────────┤
-│  ✅ Real-World Applications    │  ✅ Production-Ready Code          │
-│  ✅ Comprehensive Documentation │  ✅ Web Apps (Streamlit)           │
-│  ✅ Modern AI (LangChain, LLMs) │  ✅ MLOps (MLflow tracking)        │
-│  ✅ Deep Learning (TensorFlow)  │  ✅ Traditional ML (Scikit-Learn)  │
+│  ✅ Real-World Applications    │  ✅ Production-Ready Code         │
+│  ✅ Comprehensive Documentation │  ✅ Web Apps (Streamlit)         │
+│  ✅ Modern AI (LangChain, LLMs) │  ✅ MLOps (MLflow tracking)      │
+│  ✅ Deep Learning (TensorFlow)  │  ✅ Traditional ML (Scikit-Learn)│
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
