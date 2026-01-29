@@ -223,6 +223,7 @@ Predict energy consumption to reduce costs and carbon footprint.
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
 | ⚡ **AI Energy Saver** | Energy consumption prediction | Regression, API, Pandas | [→](./AI-Energy-Saver) |
+| 🌫️ **Air Quality Prediction** | Predicting AQI with Neural Networks | TensorFlow, Keras, Pandas | [→](./Predicting%20Air%20Quality%20with%20Neural%20Networks) |
 
 ---
 
