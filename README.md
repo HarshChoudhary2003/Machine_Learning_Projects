@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=Machine%20Learning%20Projects%20Hub&fontSize=50&animation=fadeIn&fontAlignY=38&desc=25%2B%20End-to-End%20AI%20%26%20ML%20Projects&descAlignY=55&descAlign=50" width="100%" />
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=Machine%20Learning%20Projects%20Hub&fontSize=50&animation=fadeIn&fontAlignY=38&desc=30%2B%20End-to-End%20AI%20%26%20ML%20Projects&descAlignY=55&descAlign=50" width="100%" />
 
   <br/>
   
@@ -12,7 +12,7 @@
 
   <br/>
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=600&height=80&lines=Welcome+to+the+ML+Projects+Hub!;25%2B+Production-Ready+AI+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=600&height=80&lines=Welcome+to+the+ML+Projects+Hub!;30%2B+Production-Ready+AI+Solutions" alt="Typing SVG" />
 
 </div>
 
@@ -33,10 +33,12 @@
   - [🧠 NLP & Text Analysis](#-nlp--text-analysis)
   - [👁️ Computer Vision](#️-computer-vision)
   - [🏠 Real Estate & Housing](#-real-estate--housing)
-  - [⚡ Energy & Sustainability](#-energy--sustainability)
-  - [💼 Business Intelligence](#-business-intelligence)
+  - [🏥 Healthcare & Sustainability](#-healthcare--sustainability)
+  - [🎬 Recommendation Systems](#-recommendation-systems)
+  - [💼 Business & Sports Intelligence](#-business--sports-intelligence)
 - [🛠️ Tech Stack](#️-tech-stack)
 - [🚀 Getting Started](#-getting-started)
+- [📊 Project Roadmap](#-project-roadmap)
 - [🤝 Contributing](#-contributing)
 - [📧 Contact](#-contact)
 
@@ -48,13 +50,13 @@
 
 Welcome to the **Machine Learning Projects Hub**! 🚀 
 
-This repository is a comprehensive collection of **25+ end-to-end projects** spanning the entire landscape of Data Science, Machine Learning, and Artificial Intelligence. Each project is **production-ready** with proper documentation, clean code, and detailed explanations.
+This repository is a comprehensive collection of **30+ end-to-end projects** spanning the entire landscape of Data Science, Machine Learning, and Artificial Intelligence. Each project is **production-ready** with proper documentation, clean code, and detailed explanations.
 
 <div align="center">
 
 | 📊 Projects | 🏷️ Categories | 🔧 Technologies | 📈 Focus Areas |
 |:-----------:|:-------------:|:---------------:|:--------------:|
-| **25+** | **9** | **15+** | **Finance, NLP, CV, Analytics** |
+| **30+** | **10** | **15+** | **Finance, NLP, CV, Agents** |
 
 </div>
 
@@ -70,6 +72,44 @@ This repository is a comprehensive collection of **25+ end-to-end projects** spa
 │  ✅ Deep Learning (TensorFlow)  │  ✅ Traditional ML (Scikit-Learn)│
 └─────────────────────────────────────────────────────────────────────┘
 ```
+
+---
+
+## 🏗️ Project Lifecycle & Distribution
+
+<div align="center">
+
+### 🔄 Standard ML Workflow
+
+```mermaid
+graph LR
+    A[Dataset] --> B[Cleaning]
+    B --> C[EDA]
+    C --> D[Features]
+    D --> E[Modeling]
+    E --> F[Evaluation]
+    F --> G[Web App]
+    G --> H[MLOps]
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style H fill:#00ff00,stroke:#333,stroke-width:4px
+```
+
+### 📊 Project Distribution
+
+```mermaid
+pie title Domain Coverage
+    "FinTech & Stock" : 6
+    "NLP & Text Analysis" : 7
+    "Customer Analytics" : 5
+    "Real Estate" : 4
+    "Health & Sustainability" : 4
+    "Recommendation System" : 3
+    "Computer Vision" : 2
+    "Agentic AI" : 1
+    "Others" : 1
+```
+
+</div>
 
 ---
 
@@ -184,6 +224,7 @@ Predict energy consumption to reduce costs and carbon footprint.
 |---------|-------------|--------------|------|
 | 📉 **Customer Churn Analysis** | Analyze & predict customer attrition | Scikit-Learn, EDA, Pandas | [→](./Customer%20Churn%20Analysis%20Prediction) |
 | 📱 **Telecom Churn Prediction** | Advanced SaaS churn prediction | XGBoost, Feature Engineering | [→](./Customer%20Churn%20Prediction%20%28Telecom%20%20SaaS%29) |
+| 🛍️ **Customer Purchase Prediction** | Predict likelihood of purchase | Scikit-Learn, Random Forest | [→](./Customer%20Purchase%20Prediction) |
 | 🎯 **Customer Segmentation** | Unsupervised clustering | K-Means, PCA, Scikit-Learn | [→](./Customer%20Segmentation%20using%20Unsupervised%20Machine%20Learning) |
 | 🛒 **Flipkart Sentiment Analysis** | E-commerce review analysis | NLP, NLTK, TextBlob | [→](./Flipkart%20Reviews%20Sentiment%20Analysis) |
 
@@ -218,21 +259,33 @@ Predict energy consumption to reduce costs and carbon footprint.
 
 ---
 
-### ⚡ Energy & Sustainability
+### 🏥 Healthcare & Sustainability
 
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
+| ❤️ **Heart Disease Prediction** | Diagnose cardiac issues with ML | Logistic Regression, Scikit-Learn | [→](./Heart%20Disease%20Prediction%20Using%20Logistic%20Regression) |
 | ⚡ **AI Energy Saver** | Energy consumption prediction | Regression, API, Pandas | [→](./AI-Energy-Saver) |
 | 🌫️ **Air Quality Prediction** | Predicting AQI with Neural Networks | TensorFlow, Keras, Pandas | [→](./Predicting%20Air%20Quality%20with%20Neural%20Networks) |
 
 ---
 
-### 💼 Business Intelligence
+### 🎬 Recommendation Systems
 
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| 📈 **Sales Forecast Prediction** | Time series sales forecasting | XGBoost, Time Series | [→](./Sales%20Forecast%20Prediction%20-%20Python) |
+| 🍿 **Movie Recommender** | Content-based recommendation | Cosine Similarity, NLP | [→](./Movie%20Recommender%20System) |
+| 😊 **Emotion Based Movie Rec**| Recommend movies based on mood | OpenCV, NLP, Streamlit | [→](./Movie%20recommendation%20based%20on%20emotion) |
+| 🎙️ **Ted Talks Recommendation** | Text-based similarity for talks | Scikit-Learn, TF-IDF | [→](./Ted%20Talks%20Recommendation%20System%20with%20Machine%20Learning) |
+
+---
+
+### 💼 Business & Sports Intelligence
+
+| Project | Description | Technologies | Link |
+|---------|-------------|--------------|------|
+| 📉 **Sales Forecast Prediction** | Time series sales forecasting | XGBoost, Time Series | [→](./Sales%20Forecast%20Prediction%20-%20Python) |
 | 💼 **SkillSync Pro** | Job market analyzer + salary prediction | Web Scraping, ML, Streamlit | [→](./SkillSync) |
+| 🏏 **IPL Score Prediction** | Live match score forecasting | Deep Learning, Keras | [→](./IPL%20Score%20Prediction%20using%20Deep%20Learning) |
 
 ---
 
@@ -325,15 +378,31 @@ streamlit run app.py
 ╔═══════════════════════════════════════════════════════════════╗
 ║                    📈 REPOSITORY STATS                        ║
 ╠═══════════════════════════════════════════════════════════════╣
-║  📂 Total Projects           │  25+                           ║
-║  🏷️ Categories              │  9                              ║
-║  🌐 Web Applications         │  8 (Streamlit)                  ║
-║  🧠 Deep Learning Projects   │  6                              ║
-║  📊 Traditional ML Projects  │  15+                            ║
-║  🤖 Agentic AI Projects      │  1                              ║
-║  📈 Finance/Stock Projects   │  6                              ║
+║  📂 Total Projects           │  30+                           ║
+║  🏷️ Categories              │  10                             ║
+║  🌐 Web Applications         │  10 (Streamlit)                ║
+║  🧠 Deep Learning Projects   │  8                             ║
+║  📊 Traditional ML Projects  │  20+                           ║
+║  🤖 Agentic AI Projects      │  1                             ║
+║  📈 Finance/Stock Projects   │  6                             ║
 ║  🛡️ Security Projects       │  4                              ║
 ╚═══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+---
+
+## 📊 Project Roadmap
+
+<div align="center">
+
+```mermaid
+timeline
+    title Growth of Machine Learning Projects Hub
+    2023 : Traditional Machine Learning : EDA & Regression : Customer Analytics
+    2024 : Deep Learning Era : Computer Vision : Time Series Forecasting
+    2025 : GenAI & Agentic AI : LangChain : Autonomous Agents : Production Ready Web Apps
 ```
 
 </div>
