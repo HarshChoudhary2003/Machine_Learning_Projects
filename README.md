@@ -105,7 +105,7 @@ pie title Domain Coverage
     "Health & Sustainability" : 4
     "Recommendation System" : 3
     "Computer Vision" : 2
-    "Agentic AI" : 1
+    "Agentic AI" : 2
     "Others" : 1
 ```
 
@@ -191,6 +191,7 @@ Predict energy consumption to reduce costs and carbon footprint.
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
 | 🧳 **Agentic AI Travel Assistant** | Multi-agent autonomous travel planner | LangChain, OpenAI, Groq, Streamlit | [→](./Agentic%20AI-Based%20Travel%20Planning%20Assistant%20using%20LangChain) |
+| 🎙️ **Voice Assistant** | Personal AI assistant with Wikipedia & Web access | pyttsx3, SpeechRecognition, Python | [→](./Voice%20Assistant%20using%20python) |
 
 ---
 
@@ -383,7 +384,7 @@ streamlit run app.py
 ║  🌐 Web Applications         │  10 (Streamlit)                ║
 ║  🧠 Deep Learning Projects   │  8                             ║
 ║  📊 Traditional ML Projects  │  20+                           ║
-║  🤖 Agentic AI Projects      │  1                             ║
+║  🤖 Agentic AI Projects      │  2                             ║
 ║  📈 Finance/Stock Projects   │  6                             ║
 ║  🛡️ Security Projects       │  4                              ║
 ╚═══════════════════════════════════════════════════════════════╝
