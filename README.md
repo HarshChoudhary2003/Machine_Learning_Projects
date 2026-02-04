@@ -99,7 +99,7 @@ graph LR
 ```mermaid
 pie title Domain Coverage
     "FinTech & Stock" : 6
-    "NLP & Text Analysis" : 7
+    "NLP & Text Analysis" : 8
     "Customer Analytics" : 5
     "Real Estate" : 4
     "Health & Sustainability" : 4
@@ -237,6 +237,7 @@ Predict energy consumption to reduce costs and carbon footprint.
 |---------|-------------|--------------|------|
 | 📝 **Text Classification (Naive Bayes)** | Document categorization | NLP, TF-IDF, Naive Bayes | [→](./Classification%20of%20Text%20Documents%20using%20Naive%20Bayes) |
 | 🎬 **Netflix Content Clustering** | Content recommendation system | K-Means, NLP, Hierarchical | [→](./NETFLIX%20MOVIES%20AND%20TV%20SHOWS%20CLUSTERING) |
+| 🍽️ **Restaurant Review NLP** | Sentiment analysis of restaurant reviews | NLTK, Bag of Words, Scikit-Learn | [→](./NLP%20analysis%20of%20Restaurant%20reviews) |
 
 ---
 
