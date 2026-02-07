@@ -270,6 +270,7 @@ Predict energy consumption to reduce costs and carbon footprint.
 | ❤️ **Heart Disease Prediction** | Diagnose cardiac issues with ML | Logistic Regression, Scikit-Learn | [→](./Heart%20Disease%20Prediction%20Using%20Logistic%20Regression) |
 | ⚡ **AI Energy Saver** | Energy consumption prediction | Regression, API, Pandas | [→](./AI-Energy-Saver) |
 | 🌫️ **Air Quality Prediction** | Predicting AQI with Neural Networks | TensorFlow, Keras, Pandas | [→](./Predicting%20Air%20Quality%20with%20Neural%20Networks) |
+| 🦠 **Cancer Cell Classification** | Diagnose malignant vs benign cells | Naive Bayes, Scikit-Learn | [→](./Cancer%20cell%20classification%20using%20Scikit-learn) |
 
 ---
 
