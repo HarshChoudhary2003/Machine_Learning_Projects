@@ -6,7 +6,7 @@
 
 ## 📌 Overview
 
-This project performs **Sentiment Analysis** on text data (simulating Facebook posts or Kindle reviews) using **Python** and the **NLTK** library. It utilizes the **VADER (Valence Aware Dictionary and sEntiment Reasoner)** sentiment analyzer to determine if a piece of text is positive, negative, or neutral.
+This project performs **Sentiment Analysis** on text data (simulating Facebook posts or Kindle reviews) using **Python** and the **NLTK** library. It utilizes the **VADER (Valence Aware Dictionary and Sentiment Reasoner)** sentiment analyzer to determine if a piece of text is positive, negative, or neutral.
 
 ## 🚀 Features
 
