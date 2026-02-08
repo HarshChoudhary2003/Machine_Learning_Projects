@@ -204,6 +204,7 @@ Predict energy consumption to reduce costs and carbon footprint.
 | 📊 **Microsoft Stock Prediction** | MSFT price forecasting with LSTM | TensorFlow, Keras, LSTM | [→](./Microsoft%20Stock%20Price%20Prediction%20with%20Machine%20Learning) |
 | 🚀 **Tesla Stock Prediction** | TSLA forecasting + web app | LSTM, Streamlit, TensorFlow | [→](./Tesla%20Stock%20Price%20Prediction) |
 | 📈 **Stock Price Prediction** | General stock forecasting | Deep Learning, Time Series | [→](./Stock%20Price%20Prediction%20using%20Machine%20Learning%20in%20Python) |
+| 📈 **Predict Stock Direction (SVM)** | Predict market movement using SVM | Scikit-Learn, Pandas, SVM | [→](./Predicting%20Stock%20Price%20Direction%20using%20Support%20Vector%20Machines) |
 | 💳 **EMI Calculator** | Loan EMI prediction with MLOps | MLflow, Streamlit, Scikit-Learn | [→](./EMI) |
 
 ---
