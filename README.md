@@ -251,6 +251,7 @@ Predict energy consumption to reduce costs and carbon footprint.
 |---------|-------------|--------------|------|
 | ✋ **Handwritten Digit Recognition** | MNIST classification with NN | TensorFlow, Keras, CNN | [→](./Handwritten%20Digit%20Recognition%20using%20Neural%20Network) |
 | 🔢 **Object Counter** | Count objects in images | OpenCV, Python, Image Processing | [→](./Count%20number%20of%20Object%20using%20Python-OpenCV) |
+| 👤 **Face Recognition** | Real-time face detection & tracking | Roboflow, Supervision, Python | [→](./Face%20Recognition) |
 
 ---
 
