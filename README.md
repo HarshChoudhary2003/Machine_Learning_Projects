@@ -206,6 +206,7 @@ Predict energy consumption to reduce costs and carbon footprint.
 | 📈 **Stock Price Prediction** | General stock forecasting | Deep Learning, Time Series | [→](./Stock%20Price%20Prediction%20using%20Machine%20Learning%20in%20Python) |
 | 📈 **Predict Stock Direction (SVM)** | Predict market movement using SVM | Scikit-Learn, Pandas, SVM | [→](./Predicting%20Stock%20Price%20Direction%20using%20Support%20Vector%20Machines) |
 | 💳 **EMI Calculator** | Loan EMI prediction with MLOps | MLflow, Streamlit, Scikit-Learn | [→](./EMI) |
+| 🏦 **Loan Eligibility Prediction** | Predict loan approval status | Scikit-Learn, Pandas, Imbalanced-learn | [→](./Loan%20Eligibility%20Prediction%20using%20Machine%20Learning) |
 
 ---
 
