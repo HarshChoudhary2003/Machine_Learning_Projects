@@ -73,7 +73,7 @@ Misinformation poses a significant threat to society. This project builds a **ma
 ## 📁 Project Structure
 
 ```
-Fake News Dectotor/
+Fake News Detector/
 ├── Fake_News_detection.ipynb  # Model development
 ├── app.py                      # Streamlit web app
 ├── pac_model.pkl               # Trained PA Classifier
@@ -92,7 +92,7 @@ Fake News Dectotor/
 git clone https://github.com/HarshChoudhary2003/Machine_Learning_Projects.git
 
 # Navigate to project directory
-cd "Machine_Learning_Projects/Fake News Dectotor"
+cd "Machine_Learning_Projects/Fake News Detector"
 
 # Install dependencies
 pip install -r requirements.txt
