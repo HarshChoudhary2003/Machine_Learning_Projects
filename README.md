@@ -134,7 +134,7 @@ An autonomous multi-agent system that plans personalized travel itineraries usin
 
 ML-powered system to detect misinformation with 93%+ accuracy and web interface.
 
-[![Explore](https://img.shields.io/badge/Explore-Project-blue?style=flat-square)](./Fake%20News%20Dectotor)
+[![Explore](https://img.shields.io/badge/Explore-Project-blue?style=flat-square)](./Fake%20News%20Detector)
 
 </td>
 <td width="33%" valign="top">
@@ -205,7 +205,7 @@ Predict energy consumption to reduce costs and carbon footprint.
 | 🚀 **Tesla Stock Prediction** | TSLA forecasting + web app | LSTM, Streamlit, TensorFlow | [→](./Tesla%20Stock%20Price%20Prediction) |
 | 📈 **Stock Price Prediction** | General stock forecasting | Deep Learning, Time Series | [→](./Stock%20Price%20Prediction%20using%20Machine%20Learning%20in%20Python) |
 | 📈 **Predict Stock Direction (SVM)** | Predict market movement using SVM | Scikit-Learn, Pandas, SVM | [→](./Predicting%20Stock%20Price%20Direction%20using%20Support%20Vector%20Machines) |
-| 💳 **EMI Calculator** | Loan EMI prediction with MLOps | MLflow, Streamlit, Scikit-Learn | [→](./EMI) |
+| 💳 **EMI Calculator** | Loan EMI prediction with MLOps | MLflow, Streamlit, Scikit-Learn | [→](./EMI%20Predict) |
 | 🏦 **Loan Eligibility Prediction** | Predict loan approval status | Scikit-Learn, Pandas, Imbalanced-learn | [→](./Loan%20Eligibility%20Prediction%20using%20Machine%20Learning) |
 
 ---
@@ -215,7 +215,7 @@ Predict energy consumption to reduce costs and carbon footprint.
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
 | 💳 **Credit Card Fraud Detection** | Imbalanced classification for transactions | SMOTE, XGBoost, Scikit-Learn | [→](./Credit%20Card%20Fraud%20Detection%20-%20ML) |
-| 📰 **Fake News Detector** | Misinformation detection + web app | NLP, TF-IDF, Streamlit | [→](./Fake%20News%20Dectotor) |
+| 📰 **Fake News Detector** | Misinformation detection + web app | NLP, TF-IDF, Streamlit | [→](./Fake%20News%20Detector) |
 | 📧 **Email Spam Detection** | Spam classification with deep learning | TensorFlow, Keras, NLP | [→](./Detecting%20Spam%20Emails%20Using%20Tensorflow) |
 | 📱 **SMS Spam Detection** | Text message spam filter | TensorFlow, NLP | [→](./SMS%20Spam%20Detection%20using%20TensorFlow) |
 
@@ -374,7 +374,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 
 ```bash
 # Example: Run a Streamlit app
-cd "Fake News Dectotor"
+cd "Fake News Detector"
 pip install -r requirements.txt
 streamlit run app.py
 ```
