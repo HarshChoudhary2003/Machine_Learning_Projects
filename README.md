@@ -276,6 +276,7 @@ Predict energy consumption to reduce costs and carbon footprint.
 | 🦠 **Cancer Cell Classification** | Diagnose malignant vs benign cells | Naive Bayes, Scikit-Learn | [→](./Cancer%20cell%20classification%20using%20Scikit-learn) |
 | 🔥 **Calories Burnt Prediction** | Predict calories burnt during exercise | XGBoost, Scikit-Learn, Pandas | [→](./Calories%20Burnt%20Prediction%20using%20Machine%20Learning) |
 | 🌧️ **Rainfall Prediction** | Predict rainfall using Linear Regression | Linear Regression, Pandas, Matplotlib | [→](./rainfall-prediction-project) |
+| 🩺 **Tumor Detection** | Detect tumors using Machine Learning | Scikit-Learn, Pandas, Matplotlib | [→](./Tumor_Detection-project) |
 
 ---
 
