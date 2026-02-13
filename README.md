@@ -278,6 +278,7 @@ Predict energy consumption to reduce costs and carbon footprint.
 | 🔥 **Calories Burnt Prediction** | Predict calories burnt during exercise | XGBoost, Scikit-Learn, Pandas | [→](./Calories%20Burnt%20Prediction%20using%20Machine%20Learning) |
 | 🌧️ **Rainfall Prediction** | Predict rainfall using Linear Regression | Linear Regression, Pandas, Matplotlib | [→](./rainfall-prediction-project) |
 | 🩺 **Tumor Detection** | Detect tumors using Machine Learning | Scikit-Learn, Pandas, Matplotlib | [→](./Tumor_Detection-project) |
+| 🏥 **Medical Insurance Prediction** | Predict insurance premium with XGBoost | XGBoost, Streamlit, Plotly | [→](./Medical%20Insurance%20Price%20Prediction%20using%20Machine%20Learning) |
 
 ---
 
