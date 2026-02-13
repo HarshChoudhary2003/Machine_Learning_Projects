@@ -26,6 +26,7 @@
 - [🎯 Overview](#-overview)
 - [🌟 Featured Projects](#-featured-projects)
 - [📂 All Projects](#-all-projects)
+  - [🌐 Streamlit Web Apps](#-streamlit-web-applications)
   - [🤖 Agentic AI & LLMs](#-agentic-ai--llms)
   - [📈 Financial & Stock Prediction](#-financial--stock-prediction)
   - [🛡️ Security & Fraud Detection](#️-security--fraud-detection)
@@ -185,6 +186,23 @@ Predict energy consumption to reduce costs and carbon footprint.
 ---
 
 ## 📂 All Projects
+
+### 🌐 Streamlit Web Applications
+
+| Project | Description | Technologies | Link |
+|---------|-------------|--------------|------|
+| ⚡ **AI Energy Saver** | Advanced energy dashboard with animations | Streamlit, Plotly, Lottie | [→](./AI-Energy-Saver) |
+| 🏥 **Medical Insurance Prediction** | Premium calculator with dark mode UI | Streamlit, XGBoost, Plotly | [→](./Medical%20Insurance%20Price%20Prediction%20using%20Machine%20Learning) |
+| 📰 **Fake News Detector** | Cyberpunk-themed misinformation detector | Streamlit, NLP, Lottie | [→](./Fake%20News%20Detector) |
+| 🏢 **Real Estate Investment Advisor** | AI property analyzer with Glassmorphism | Streamlit, ML, Plotly | [→](./Real%20Estate%20Investment%20Advisor) |
+| 🧳 **Agentic AI Travel Assistant** | Autonomous travel planner | LangChain, OpenAI, Streamlit | [→](./Agentic%20AI-Based%20Travel%20Planning%20Assistant%20using%20LangChain) |
+| 🚀 **Tesla Stock Prediction** | Interactive stock forecasting app | LSTM, TensorFlow, Streamlit | [→](./Tesla%20Stock%20Price%20Prediction) |
+| 💼 **SkillSync Pro** | Job market & salary analyzer | Web Scraping, Streamlit, SQLite | [→](./SkillSync) |
+| 💳 **EMI Calculator** | Loan EMI prediction dashboard | Streamlit, Scikit-Learn | [→](./EMI%20Predict) |
+| 😊 **Emotion Based Movie Rec** | Mood-based movie recommender | OpenCV, NLP, Streamlit | [→](./Movie%20recommendation%20based%20on%20emotion) |
+
+---
+
 
 ### 🤖 Agentic AI & LLMs
 
