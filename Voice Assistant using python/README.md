@@ -1,76 +1,89 @@
-# 🎙️ Voice Assistant using Python
+# 🎙️ Nova | AI Powered Voice Assistant
 
-A modular, lightweight Voice Assistant built with Python that can perform various tasks such as searching Wikipedia, telling jokes, opening websites, and more. This project serves as a great foundation for building your own personalized AI assistant.
+<div align="center">
+  <img src="https://img.shields.io/badge/AI-Gemini%20Pro-blue?style=for-the-badge&logo=google" />
+  <img src="https://img.shields.io/badge/Built%20With-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit" />
+  <img src="https://img.shields.io/badge/Python-3.8%2B-yellow?style=for-the-badge&logo=python" />
+</div>
+
+<br />
+
+**Nova** is a next-generation voice assistant that combines classic automation (opening apps, checking time) with the power of **Google's Gemini AI**. 
+
+Unlike traditional rule-based assistants, Nova can understand context, remember your conversation history, and answer complex questions just like a human.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- **🕒 Smart Greetings**: Greets you based on the time of day (Morning, Afternoon, Evening).
-- **📚 Wikipedia Integration**: Instantly fetches summaries for any topic from Wikipedia.
-- **🤣 Joke Generator**: Lighten the mood with random jokes using `pyjokes`.
-- **🌐 Web Automation**: Quick access to Google and YouTube through voice/text commands.
-- **⏰ Real-time Clock**: Tells you the current time.
-- **🔊 Text-to-Speech**: Crystal clear voice responses using `pyttsx3`.
+- **🧠 Advanced AI Engine**: Powered by **Google Gemini 1.5 Flash** for intelligent, context-aware responses.
+- **🗣️ Context Awareness**: Remembers previous questions and answers for a natural conversation flow.
+- **🎙️ Voice Activated**: Speak naturally to interact, with text-to-speech responses.
+- **🎨 Cyberpunk UI**: A stunning, modern interface with neon aesthetics and smooth animations.
+- **🛠️ Automation Tools**:
+  - 🌐 **Web**: Open Google, YouTube.
+  - 📚 **Knowledge**: Integrated Wikipedia search.
+  - ⏰ **Utilities**: Time check, jokes.
+- **� Secure**: API Key management through the sidebar (keys are never stored).
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Python 3.x**
-- **Libraries**:
-  - `pyttsx3`: For text-to-speech conversion.
-  - `SpeechRecognition`: For processing voice commands (extensible).
-  - `wikipedia`: For library/data fetching.
-  - `pyjokes`: For humor.
-  - `webbrowser` & `os`: For system and web interactions.
+- **Core**: `Python 3.x`
+- **Frontend**: `Streamlit`
+- **AI Model**: `Google Generative AI (Gemini)`
+- **Speech**: `SpeechRecognition`, `pyttsx3`, `pyaudio`
+- **Utilities**: `wikipedia`, `pyjokes`
 
 ---
 
 ## 🚀 Installation & Setup
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/HarshChoudhary2003/Machine_Learning_Projects.git
-   cd "Voice Assistant using python"
-   ```
+### 1. Prerequisite: Get a Gemini API Key
+You'll need a free API key to enable the AI features.
+- Go to [Google AI Studio](https://aistudio.google.com/).
+- Click **"Get API key"** and create a new key.
 
-2. **Install Dependencies**:
-   ```bash
-   pip install pyttsx3 SpeechRecognition wikipedia pyjokes pyaudio
-   ```
+### 2. Clone the Repository
+```bash
+git clone https://github.com/HarshChoudhary2003/Machine_Learning_Projects.git
+cd "Voice Assistant using python"
+```
 
-3. **Run the Assistant**:
-   
-   **Option 1: Jupyter Notebook**
-   Open the `main.ipynb` notebook and execute all cells.
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
 
-   **Option 2: Streamlit Web App (New! 🌟)**
-   Launch the interactive web interface with voice controls:
-   ```bash
-   streamlit run app.py
-   ```
-
----
-
-## 📖 Usage
-
-Once running, you can typoe or speak commands like:
-- *"Wikipedia [Topic]"*
-- *"Tell me a joke"*
-- *"Open YouTube"*
-- *"What is the time?"*
-- *"Bye"* or *"Exit"*
+### 4. Run the Application
+```bash
+streamlit run app.py
+```
 
 ---
 
-## 🛤️ Roadmap
-- [ ] Implement full Microphone support for voice commands.
-- [ ] Integration with GPT/LLM for smarter conversations.
-- [ ] Desktop control (Volume, Shutdown, etc.).
-- [ ] Email automation.
+## 📖 How to Use
+
+1.  **Launch the App**: Run the command above. A new tab will open in your browser.
+2.  **Enter API Key**: In the sidebar (left panel), paste your **Gemini API Key**.
+3.  **Activate Voice**: Click the **🔴 ACTIVATE VOICE PROTOCOL** button.
+4.  **Speak**:
+    *   *"Who was Albert Einstein?"* (Gemini AI)
+    *   *"Tell me a joke about programmers"* (PyJokes)
+    *   *"What time is it?"* (System Time)
+    *   *"Wikipedia Python Programming"* (Wikipedia Search)
+5.  **Chat History**: View your entire conversation with Nova in the main chat window.
+
+---
+
+## 🛤️ Future Roadmap
+- [ ] Wake word detection ("Hey Nova").
+- [ ] IoT Home Automation integration.
+- [ ] Multi-language support.
+- [ ] Custom voice cloning.
 
 ---
 
 ## ⚖️ License
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License.

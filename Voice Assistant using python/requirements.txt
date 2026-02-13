@@ -1,0 +1,9 @@
+streamlit
+speechrecognition
+pyttsx3
+wikipedia
+requests
+pyjokes
+streamlit-lottie
+google-generativeai
+pyaudio

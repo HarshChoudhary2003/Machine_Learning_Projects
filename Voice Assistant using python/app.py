@@ -11,12 +11,13 @@ import time
 import requests
 import json
 from streamlit_lottie import st_lottie
+import google.generativeai as genai
 
 # -----------------------------------------------------------------------------
 # 1. PAGE CONFIGURATION & ASSETS
 # -----------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Nova | AI Voice Assistant",
+    page_title="Nova | AI Powered Voice Assistant",
     page_icon="🎙️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -137,19 +138,11 @@ st.markdown("""
         box-shadow: 0 0 20px #00ffcc;
     }
     
-    /* Container */
-    .chat-container {
-        height: 400px;
-        overflow-y: auto;
-        padding: 20px;
-        border: 1px solid #333;
-        border-radius: 10px;
-        background: rgba(0,0,0,0.5);
-        margin-bottom: 20px;
-        display: flex;
-        flex-direction: column-reverse; /* To keep latest near input area concept */
+    /* Container/Sidebar */
+    .sidebar .sidebar-content {
+        background-color: #0a0a0a;
     }
-    
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -161,7 +154,7 @@ st.markdown("""
 if "history" not in st.session_state:
     st.session_state.history = []
 
-def process_command(query):
+def process_command(query, api_key=None):
     response = ""
     
     if 'wikipedia' in query:
@@ -192,13 +185,57 @@ def process_command(query):
         response = "I am Nova, your advanced AI voice assistant."
         
     else:
-        response = "I'm not sure how to help with that yet."
+        # Fallback to Gemini AI
+        if api_key:
+            try:
+                genai.configure(api_key=api_key)
+                model = genai.GenerativeModel('gemini-1.5-flash')
+                
+                # Format history for Gemini context
+                gemini_history = []
+                # Skip the last message which is the current query (we send it separately)
+                for msg in st.session_state.history[:-1]:
+                    role = "user" if msg["role"] == "user" else "model"
+                    gemini_history.append({"role": role, "parts": [msg["text"]]})
+                
+                chat = model.start_chat(history=gemini_history)
+                
+                # Nova Persona Prompt
+                prompt = f"You are Nova, an advanced AI assistant. Answer the following concisely: {query}"
+                
+                ai_response = chat.send_message(prompt)
+                response = ai_response.text
+            except Exception as e:
+                response = f"AI Error: {str(e)}"
+        else:
+            response = "I can answer that, but I need a Google Gemini API Key. Please enter it in the sidebar."
         
     return response
 
 # -----------------------------------------------------------------------------
 # 4. UI LAYOUT
 # -----------------------------------------------------------------------------
+
+# Sidebar for Settings
+with st.sidebar:
+    st.title("⚙️ SETTINGS")
+    st.markdown("Enable Advanced AI capabilities by providing a Gemini API Key.")
+    
+    # API Key Input
+    gemini_key = st.text_input("Gemini API Key", type="password", help="Get your free key at aistudio.google.com")
+    
+    if gemini_key:
+        st.success("API Key Provided! ✅")
+    else:
+        st.warning("No API Key found. Basic commands only.")
+        
+    st.markdown("---")
+    st.markdown("### 📝 COMMANDS")
+    st.markdown("- 'Time' - Current time")
+    st.markdown("- 'Wikipedia [Topic]' - Search wiki")
+    st.markdown("- 'Open Google/YouTube'")
+    st.markdown("- 'Tell me a joke'")
+    st.markdown("- **NEW:** Ask anything else! (Requires Key)")
 
 col1, col2 = st.columns([1, 2])
 
@@ -220,11 +257,11 @@ with col1:
         elif "error" in user_query:
             st.error(f"⚠️ {user_query}")
         else:
-            # Add User Query to History
-            st.session_state.history.append({"role": "user", "text": user_query})
+            # Add User Query to History (Capitalize for display)
+            st.session_state.history.append({"role": "user", "text": user_query.capitalize()})
             
             # Process & Speak
-            bot_response = process_command(user_query)
+            bot_response = process_command(user_query, gemini_key)
             st.session_state.history.append({"role": "bot", "text": bot_response})
             speak(bot_response)
 
