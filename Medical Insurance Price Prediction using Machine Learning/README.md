@@ -1,9 +1,5 @@
 
 # 🏥 Medical Insurance Price Prediction
-
-<div align="center">
-  <img src="https://img.freepik.com/free-vector/health-insurance-concept-illustration_114360-148.jpg" alt="Medical Insurance AI" width="600" />
-  
   <br>
   
   ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
