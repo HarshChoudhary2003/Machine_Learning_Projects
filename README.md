@@ -1,18 +1,16 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=Machine%20Learning%20Projects%20Hub&fontSize=50&animation=fadeIn&fontAlignY=38&desc=30%2B%20End-to-End%20AI%20%26%20ML%20Projects&descAlignY=55&descAlign=50" width="100%" />
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=0,20,40&height=300&section=header&text=Machine%20Learning%20Projects%20Hub&fontSize=50&animation=fadeIn&fontAlignY=38&desc=30%2B%20End-to-End%20AI%20%26%20ML%20Projects&descAlignY=55&descAlign=50" width="100%" />
 
   <br/>
   
   [![GitHub Stars](https://img.shields.io/github/stars/HarshChoudhary2003/Machine_Learning_Projects?style=for-the-badge&color=ffd700&logo=github)](https://github.com/HarshChoudhary2003/Machine_Learning_Projects/stargazers)
   [![GitHub Forks](https://img.shields.io/github/forks/HarshChoudhary2003/Machine_Learning_Projects?style=for-the-badge&color=00ff00&logo=github)](https://github.com/HarshChoudhary2003/Machine_Learning_Projects/network/members)
   [![License](https://img.shields.io/github/license/HarshChoudhary2003/Machine_Learning_Projects?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/HarshChoudhary2003/Machine_Learning_Projects/blob/main/LICENSE)
-  [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-  [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org)
-  [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+  [![Visitors](https://api.visitorbadge.io/api/visitors?path=HarshChoudhary2003/Machine_Learning_Projects&label=Fast%20Visuals&labelColor=303030&countColor=00dffd&style=flat-square)](https://visitorbadge.io/status?path=HarshChoudhary2003/Machine_Learning_Projects)
 
   <br/>
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=600&height=80&lines=Welcome+to+the+ML+Projects+Hub!;30%2B+Production-Ready+AI+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00DFFD&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Welcome+to+the+ML+Projects+Hub!;Discover+Production-Ready+AI+Solutions;From+NLP+to+Computer+Vision;Exploring+Generative+AI+%26+Agents" alt="Typing SVG" />
 
 </div>
 
@@ -38,8 +36,9 @@
   - [🎬 Recommendation Systems](#-recommendation-systems)
   - [💼 Business & Sports Intelligence](#-business--sports-intelligence)
 - [🛠️ Tech Stack](#️-tech-stack)
+- [📊 Repository Stats](#-repository-stats)
 - [🚀 Getting Started](#-getting-started)
-- [📊 Project Roadmap](#-project-roadmap)
+- [📈 Project Roadmap](#-project-roadmap)
 - [🤝 Contributing](#-contributing)
 - [📧 Contact](#-contact)
 
@@ -51,7 +50,10 @@
 
 Welcome to the **Machine Learning Projects Hub**! 🚀 
 
-This repository is a comprehensive collection of **30+ end-to-end projects** spanning the entire landscape of Data Science, Machine Learning, and Artificial Intelligence. Each project is **production-ready** with proper documentation, clean code, and detailed explanations.
+This repository is a curated collection of **30+ end-to-end projects** spanning the entire landscape of Data Science, Machine Learning, and Artificial Intelligence. Whether you are a beginner looking to learn or an expert seeking reference implementations, this hub has something for everyone.
+
+> **Why this Repo?**  
+> Every project here is designed to be **production-ready**, featuring clean code, robust error handling, and comprehensive documentation. We bridge the gap between theoretical ML and real-world application.
 
 <div align="center">
 
@@ -61,53 +63,34 @@ This repository is a comprehensive collection of **30+ end-to-end projects** spa
 
 </div>
 
-### 🌟 What Makes This Special?
+### 🌟 Key Highlights
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                    🎯 KEY HIGHLIGHTS                                │
-├─────────────────────────────────────────────────────────────────────┤
-│  ✅ Real-World Applications    │  ✅ Production-Ready Code         │
-│  ✅ Comprehensive Documentation │  ✅ Web Apps (Streamlit)         │
-│  ✅ Modern AI (LangChain, LLMs) │  ✅ MLOps (MLflow tracking)      │
-│  ✅ Deep Learning (TensorFlow)  │  ✅ Traditional ML (Scikit-Learn)│
-└─────────────────────────────────────────────────────────────────────┘
-```
+- **✅ Real-World Applications**: Solve actual business problems like Churn Prediction, Fraud Detection, and Stock Forecasting.
+- **✅ Full-Stack Integration**: Many projects include **Streamlit** web apps for interactive demos.
+- **✅ Modern AI Stack**: Implementations using **LangChain, OpenAI, Groq, and LLMs**.
+- **✅ MLOps Practices**: Integration with tools like **MLflow** for experiment tracking.
+- **✅ Diverse Domains**: From Healthcare to Finance, Sports to Social Media.
 
 ---
 
-## 🏗️ Project Lifecycle & Distribution
+## 🏗️ Architecture & Workflow
 
 <div align="center">
 
-### 🔄 Standard ML Workflow
+### 🔄 Standard ML Pipeline
 
 ```mermaid
 graph LR
-    A[Dataset] --> B[Cleaning]
-    B --> C[EDA]
-    C --> D[Features]
-    D --> E[Modeling]
-    E --> F[Evaluation]
-    F --> G[Web App]
-    G --> H[MLOps]
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style H fill:#00ff00,stroke:#333,stroke-width:4px
-```
-
-### 📊 Project Distribution
-
-```mermaid
-pie title Domain Coverage
-    "FinTech & Stock" : 6
-    "NLP & Text Analysis" : 9
-    "Customer Analytics" : 5
-    "Real Estate" : 4
-    "Health & Sustainability" : 4
-    "Recommendation System" : 3
-    "Computer Vision" : 2
-    "Agentic AI" : 2
-    "Others" : 1
+    A[💾 Dataset] -->|Pre-process| B[🧹 Cleaning]
+    B -->|Analyze| C[📊 EDA]
+    C -->|Transform| D[✨ Features]
+    D -->|Train| E[🤖 Modeling]
+    E -->|Test| F[📉 Evaluation]
+    F -->|Deploy| G[🚀 Web App]
+    G -->|Monitor| H[⚡ MLOps]
+    style A fill:#293742,stroke:#fff,stroke-width:2px,color:#fff
+    style G fill:#0E8A16,stroke:#fff,stroke-width:2px,color:#fff
+    style H fill:#800080,stroke:#fff,stroke-width:2px,color:#fff
 ```
 
 </div>
@@ -116,36 +99,36 @@ pie title Domain Coverage
 
 ## 🌟 Featured Projects
 
-<table>
+<table width="100%">
 <tr>
 <td width="33%" valign="top">
 
 ### 🧳 Agentic AI Travel Assistant
-**Technologies:** `LangChain` `OpenAI` `Groq` `Streamlit`
+**Tech:** `LangChain` `OpenAI` `Groq` `Streamlit`
 
-An autonomous multi-agent system that plans personalized travel itineraries using real-time data.
+An autonomous multi-agent system that plans personalized travel itineraries using real-time data. The future of travel planning is here.
 
-[![Explore](https://img.shields.io/badge/Explore-Project-blue?style=flat-square)](./Agentic%20AI-Based%20Travel%20Planning%20Assistant%20using%20LangChain)
+[![Explore](https://img.shields.io/badge/Explore-Project-00DFFD?style=for-the-badge&logo=rocket&logoColor=black)](./Agentic%20AI-Based%20Travel%20Planning%20Assistant%20using%20LangChain)
 
 </td>
 <td width="33%" valign="top">
 
 ### 📰 Fake News Detector
-**Technologies:** `NLP` `TF-IDF` `Streamlit` `Scikit-Learn`
+**Tech:** `NLP` `TF-IDF` `Streamlit` `Scikit-Learn`
 
-ML-powered system to detect misinformation with 93%+ accuracy and web interface.
+A robust ML-powered system to classify misinformation with high accuracy, wrapped in a sleek web interface.
 
-[![Explore](https://img.shields.io/badge/Explore-Project-blue?style=flat-square)](./Fake%20News%20Detector)
+[![Explore](https://img.shields.io/badge/Explore-Project-00DFFD?style=for-the-badge&logo=rocket&logoColor=black)](./Fake%20News%20Detector)
 
 </td>
 <td width="33%" valign="top">
 
 ### 📈 Tesla Stock Prediction
-**Technologies:** `LSTM` `TensorFlow` `Streamlit` `Keras`
+**Tech:** `LSTM` `TensorFlow` `Streamlit` `Keras`
 
-Deep learning time-series forecasting with interactive web dashboard.
+Advanced Deep Learning time-series forecasting model to predict TSLA stock prices, visualized in an interactive dashboard.
 
-[![Explore](https://img.shields.io/badge/Explore-Project-blue?style=flat-square)](./Tesla%20Stock%20Price%20Prediction)
+[![Explore](https://img.shields.io/badge/Explore-Project-00DFFD?style=for-the-badge&logo=rocket&logoColor=black)](./Tesla%20Stock%20Price%20Prediction)
 
 </td>
 </tr>
@@ -153,31 +136,31 @@ Deep learning time-series forecasting with interactive web dashboard.
 <td width="33%" valign="top">
 
 ### 💳 Credit Card Fraud Detection
-**Technologies:** `SMOTE` `XGBoost` `Scikit-Learn`
+**Tech:** `SMOTE` `XGBoost` `Scikit-Learn`
 
-Handle extreme class imbalance to detect fraudulent transactions.
+Tackling extreme class imbalance to detect fraudulent transactions with precision. Essential for Fintech security.
 
-[![Explore](https://img.shields.io/badge/Explore-Project-blue?style=flat-square)](./Credit%20Card%20Fraud%20Detection%20-%20ML)
+[![Explore](https://img.shields.io/badge/Explore-Project-00DFFD?style=for-the-badge&logo=rocket&logoColor=black)](./Credit%20Card%20Fraud%20Detection%20-%20ML)
 
 </td>
 <td width="33%" valign="top">
 
 ### 💼 SkillSync Pro
-**Technologies:** `Web Scraping` `ML` `Streamlit` `SQLite`
+**Tech:** `Web Scraping` `ML` `Streamlit` `SQLite`
 
-Intelligent job market analyzer with salary prediction.
+A comprehensive job market analyzer that scrapes data and predicts salaries based on skills and experience.
 
-[![Explore](https://img.shields.io/badge/Explore-Project-blue?style=flat-square)](./SkillSync)
+[![Explore](https://img.shields.io/badge/Explore-Project-00DFFD?style=for-the-badge&logo=rocket&logoColor=black)](./SkillSync)
 
 </td>
 <td width="33%" valign="top">
 
 ### ⚡ AI Energy Saver
-**Technologies:** `Regression` `API` `Pandas` `Matplotlib`
+**Tech:** `Regression` `API` `Pandas` `Matplotlib`
 
-Predict energy consumption to reduce costs and carbon footprint.
+Smart energy consumption predictor to help households and businesses reduce costs and their carbon footprint.
 
-[![Explore](https://img.shields.io/badge/Explore-Project-blue?style=flat-square)](./AI-Energy-Saver)
+[![Explore](https://img.shields.io/badge/Explore-Project-00DFFD?style=for-the-badge&logo=rocket&logoColor=black)](./AI-Energy-Saver)
 
 </td>
 </tr>
@@ -189,135 +172,157 @@ Predict energy consumption to reduce costs and carbon footprint.
 
 ### 🌐 Streamlit Web Applications
 
+Interactive web applications deployed directly from the repo.
+
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| ⚡ **AI Energy Saver** | Advanced energy dashboard with animations | Streamlit, Plotly, Lottie | [→](./AI-Energy-Saver) |
-| 🏥 **Medical Insurance Prediction** | Premium calculator with dark mode UI | Streamlit, XGBoost, Plotly | [→](./Medical%20Insurance%20Price%20Prediction%20using%20Machine%20Learning) |
-| 📰 **Fake News Detector** | Cyberpunk-themed misinformation detector | Streamlit, NLP, Lottie | [→](./Fake%20News%20Detector) |
-| 🏢 **Real Estate Investment Advisor** | AI property analyzer with Glassmorphism | Streamlit, ML, Plotly | [→](./Real%20Estate%20Investment%20Advisor) |
-| 🧳 **Agentic AI Travel Assistant** | Autonomous travel planner | LangChain, OpenAI, Streamlit | [→](./Agentic%20AI-Based%20Travel%20Planning%20Assistant%20using%20LangChain) |
-| 🚀 **Tesla Stock Prediction** | Interactive stock forecasting app | LSTM, TensorFlow, Streamlit | [→](./Tesla%20Stock%20Price%20Prediction) |
-| 💼 **SkillSync Pro** | Job market & salary analyzer | Web Scraping, Streamlit, SQLite | [→](./SkillSync) |
-| 💳 **EMI Calculator** | Loan EMI prediction dashboard | Streamlit, Scikit-Learn | [→](./EMI%20Predict) |
-| 🎙️ **Nova Voice Assistant** | Interactive AI assistant with speech | Streamlit, pyttsx3, SpeechRec | [→](./Voice%20Assistant%20using%20python) |
-| 😊 **Emotion Based Movie Rec** | Mood-based movie recommender | OpenCV, NLP, Streamlit | [→](./Movie%20recommendation%20based%20on%20emotion) |
+| ⚡ **AI Energy Saver** | Advanced energy dashboard with animations | Streamlit, Plotly, Lottie | [👉 View](./AI-Energy-Saver) |
+| 🏥 **Medical Insurance Prediction** | Premium calculator with dark mode UI | Streamlit, XGBoost, Plotly | [👉 View](./Medical%20Insurance%20Price%20Prediction%20using%20Machine%20Learning) |
+| 📰 **Fake News Detector** | Cyberpunk-themed misinformation detector | Streamlit, NLP, Lottie | [👉 View](./Fake%20News%20Detector) |
+| 🏢 **Real Estate Investment Advisor** | AI property analyzer with Glassmorphism | Streamlit, ML, Plotly | [👉 View](./Real%20Estate%20Investment%20Advisor) |
+| 🧳 **Agentic AI Travel Assistant** | Autonomous travel planner | LangChain, OpenAI, Streamlit | [👉 View](./Agentic%20AI-Based%20Travel%20Planning%20Assistant%20using%20LangChain) |
+| 🚀 **Tesla Stock Prediction** | Interactive stock forecasting app | LSTM, TensorFlow, Streamlit | [👉 View](./Tesla%20Stock%20Price%20Prediction) |
+| 💼 **SkillSync Pro** | Job market & salary analyzer | Web Scraping, Streamlit, SQLite | [👉 View](./SkillSync) |
+| 💳 **EMI Calculator** | Loan EMI prediction dashboard | Streamlit, Scikit-Learn | [👉 View](./EMI%20Predict) |
+| 🎙️ **Nova Voice Assistant** | Interactive AI assistant with speech | Streamlit, pyttsx3, SpeechRec | [👉 View](./Voice%20Assistant%20using%20python) |
+| 😊 **Emotion Based Movie Rec** | Mood-based movie recommender | OpenCV, NLP, Streamlit | [👉 View](./Movie%20recommendation%20based%20on%20emotion) |
 
 ---
 
 
 ### 🤖 Agentic AI & LLMs
 
+Cutting-edge projects utilizing Large Language Models and Autonomous Agents.
+
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| 🧳 **Agentic AI Travel Assistant** | Multi-agent autonomous travel planner | LangChain, OpenAI, Groq, Streamlit | [→](./Agentic%20AI-Based%20Travel%20Planning%20Assistant%20using%20LangChain) |
-| 🎙️ **Voice Assistant** | Personal AI assistant with Wikipedia & Web access | pyttsx3, SpeechRecognition, Python | [→](./Voice%20Assistant%20using%20python) |
+| 🧳 **Agentic AI Travel Assistant** | Multi-agent autonomous travel planner | LangChain, OpenAI, Groq | [👉 View](./Agentic%20AI-Based%20Travel%20Planning%20Assistant%20using%20LangChain) |
+| 🎙️ **Voice Assistant** | Personal AI assistant with Wikipedia & Web access | pyttsx3, SpeechRecognition | [👉 View](./Voice%20Assistant%20using%20python) |
 
 ---
 
 ### 📈 Financial & Stock Prediction
 
+Time-series forecasting and regression models for the financial sector.
+
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| 🪙 **Bitcoin Price Prediction** | Cryptocurrency trend forecasting | Scikit-Learn, Pandas, Time Series | [→](./Bitcoin%20Price%20Prediction%20using%20Machine%20Learning%20in%20Python) |
-| 🐕 **Dogecoin Price Prediction** | Meme coin price analysis | ML Regression, Matplotlib | [→](./Dogecoin%20Price%20Prediction%20with%20Machine%20Learning) |
-| 📊 **Microsoft Stock Prediction** | MSFT price forecasting with LSTM | TensorFlow, Keras, LSTM | [→](./Microsoft%20Stock%20Price%20Prediction%20with%20Machine%20Learning) |
-| 🚀 **Tesla Stock Prediction** | TSLA forecasting + web app | LSTM, Streamlit, TensorFlow | [→](./Tesla%20Stock%20Price%20Prediction) |
-| 📈 **Stock Price Prediction** | General stock forecasting | Deep Learning, Time Series | [→](./Stock%20Price%20Prediction%20using%20Machine%20Learning%20in%20Python) |
-| 📈 **Predict Stock Direction (SVM)** | Predict market movement using SVM | Scikit-Learn, Pandas, SVM | [→](./Predicting%20Stock%20Price%20Direction%20using%20Support%20Vector%20Machines) |
-| 💳 **EMI Calculator** | Loan EMI prediction with MLOps | MLflow, Streamlit, Scikit-Learn | [→](./EMI%20Predict) |
-| 🏦 **Loan Eligibility Prediction** | Predict loan approval status | Scikit-Learn, Pandas, Imbalanced-learn | [→](./Loan%20Eligibility%20Prediction%20using%20Machine%20Learning) |
+| 🪙 **Bitcoin Price Prediction** | Cryptocurrency trend forecasting | Scikit-Learn, Pandas | [👉 View](./Bitcoin%20Price%20Prediction%20using%20Machine%20Learning%20in%20Python) |
+| 🐕 **Dogecoin Price Prediction** | Meme coin price analysis | ML Regression, Matplotlib | [👉 View](./Dogecoin%20Price%20Prediction%20with%20Machine%20Learning) |
+| 📊 **Microsoft Stock Prediction** | MSFT price forecasting with LSTM | TensorFlow, Keras, LSTM | [👉 View](./Microsoft%20Stock%20Price%20Prediction%20with%20Machine%20Learning) |
+| 🚀 **Tesla Stock Prediction** | TSLA forecasting + web app | LSTM, Streamlit, TensorFlow | [👉 View](./Tesla%20Stock%20Price%20Prediction) |
+| 📈 **Stock Price Prediction** | General stock forecasting | Deep Learning, Time Series | [👉 View](./Stock%20Price%20Prediction%20using%20Machine%20Learning%20in%20Python) |
+| 📈 **Predict Stock Direction (SVM)** | Predict market movement using SVM | Scikit-Learn, Pandas, SVM | [👉 View](./Predicting%20Stock%20Price%20Direction%20using%20Support%20Vector%20Machines) |
+| 💳 **EMI Calculator** | Loan EMI prediction with MLOps | MLflow, Streamlit | [👉 View](./EMI%20Predict) |
+| 🏦 **Loan Eligibility Prediction** | Predict loan approval status | Scikit-Learn, Pandas | [👉 View](./Loan%20Eligibility%20Prediction%20using%20Machine%20Learning) |
 
 ---
 
 ### 🛡️ Security & Fraud Detection
 
+Cybersecurity applications using Machine Learning.
+
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| 💳 **Credit Card Fraud Detection** | Imbalanced classification for transactions | SMOTE, XGBoost, Scikit-Learn | [→](./Credit%20Card%20Fraud%20Detection%20-%20ML) |
-| 📰 **Fake News Detector** | Misinformation detection + web app | NLP, TF-IDF, Streamlit | [→](./Fake%20News%20Detector) |
-| 📧 **Email Spam Detection** | Spam classification with deep learning | TensorFlow, Keras, NLP | [→](./Detecting%20Spam%20Emails%20Using%20Tensorflow) |
-| 📱 **SMS Spam Detection** | Text message spam filter | TensorFlow, NLP | [→](./SMS%20Spam%20Detection%20using%20TensorFlow) |
+| 💳 **Credit Card Fraud Detection** | Imbalanced classification for transactions | SMOTE, XGBoost | [👉 View](./Credit%20Card%20Fraud%20Detection%20-%20ML) |
+| 📰 **Fake News Detector** | Misinformation detection + web app | NLP, TF-IDF, Streamlit | [👉 View](./Fake%20News%20Detector) |
+| 📧 **Email Spam Detection** | Spam classification with deep learning | TensorFlow, Keras | [👉 View](./Detecting%20Spam%20Emails%20Using%20Tensorflow) |
+| 📱 **SMS Spam Detection** | Text message spam filter | TensorFlow, NLP | [👉 View](./SMS%20Spam%20Detection%20using%20TensorFlow) |
 
 ---
 
 ### 📊 Customer Analytics
 
+Understanding customer behavior through data.
+
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| 📉 **Customer Churn Analysis** | Analyze & predict customer attrition | Scikit-Learn, EDA, Pandas | [→](./Customer%20Churn%20Analysis%20Prediction) |
-| 📱 **Telecom Churn Prediction** | Advanced SaaS churn prediction | XGBoost, Feature Engineering | [→](./Customer%20Churn%20Prediction%20%28Telecom%20%20SaaS%29) |
-| 🛍️ **Customer Purchase Prediction** | Predict likelihood of purchase | Scikit-Learn, Random Forest | [→](./Customer%20Purchase%20Prediction) |
-| 🎯 **Customer Segmentation** | Unsupervised clustering | K-Means, PCA, Scikit-Learn | [→](./Customer%20Segmentation%20using%20Unsupervised%20Machine%20Learning) |
-| 🛒 **Flipkart Sentiment Analysis** | E-commerce review analysis | NLP, NLTK, TextBlob | [→](./Flipkart%20Reviews%20Sentiment%20Analysis) |
+| 📉 **Customer Churn Analysis** | Analyze & predict customer attrition | Scikit-Learn, EDA | [👉 View](./Customer%20Churn%20Analysis%20Prediction) |
+| 📱 **Telecom Churn Prediction** | Advanced SaaS churn prediction | XGBoost, Feature Engineering | [👉 View](./Customer%20Churn%20Prediction%20%28Telecom%20%20SaaS%29) |
+| 🛍️ **Customer Purchase Prediction** | Predict likelihood of purchase | Scikit-Learn, Random Forest | [👉 View](./Customer%20Purchase%20Prediction) |
+| 🎯 **Customer Segmentation** | Unsupervised clustering | K-Means, PCA | [👉 View](./Customer%20Segmentation%20using%20Unsupervised%20Machine%20Learning) |
+| 🛒 **Flipkart Sentiment Analysis** | E-commerce review analysis | NLP, NLTK, TextBlob | [👉 View](./Flipkart%20Reviews%20Sentiment%20Analysis) |
 
 ---
 
 ### 🧠 NLP & Text Analysis
 
+Natural Language Processing projects.
+
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| 📝 **Text Classification (Naive Bayes)** | Document categorization | NLP, TF-IDF, Naive Bayes | [→](./Classification%20of%20Text%20Documents%20using%20Naive%20Bayes) |
-| 🎬 **Netflix Content Clustering** | Content recommendation system | K-Means, NLP, Hierarchical | [→](./NETFLIX%20MOVIES%20AND%20TV%20SHOWS%20CLUSTERING) |
-| 🍽️ **Restaurant Review NLP** | Sentiment analysis of restaurant reviews | NLTK, Bag of Words, Scikit-Learn | [→](./NLP%20analysis%20of%20Restaurant%20reviews) |
-| 📘 **Facebook Sentiment Analysis** | Sentiment analysis of FB posts | NLTK, VADER, Python | [→](./Facebook%20Sentiment%20Analysis%20using%20python) |
-| 🎙️ **Speech Recognition** | Speech-to-text with Google API | Google Speech API, pydub, Python | [→](./Speech%20Recognition%20in%20Python%20using%20Google%20Speech%20API) |
+| 📝 **Text Classification (Naive Bayes)** | Document categorization | NLP, TF-IDF | [👉 View](./Classification%20of%20Text%20Documents%20using%20Naive%20Bayes) |
+| 🎬 **Netflix Content Clustering** | Content recommendation system | K-Means, NLP | [👉 View](./NETFLIX%20MOVIES%20AND%20TV%20SHOWS%20CLUSTERING) |
+| 🍽️ **Restaurant Review NLP** | Sentiment analysis of restaurant reviews | NLTK, Bag of Words | [👉 View](./NLP%20analysis%20of%20Restaurant%20reviews) |
+| 📘 **Facebook Sentiment Analysis** | Sentiment analysis of FB posts | NLTK, VADER | [👉 View](./Facebook%20Sentiment%20Analysis%20using%20python) |
+| 🎙️ **Speech Recognition** | Speech-to-text with Google API | Google Speech API, pydub | [👉 View](./Speech%20Recognition%20in%20Python%20using%20Google%20Speech%20API) |
 
 ---
 
 ### 👁️ Computer Vision
 
+Image processing and recognition.
+
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| ✋ **Handwritten Digit Recognition** | MNIST classification with NN | TensorFlow, Keras, CNN | [→](./Handwritten%20Digit%20Recognition%20using%20Neural%20Network) |
-| 🔢 **Handwritten Digits (Scikit-Learn)** | Digit recognition using MLP | Scikit-Learn, MLP, Matplotlib | [→](./Recognizing%20HandWritten%20Digits%20in%20Scikit%20Learn) |
-| 🔢 **Object Counter** | Count objects in images | OpenCV, Python, Image Processing | [→](./Count%20number%20of%20Object%20using%20Python-OpenCV) |
-| 👤 **Face Recognition** | Real-time face detection & tracking | Roboflow, Supervision, Python | [→](./Face%20Recognition) |
+| ✋ **Handwritten Digit Recognition** | MNIST classification with NN | TensorFlow, Keras, CNN | [👉 View](./Handwritten%20Digit%20Recognition%20using%20Neural%20Network) |
+| 🔢 **Handwritten Digits (Scikit-Learn)** | Digit recognition using MLP | Scikit-Learn, MLP | [👉 View](./Recognizing%20HandWritten%20Digits%20in%20Scikit%20Learn) |
+| 🔢 **Object Counter** | Count objects in images | OpenCV, Python | [👉 View](./Count%20number%20of%20Object%20using%20Python-OpenCV) |
+| 👤 **Face Recognition** | Real-time face detection & tracking | Roboflow, Supervision | [👉 View](./Face%20Recognition) |
 
 ---
 
 ### 🏠 Real Estate & Housing
 
+Property market analysis.
+
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| 🏠 **House Price Prediction** | Property value estimation | Regression, Feature Engineering | [→](./House%20Price%20Prediction%20using%20Machine%20Learning) |
-| 🏘️ **Zillow Zestimate Prediction** | Home value prediction | XGBoost, LightGBM, Ensemble | [→](./Zillow%20Home%20Value%20%28Zestimate%29%20Prediction%20in%20ML) |
-| 🏢 **Real Estate Investment Advisor** | Investment analysis platform | ML, Streamlit, MLflow | [→](./Real%20Estate%20Investment%20Advisor) |
-| 🎬 **Box Office Revenue Prediction** | Movie revenue forecasting | Linear Regression | [→](./Box%20Office%20Revenue%20Prediction%20Using%20Linear%20Regression%20in%20ML) |
+| 🏠 **House Price Prediction** | Property value estimation | Regression, Feature Engineering | [👉 View](./House%20Price%20Prediction%20using%20Machine%20Learning) |
+| 🏘️ **Zillow Zestimate Prediction** | Home value prediction | XGBoost, LightGBM | [👉 View](./Zillow%20Home%20Value%20%28Zestimate%29%20Prediction%20in%20ML) |
+| 🏢 **Real Estate Investment Advisor** | Investment analysis platform | ML, Streamlit, MLflow | [👉 View](./Real%20Estate%20Investment%20Advisor) |
+| 🎬 **Box Office Revenue Prediction** | Movie revenue forecasting | Linear Regression | [👉 View](./Box%20Office%20Revenue%20Prediction%20Using%20Linear%20Regression%20in%20ML) |
 
 ---
 
 ### 🏥 Healthcare & Sustainability
 
+Medical and environmental projects.
+
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| ❤️ **Heart Disease Prediction** | Diagnose cardiac issues with ML | Logistic Regression, Scikit-Learn | [→](./Heart%20Disease%20Prediction%20Using%20Logistic%20Regression) |
-| ⚡ **AI Energy Saver** | Energy consumption prediction | Regression, API, Pandas | [→](./AI-Energy-Saver) |
-| 🌫️ **Air Quality Prediction** | Predicting AQI with Neural Networks | TensorFlow, Keras, Pandas | [→](./Predicting%20Air%20Quality%20with%20Neural%20Networks) |
-| 🦠 **Cancer Cell Classification** | Diagnose malignant vs benign cells | Naive Bayes, Scikit-Learn | [→](./Cancer%20cell%20classification%20using%20Scikit-learn) |
-| 🔥 **Calories Burnt Prediction** | Predict calories burnt during exercise | XGBoost, Scikit-Learn, Pandas | [→](./Calories%20Burnt%20Prediction%20using%20Machine%20Learning) |
-| 🌧️ **Rainfall Prediction** | Predict rainfall using Linear Regression | Linear Regression, Pandas, Matplotlib | [→](./rainfall-prediction-project) |
-| 🩺 **Tumor Detection** | Detect tumors using Machine Learning | Scikit-Learn, Pandas, Matplotlib | [→](./Tumor_Detection-project) |
-| 🏥 **Medical Insurance Prediction** | Predict insurance premium with XGBoost | XGBoost, Streamlit, Plotly | [→](./Medical%20Insurance%20Price%20Prediction%20using%20Machine%20Learning) |
+| ❤️ **Heart Disease Prediction** | Diagnose cardiac issues with ML | Logistic Regression | [👉 View](./Heart%20Disease%20Prediction%20Using%20Logistic%20Regression) |
+| ⚡ **AI Energy Saver** | Energy consumption prediction | Regression, API | [👉 View](./AI-Energy-Saver) |
+| 🌫️ **Air Quality Prediction** | Predicting AQI with Neural Networks | TensorFlow, Keras | [👉 View](./Predicting%20Air%20Quality%20with%20Neural%20Networks) |
+| 🦠 **Cancer Cell Classification** | Diagnose malignant vs benign cells | Naive Bayes | [👉 View](./Cancer%20cell%20classification%20using%20Scikit-learn) |
+| 🔥 **Calories Burnt Prediction** | Predict calories burnt during exercise | XGBoost, Pandas | [👉 View](./Calories%20Burnt%20Prediction%20using%20Machine%20Learning) |
+| 🌧️ **Rainfall Prediction** | Predict rainfall using Linear Regression | Linear Regression | [👉 View](./rainfall-prediction-project) |
+| 🩺 **Tumor Detection** | Detect tumors using Machine Learning | Scikit-Learn, Pandas | [👉 View](./Tumor_Detection-project) |
+| 🏥 **Medical Insurance Prediction** | Predict insurance premium with XGBoost | XGBoost, Streamlit | [👉 View](./Medical%20Insurance%20Price%20Prediction%20using%20Machine%20Learning) |
 
 ---
 
 ### 🎬 Recommendation Systems
 
+Personalization algorithms.
+
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| 🍿 **Movie Recommender** | Content-based recommendation | Cosine Similarity, NLP | [→](./Movie%20Recommender%20System) |
-| 😊 **Emotion Based Movie Rec**| Recommend movies based on mood | OpenCV, NLP, Streamlit | [→](./Movie%20recommendation%20based%20on%20emotion) |
-| 🎙️ **Ted Talks Recommendation** | Text-based similarity for talks | Scikit-Learn, TF-IDF | [→](./Ted%20Talks%20Recommendation%20System%20with%20Machine%20Learning) |
+| 🍿 **Movie Recommender** | Content-based recommendation | Cosine Similarity, NLP | [👉 View](./Movie%20Recommender%20System) |
+| 😊 **Emotion Based Movie Rec**| Recommend movies based on mood | OpenCV, NLP, Streamlit | [👉 View](./Movie%20recommendation%20based%20on%20emotion) |
+| 🎙️ **Ted Talks Recommendation** | Text-based similarity for talks | Scikit-Learn, TF-IDF | [👉 View](./Ted%20Talks%20Recommendation%20System%20with%20Machine%20Learning) |
 
 ---
 
 ### 💼 Business & Sports Intelligence
 
+Analytics for decision making.
+
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| 📉 **Sales Forecast Prediction** | Time series sales forecasting | XGBoost, Time Series | [→](./Sales%20Forecast%20Prediction%20-%20Python) |
-| 💼 **SkillSync Pro** | Job market analyzer + salary prediction | Web Scraping, ML, Streamlit | [→](./SkillSync) |
-| 🏏 **IPL Score Prediction** | Live match score forecasting | Deep Learning, Keras | [→](./IPL%20Score%20Prediction%20using%20Deep%20Learning) |
+| 📉 **Sales Forecast Prediction** | Time series sales forecasting | XGBoost, Time Series | [👉 View](./Sales%20Forecast%20Prediction%20-%20Python) |
+| 💼 **SkillSync Pro** | Job market analyzer + salary prediction | Web Scraping, ML, Streamlit | [👉 View](./SkillSync) |
+| 🏏 **IPL Score Prediction** | Live match score forecasting | Deep Learning, Keras | [👉 View](./IPL%20Score%20Prediction%20using%20Deep%20Learning) |
 
 ---
 
@@ -325,32 +330,26 @@ Predict energy consumption to reduce costs and carbon footprint.
 
 <div align="center">
 
-### 💻 Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+| | Technologies |
+|:---:|:---|
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white) |
+| **ML & AI** | ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge&logo=xgboost&logoColor=white) |
+| **LLMs & Agents** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) |
+| **Data Viz** | ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white) |
+| **Deployment** | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) |
+| **CV** | ![OpenCV](https://img.shields.io/badge/OpenCV-%235C3EE8.svg?style=for-the-badge&logo=OpenCV&logoColor=white) |
 
-### 🤖 Machine Learning & AI
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge&logo=xgboost&logoColor=white)
+</div>
 
-### 🦜 LLMs & Agents
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+---
 
-### 📊 Data Science
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
+## 📊 Repository Stats
 
-### 🌐 Web & Deployment
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+<div align="center">
 
-### 👁️ Computer Vision
-![OpenCV](https://img.shields.io/badge/OpenCV-%235C3EE8.svg?style=for-the-badge&logo=OpenCV&logoColor=white)
+[![Harsh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=HarshChoudhary2003&show_icons=true&theme=default&hide_border=true&bg_color=0d1117&title_color=00dffd&icon_color=00dffd&text_color=ffffff)](https://github.com/HarshChoudhary2003)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HarshChoudhary2003&layout=compact&theme=default&hide_border=true&bg_color=0d1117&title_color=00dffd&text_color=ffffff)](https://github.com/HarshChoudhary2003)
 
 </div>
 
@@ -358,107 +357,60 @@ Predict energy consumption to reduce costs and carbon footprint.
 
 ## 🚀 Getting Started
 
+Getting a project up and running is as simple as 1-2-3.
+
 ### ⚙️ Prerequisites
 
-```bash
-# Ensure Python 3.8+ is installed
-python --version
+- Python 3.8+
+- Git
 
-# Install Jupyter (optional)
-pip install jupyter
-```
-
-### 📥 Installation
+### 📥 Installation & Usage
 
 ```bash
-# Clone the repository
+# 1. Clone the repository
 git clone https://github.com/HarshChoudhary2003/Machine_Learning_Projects.git
 
-# Navigate to the directory
-cd Machine_Learning_Projects
+# 2. Navigate to your desired project
+cd Machine_Learning_Projects/"Project Name"
 
-# Create virtual environment (recommended)
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
-
-# Install common dependencies
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter
-```
-
-### 📖 Usage
-
-1. 📂 **Browse** to any project folder
-2. 📓 **Open** the `.ipynb` notebook or run `app.py` for web apps
-3. 📚 **Read** the project-specific README for detailed instructions
-4. 🚀 **Execute** the cells or run the scripts
-
-```bash
-# Example: Run a Streamlit app
-cd "Fake News Detector"
+# 3. Install dependencies
 pip install -r requirements.txt
-streamlit run app.py
+
+# 4. Run the application
+python app.py  # or streamlit run app.py
 ```
 
 ---
 
-## 📊 Project Statistics
-
-<div align="center">
-
-```
-╔═══════════════════════════════════════════════════════════════╗
-║                    📈 REPOSITORY STATS                        ║
-╠═══════════════════════════════════════════════════════════════╣
-║  📂 Total Projects           │  30+                           ║
-║  🏷️ Categories              │  10                             ║
-║  🌐 Web Applications         │  10 (Streamlit)                ║
-║  🧠 Deep Learning Projects   │  8                             ║
-║  📊 Traditional ML Projects  │  20+                           ║
-║  🤖 Agentic AI Projects      │  2                             ║
-║  📈 Finance/Stock Projects   │  6                             ║
-║  🛡️ Security Projects       │  4                              ║
-╚═══════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
----
-
-## 📊 Project Roadmap
-
-<div align="center">
+## 📈 Project Roadmap
 
 ```mermaid
 timeline
-    title Growth of Machine Learning Projects Hub
-    2023 : Traditional Machine Learning : EDA & Regression : Customer Analytics
-    2024 : Deep Learning Era : Computer Vision : Time Series Forecasting
-    2025 : GenAI & Agentic AI : LangChain : Autonomous Agents : Production Ready Web Apps
+    title Evolution of the ML Hub
+    2023 : Traditional Machine Learning : EDA & Visualization : Customer Analytics Foundations
+    2024 : Deep Learning Era : Computer Vision Models : Advanced Time Series
+    2025 : GenAI Revolution : LangChain Agents : LLM Integration : Production-Grade Streamlit Apps
+    Future : Edge AI Deployment : Federated Learning : Multimodal Agents
 ```
-
-</div>
 
 ---
 
 ## 🤝 Contributing
 
-Contributions make the open-source community amazing! Here's how you can help:
+Contributions are the heart of open-source! 💖 
 
-1. 🍴 **Fork** the repository
-2. 🌿 **Create** your feature branch
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. 💾 **Commit** your changes
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. 📤 **Push** to the branch
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. 🔃 **Open** a Pull Request
+1. **Fork** the repo
+2. **Clone** your fork (`git clone ...`)
+3. **Branch** it (`git checkout -b feature/CoolFeature`)
+4. **Commit** changes (`git commit -m 'Added CoolFeature'`)
+5. **Push** to branch (`git push origin feature/CoolFeature`)
+6. **Open** a Pull Request
+
+<div align="center">
+  <a href="https://github.com/HarshChoudhary2003/Machine_Learning_Projects/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=HarshChoudhary2003/Machine_Learning_Projects" />
+  </a>
+</div>
 
 ---
 
@@ -466,11 +418,9 @@ Contributions make the open-source community amazing! Here's how you can help:
 
 <div align="center">
 
-### **Harsh Choudhary**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/harshchoudhary2003)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HarshChoudhary2003)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+| | | |
+|:---:|:---:|:---:|
+| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/harshchoudhary2003) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HarshChoudhary2003) | [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com) |
 
 </div>
 
@@ -478,13 +428,11 @@ Contributions make the open-source community amazing! Here's how you can help:
 
 <div align="center">
   
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=0,20,40&height=150&section=footer" width="100%" />
   
   <br/>
   
-  **⭐ If you find this repository helpful, please consider giving it a star! ⭐**
-  
-  <br/>
+  <h3 align="center">⭐ Star this repo if you found it useful! ⭐</h3>
   
   ![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)
   ![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
