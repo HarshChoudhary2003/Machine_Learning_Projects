@@ -41,7 +41,15 @@ A modular, lightweight Voice Assistant built with Python that can perform variou
    ```
 
 3. **Run the Assistant**:
+   
+   **Option 1: Jupyter Notebook**
    Open the `main.ipynb` notebook and execute all cells.
+
+   **Option 2: Streamlit Web App (New! 🌟)**
+   Launch the interactive web interface with voice controls:
+   ```bash
+   streamlit run app.py
+   ```
 
 ---
 

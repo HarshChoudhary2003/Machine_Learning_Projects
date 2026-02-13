@@ -199,6 +199,7 @@ Predict energy consumption to reduce costs and carbon footprint.
 | 🚀 **Tesla Stock Prediction** | Interactive stock forecasting app | LSTM, TensorFlow, Streamlit | [→](./Tesla%20Stock%20Price%20Prediction) |
 | 💼 **SkillSync Pro** | Job market & salary analyzer | Web Scraping, Streamlit, SQLite | [→](./SkillSync) |
 | 💳 **EMI Calculator** | Loan EMI prediction dashboard | Streamlit, Scikit-Learn | [→](./EMI%20Predict) |
+| 🎙️ **Nova Voice Assistant** | Interactive AI assistant with speech | Streamlit, pyttsx3, SpeechRec | [→](./Voice%20Assistant%20using%20python) |
 | 😊 **Emotion Based Movie Rec** | Mood-based movie recommender | OpenCV, NLP, Streamlit | [→](./Movie%20recommendation%20based%20on%20emotion) |
 
 ---
