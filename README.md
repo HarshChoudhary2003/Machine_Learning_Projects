@@ -113,12 +113,12 @@ An autonomous multi-agent system that plans personalized travel itineraries usin
 </td>
 <td width="33%" valign="top">
 
-### 📰 Fake News Detector
-**Tech:** `NLP` `TF-IDF` `Streamlit` `Scikit-Learn`
+### � AI Resume Screening
+**Tech:** `NLP` `Streamlit` `Plotly` `Lottie`
 
-A robust ML-powered system to classify misinformation with high accuracy, wrapped in a sleek web interface.
+Next-gen recruitment tool featuring Glassmorphism UI, skill extraction, and interactive analytics.
 
-[![Explore](https://img.shields.io/badge/Explore-Project-00DFFD?style=for-the-badge&logo=rocket&logoColor=black)](./Fake%20News%20Detector)
+[![Explore](https://img.shields.io/badge/Explore-Project-00DFFD?style=for-the-badge&logo=rocket&logoColor=black)](./Resume%20Screening%20App)
 
 </td>
 <td width="33%" valign="top">
@@ -176,6 +176,7 @@ Interactive web applications deployed directly from the repo.
 
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
+| 📄 **AI Resume Screening** | 🚀 Ranking System with Glassmorphism UI | Streamlit, NLP, Plotly | [👉 View](./Resume%20Screening%20App) |
 | ⚡ **AI Energy Saver** | Advanced energy dashboard with animations | Streamlit, Plotly, Lottie | [👉 View](./AI-Energy-Saver) |
 | 🏥 **Medical Insurance Prediction** | Premium calculator with dark mode UI | Streamlit, XGBoost, Plotly | [👉 View](./Medical%20Insurance%20Price%20Prediction%20using%20Machine%20Learning) |
 | 📰 **Fake News Detector** | Cyberpunk-themed misinformation detector | Streamlit, NLP, Lottie | [👉 View](./Fake%20News%20Detector) |
@@ -320,6 +321,7 @@ Analytics for decision making.
 
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
+| 📄 **AI Resume Screening** | Automated resume parsing & ranking | NLP, TF-IDF, Streamlit | [👉 View](./Resume%20Screening%20App) |
 | 📉 **Sales Forecast Prediction** | Time series sales forecasting | XGBoost, Time Series | [👉 View](./Sales%20Forecast%20Prediction%20-%20Python) |
 | 💼 **SkillSync Pro** | Job market analyzer + salary prediction | Web Scraping, ML, Streamlit | [👉 View](./SkillSync) |
 | 🏏 **IPL Score Prediction** | Live match score forecasting | Deep Learning, Keras | [👉 View](./IPL%20Score%20Prediction%20using%20Deep%20Learning) |
