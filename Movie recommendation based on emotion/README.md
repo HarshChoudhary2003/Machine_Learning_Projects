@@ -1,52 +1,72 @@
-# Movie Recommendation Based on Emotion 🎭
+# Movie Mood Recommender 🎬
 
-[![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
-[![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-Scraping-green.svg)](https://www.crummy.com/software/BeautifulSoup/)
-[![Requests](https://img.shields.io/badge/Requests-HTTP-blueviolet.svg)](https://requests.readthedocs.io/)
+A modern, emotionally intelligent movie recommendation app that suggests films based on your current mood. Built with **FastAPI**, **React**, **Tailwind CSS**, and **Framer Motion**.
 
-Discover movies that match your current mood! This project scrapers IMDb to recommend top-rated feature films based on the user's emotion-to-genre mapping.
+## ✨ Features
 
-## 📌 Project Overview
+- **Mood-Based Recommendations**: Select from 8 distinct emotions (Happy, Sad, Excited, etc.).
+- **Real-Time Scraping**: Fetches the latest top-rated movies directly from IMDb.
+- **Modern UI**: 
+  - Glassmorphism design
+  - Smooth animations with Framer Motion
+  - Responsive layout
+- **Rich Metadata**: Displays movie posters, ratings, and release years.
 
-Stuck on what to watch? Tell the program how you feel, and it will fetch the latest top-rated movies of the corresponding genre directly from IMDb. Whether you're feeling for some high-stakes Action, a deep Drama, or a bone-chilling Horror, this tool has you covered.
+## 🛠️ Tech Stack
 
-## 🛠️ Technologies Used
+- **Backend**: Python, FastAPI, BeautifulSoup4 (Scraping)
+- **Frontend**: React (Vite), Tailwind CSS, Framer Motion, Lucide Icons, Axios
 
-- **Language:** `Python`
-- **HTTP Library:** `Requests`
-- **Web Scraping:** `BeautifulSoup (bs4)`
-- **Parsing:** `re` (Regular Expressions), `lxml`
+## 🚀 Getting Started
 
-## 🧠 How it Works
+### Prerequisites
 
-1.  **Input:** The user enters an emotion (e.g., "Action", "Horror").
-2.  **Mapping:** The input is mapped to a specific IMDb search query for that genre.
-3.  **Scraping:** The program sends a GET request to IMDb with a modern browser User-Agent.
-4.  **Extraction:** `BeautifulSoup` parses the HTML response and extracts movie titles using specific regular expression patterns matching IMDb title links.
-5.  **Output:** A curated list of top movie recommendations is displayed.
+- Node.js & npm
+- Python 3.8+
 
-## 🚀 How to Run
+### 1. Clone the Repository
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/HarshChoudhary2003/Machine_Learning_Projects.git
-   cd "Movie recommendation based on emotion"
-   ```
+```bash
+git clone https://github.com/HarshChoudhary2003/Machine_Learning_Projects.git
+cd "Movie recommendation based on emotion"
+```
 
-2. **Install dependencies:**
-   ```bash
-   pip install requests beautifulsoup4 lxml
-   ```
+### 2. Backend Setup
 
-3. **Run the Script:**
-   ```bash
-   python main.ipynb
-   ```
-   *(Or run it directly within a Jupyter Notebook environment)*
+Open a terminal and run:
+
+```bash
+# Install dependencies
+pip install -r backend/requirements.txt
+
+# Start the server
+uvicorn backend.main:app --reload
+```
+The backend will run on `http://localhost:8000`.
+
+### 3. Frontend Setup
+
+Open a **new** terminal and run:
+
+```bash
+cd frontend
+
+# Install dependencies (if not already installed)
+npm install
+
+# Start the development server
+npm run dev
+```
+The frontend will run on `http://localhost:5173`.
+
+## 📸 Screenshots
+
+*(Add screenshots here after running the app)*
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you want to add more emotion mappings or improve the scraping logic, feel free to submit a pull request.
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
----
-Developed with ❤️ by [Harsh Choudhary](https://github.com/HarshChoudhary2003)
+## 📄 License
+
+This project is licensed under the MIT License.

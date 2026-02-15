@@ -186,7 +186,7 @@ Interactive web applications deployed directly from the repo.
 | 💼 **SkillSync Pro** | Job market & salary analyzer | Web Scraping, Streamlit, SQLite | [👉 View](./SkillSync) |
 | 💳 **EMI Calculator** | Loan EMI prediction dashboard | Streamlit, Scikit-Learn | [👉 View](./EMI%20Predict) |
 | 🎙️ **Nova Voice Assistant** | Interactive AI assistant with speech | Streamlit, pyttsx3, SpeechRec | [👉 View](./Voice%20Assistant%20using%20python) |
-| 😊 **Emotion Based Movie Rec** | Mood-based movie recommender | OpenCV, NLP, Streamlit | [👉 View](./Movie%20recommendation%20based%20on%20emotion) |
+| 😊 **MoodFlix (Emotion Rec)** | Mood-based movie recommender with Modern UI | FastAPI, React, Tailwind | [👉 View](./Movie%20recommendation%20based%20on%20emotion) |
 
 ---
 
@@ -310,7 +310,7 @@ Personalization algorithms.
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
 | 🍿 **Movie Recommender** | Content-based recommendation | Cosine Similarity, NLP | [👉 View](./Movie%20Recommender%20System) |
-| 😊 **Emotion Based Movie Rec**| Recommend movies based on mood | OpenCV, NLP, Streamlit | [👉 View](./Movie%20recommendation%20based%20on%20emotion) |
+| 😊 **MoodFlix (Emotion Rec)**| Mood-based movie recommender with Modern UI | FastAPI, React, Tailwind | [👉 View](./Movie%20recommendation%20based%20on%20emotion) |
 | 🎙️ **Ted Talks Recommendation** | Text-based similarity for talks | Scikit-Learn, TF-IDF | [👉 View](./Ted%20Talks%20Recommendation%20System%20with%20Machine%20Learning) |
 
 ---
