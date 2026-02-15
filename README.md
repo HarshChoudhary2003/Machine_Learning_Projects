@@ -184,7 +184,7 @@ Interactive web applications deployed directly from the repo.
 | 🧳 **Agentic AI Travel Assistant** | Autonomous travel planner | LangChain, OpenAI, Streamlit | [👉 View](./Agentic%20AI-Based%20Travel%20Planning%20Assistant%20using%20LangChain) |
 | 🚀 **Tesla Stock Prediction** | Interactive stock forecasting app | LSTM, TensorFlow, Streamlit | [👉 View](./Tesla%20Stock%20Price%20Prediction) |
 | 💼 **SkillSync Pro** | Job market & salary analyzer | Web Scraping, Streamlit, SQLite | [👉 View](./SkillSync) |
-| 💳 **EMI Calculator** | Loan EMI prediction dashboard | Streamlit, Scikit-Learn | [👉 View](./EMI%20Predict) |
+| 💳 **EMI Precision AI** | AI-powered loan eligibility & risk assessment | XGBoost, Streamlit, MLflow | [👉 View](./EMI%20Predict) |
 | 🎙️ **Nova Voice Assistant** | Interactive AI assistant with speech | Streamlit, pyttsx3, SpeechRec | [👉 View](./Voice%20Assistant%20using%20python) |
 | 😊 **MoodFlix (Emotion Rec)** | Mood-based movie recommender with Modern UI | FastAPI, React, Tailwind | [👉 View](./Movie%20recommendation%20based%20on%20emotion) |
 
@@ -214,7 +214,7 @@ Time-series forecasting and regression models for the financial sector.
 | 🚀 **Tesla Stock Prediction** | TSLA forecasting + web app | LSTM, Streamlit, TensorFlow | [👉 View](./Tesla%20Stock%20Price%20Prediction) |
 | 📈 **Stock Price Prediction** | General stock forecasting | Deep Learning, Time Series | [👉 View](./Stock%20Price%20Prediction%20using%20Machine%20Learning%20in%20Python) |
 | 📈 **Predict Stock Direction (SVM)** | Predict market movement using SVM | Scikit-Learn, Pandas, SVM | [👉 View](./Predicting%20Stock%20Price%20Direction%20using%20Support%20Vector%20Machines) |
-| 💳 **EMI Calculator** | Loan EMI prediction with MLOps | MLflow, Streamlit | [👉 View](./EMI%20Predict) |
+| 💳 **EMI Precision AI** | Loan eligibility with MLOps & Real-time AI | MLflow, Streamlit, XGBoost | [👉 View](./EMI%20Predict) |
 | 🏦 **Loan Eligibility Prediction** | Predict loan approval status | Scikit-Learn, Pandas | [👉 View](./Loan%20Eligibility%20Prediction%20using%20Machine%20Learning) |
 
 ---
