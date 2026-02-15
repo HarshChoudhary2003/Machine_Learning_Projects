@@ -258,11 +258,21 @@ if selected == "Predictor":
                 df_input["emi_scenario_code"] = mapped_scen
                 
                 # Align schema
+                # Align schema
                 numeric_cols = df_input.select_dtypes(include=np.number).columns.tolist()
+                
+                # These columns must be integers according to MLflow schema
+                int_cols = ["family_size", "dependents"]
+                # This column must be int32
+                int32_cols = ["emi_scenario_code"]
+                
                 for col in numeric_cols:
-                    if col != "emi_scenario_code":
+                    if col in int_cols:
+                        df_input[col] = df_input[col].astype("int64")
+                    elif col in int32_cols:
+                        df_input[col] = df_input[col].astype("int32")
+                    else:
                         df_input[col] = df_input[col].astype("float64")
-                df_input["emi_scenario_code"] = df_input["emi_scenario_code"].astype("int32")
 
                 if classifier and regressor:
                     pred_raw = classifier.predict(df_input)[0]
