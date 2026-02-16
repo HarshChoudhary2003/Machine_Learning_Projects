@@ -7,3 +7,5 @@ webdriver-manager
 plotly
 matplotlib
 seaborn
+streamlit-lottie
+streamlit-option-menu
