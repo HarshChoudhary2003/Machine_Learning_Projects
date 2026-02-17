@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Predict Zillow Zestimates with our advanced ML model.">
+    <title>Zillow Zestimate | AI Prediction</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/static/style.css">
+
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Ambient Lights -->
+    <div class="ambient-light"></div>
+    <div class="ambient-light"></div>
+
+    <main class="main-container">
+
+        <!-- Input Section -->
+        <section class="glass-card">
+            <header>
+                <div class="brand-badge">
+                    <i class="ri-home-wifi-line"></i> Zestimate AI
+                </div>
+                <h1 class="title">Predict Home Value</h1>
+                <p class="subtitle">
+                    Enter the property details below to get an instant AI-powered Zestimate prediction.
+                    Our model uses advanced regression to estimate log error and value.
+                </p>
+            </header>
+
+            <form id="prediction-form">
+                <div class="form-grid" id="dynamic-form">
+                    <!-- Dynamic Inputs -->
+                    <div style="grid-column: 1/-1; padding: 2rem; text-align: center; color: var(--text-secondary);">
+                        <i class="ri-loader-4-line ri-spin"
+                            style="font-size: 1.5rem; display: block; margin-bottom: 0.5rem;"></i>
+                        Loading property features...
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn" id="submit-btn" disabled>
+                    <span>Generate Prediction</span>
+                    <i class="ri-arrow-right-line" style="margin-left: 0.5rem; vertical-align: middle;"></i>
+                </button>
+            </form>
+        </section>
+
+        <!-- Result Section -->
+        <aside class="result-container">
+            <div class="glass-card result-card-inner">
+                <!-- Initial State -->
+                <div id="initial-state">
+                    <div class="result-icon">
+                        <i class="ri-building-line" style="color: #6366f1;"></i>
+                    </div>
+                    <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem;">Ready to Predict</h2>
+                    <p style="color: var(--text-secondary);">Fill in the form to see the magic happen.</p>
+                </div>
+
+                <!-- Loading State -->
+                <div id="loading-state" style="display: none;">
+                    <span class="loader"></span>
+                    <h3 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Analyzing Market Data...</h3>
+                    <p style="font-size: 0.875rem; color: var(--text-secondary);">Please wait while we crunch the
+                        numbers.</p>
+                </div>
+
+                <!-- Result State -->
+                <div id="result-state" style="display: none;">
+                    <div class="confidence-badge">
+                        <i class="ri-shield-check-line"></i> High Confidence
+                    </div>
+
+                    <div style="margin-top: 2rem;">
+                        <span
+                            style="font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary);">Predicted
+                            Log Error</span>
+                        <div class="price-display" id="prediction-output">0.000</div>
+                    </div>
+
+                    <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--surface-border);">
+                        <div
+                            style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; color: var(--text-primary);">
+                            <i class="ri-information-line" style="color: var(--secondary);"></i>
+                            <span style="font-size: 0.9rem;">Closer to 0 is better.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats/Info Card (Optional decoration) -->
+            <div class="glass-card" style="padding: 1.5rem;">
+                <h4
+                    style="font-size: 0.9rem; margin-bottom: 1rem; color: var(--text-secondary); text-transform: uppercase;">
+                    Model Performance</h4>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                    <span>MAE</span>
+                    <span style="font-weight: 600;">0.068</span>
+                </div>
+                <!-- Progress bar decoration -->
+                <div
+                    style="width: 100%; height: 4px; background: rgba(255,255,255,0.1); border-radius: 2px; overflow: hidden;">
+                    <div style="width: 85%; height: 100%; background: var(--secondary);"></div>
+                </div>
+            </div>
+        </aside>
+
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
