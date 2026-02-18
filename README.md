@@ -208,7 +208,7 @@ Time-series forecasting and regression models for the financial sector.
 
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| 🪙 **Bitcoin Price Prediction** | Cryptocurrency trend forecasting | Scikit-Learn, Pandas | [👉 View](./Bitcoin%20Price%20Prediction%20using%20Machine%20Learning%20in%20Python) |
+| 🪙 **Bitcoin Price Prediction** | Cryptocurrency trend forecasting with Dashboard | Streamlit, Plotly, Lottie | [👉 View](./Bitcoin%20Price%20Prediction%20using%20Machine%20Learning%20in%20Python) |
 | 🐕 **Dogecoin Price Prediction** | Meme coin price analysis | ML Regression, Matplotlib | [👉 View](./Dogecoin%20Price%20Prediction%20with%20Machine%20Learning) |
 | 📊 **Microsoft Stock Prediction** | MSFT price forecasting with LSTM | TensorFlow, Keras, LSTM | [👉 View](./Microsoft%20Stock%20Price%20Prediction%20with%20Machine%20Learning) |
 | 🚀 **Tesla Stock Prediction** | TSLA forecasting + web app | LSTM, Streamlit, TensorFlow | [👉 View](./Tesla%20Stock%20Price%20Prediction) |
