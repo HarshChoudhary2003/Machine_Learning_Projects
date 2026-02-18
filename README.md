@@ -12,6 +12,11 @@
   
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00DFFD&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Welcome+to+the+ML+Projects+Hub!;Discover+Production-Ready+AI+Solutions;From+NLP+to+Computer+Vision;Exploring+Generative+AI+%26+Agents" alt="Typing SVG" />
 
+  <a href="https://machine-learning-projects.streamlit.app/">
+    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App" />
+  </a>
+
+
 </div>
 
 ---
