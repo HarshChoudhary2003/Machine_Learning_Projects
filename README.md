@@ -225,7 +225,7 @@ Cybersecurity applications using Machine Learning.
 
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| 💳 **Credit Card Fraud Detection** | Imbalanced classification for transactions | SMOTE, XGBoost | [👉 View](./Credit%20Card%20Fraud%20Detection%20-%20ML) |
+| 💳 **Credit Card Fraud Detection** | Real-time Dashboard with Fraud Analysis | Streamlit, Plotly, Random Forest | [👉 View](./Credit%20Card%20Fraud%20Detection%20-%20ML) |
 | 📰 **Fake News Detector** | Misinformation detection + web app | NLP, TF-IDF, Streamlit | [👉 View](./Fake%20News%20Detector) |
 | 📧 **Email Spam Detection** | Spam classification with deep learning | TensorFlow, Keras | [👉 View](./Detecting%20Spam%20Emails%20Using%20Tensorflow) |
 | 📱 **SMS Spam Detection** | Text message spam filter | TensorFlow, NLP | [👉 View](./SMS%20Spam%20Detection%20using%20TensorFlow) |
