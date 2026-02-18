@@ -1,0 +1,8 @@
+streamlit
+streamlit-lottie
+streamlit-option-menu
+streamlit-shadcn-ui
+pillow
+requests
+plotly
+pandas
