@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+static/uploads/
+.env
+instance/
+.DS_Store
+install_log.txt
+*.log

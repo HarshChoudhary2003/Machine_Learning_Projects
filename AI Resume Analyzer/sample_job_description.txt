@@ -1,0 +1,11 @@
+Job Title: Python Backend Developer
+
+We are seeking a skilled Python Backend Developer to join our growing team.
+The ideal candidate should have experience in:
+- Python and Flask framework
+- REST API development
+- Working with databases like PostgreSQL or MySQL
+- Knowledge of HTML/CSS and JavaScript is a plus
+- Familiarity with version control (Git)
+
+Strong communication and problem-solving skills are essential.

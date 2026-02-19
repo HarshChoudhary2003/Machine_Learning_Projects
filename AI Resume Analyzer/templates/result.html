@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Match Result</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-white min-h-screen p-10 font-sans text-gray-800">
+  <div class="max-w-3xl mx-auto">
+    <div class="bg-white rounded-xl shadow-md p-8">
+      <h1 class="text-3xl font-bold text-blue-800 text-center mb-6">🎯 Resume Match Result</h1>
+      <div class="text-center text-2xl mb-6">
+        ✅ Match Score: <span class="text-green-600 font-bold">{{ match_score }}%</span>
+      </div>
+
+      {% if matched_skills %}
+      <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded mb-6">
+        <h2 class="text-lg font-semibold text-green-700 mb-2">✅ Skills Present in Resume</h2>
+        <p class="text-sm text-gray-700">{{ matched_skills | join(', ') }}</p>
+      </div>
+      {% endif %}
+
+      {% if missing_skills %}
+      <div class="bg-red-50 border-l-4 border-red-400 p-4 rounded mb-6">
+        <h2 class="text-lg font-semibold text-red-700 mb-2">❗ Missing Skills</h2>
+        <p class="text-sm text-gray-700">{{ missing_skills | join(', ') }}</p>
+      </div>
+      {% endif %}
+
+      {% if suggestions %}
+      <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded mb-6">
+        <h2 class="text-lg font-semibold text-yellow-700 mb-2">🛠 Suggestions to Improve Your Resume</h2>
+        <ul class="list-disc pl-6 text-sm text-gray-700">
+          {% for tip in suggestions %}
+            <li>{{ tip }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      <div class="text-center mt-6">
+        <a href="/" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Analyze Another Resume</a>
+      </div>
+    </div>
+
+    <div class="mt-10 text-sm text-gray-600 text-center">
+      <h2 class="text-lg font-semibold mb-1">📊 Model Overview</h2>
+      <p><strong>Model Used:</strong> RoBERTa (stsb-roberta-large)</p>
+      <p><strong>Purpose:</strong> Semantic Textual Similarity Scoring</p>
+      <p><strong>Trained On:</strong> STS-Benchmark dataset</p>
+      <p><strong>Accuracy:</strong> ~89.5% (Pearson correlation)</p>
+      <p>This model analyzes the meaning of your resume and compares it with the job description to provide a realistic match score.</p>
+    </div>
+  </div>
+</body>
+</html>
