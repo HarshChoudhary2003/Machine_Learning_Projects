@@ -242,6 +242,138 @@ st.markdown("""
     ::-webkit-scrollbar-thumb:hover {
         background: #00ADB5;
     }
+    
+    /* Footer */
+    .footer {
+        position: relative;
+        margin-top: 50px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        background: linear-gradient(180deg, rgba(5,5,5,0) 0%, rgba(22, 27, 34, 0.4) 100%);
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+        color: #94A3B8;
+        font-family: 'Outfit', sans-serif;
+    }
+    
+    .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .footer-brand {
+        flex: 1;
+        min-width: 250px;
+        margin-bottom: 20px;
+    }
+    
+    .footer-brand h3 {
+        color: #F8F9FA;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        background: -webkit-linear-gradient(45deg, #00ADB5, #D500F9);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 800;
+    }
+    
+    .footer-brand p {
+        font-size: 0.9rem;
+        max-width: 300px;
+        line-height: 1.6;
+        color: #A0AEC0;
+    }
+    
+    .footer-links-col {
+        flex: 0.5;
+        min-width: 150px;
+        margin-bottom: 20px;
+    }
+    
+    .footer-links-col h4 {
+        color: #E2E8F0;
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+    
+    .footer-links-col ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .footer-links-col li {
+        margin-bottom: 8px;
+    }
+    
+    .footer-links-col a {
+        color: #64748B;
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: color 0.3s;
+    }
+    
+    .footer-links-col a:hover {
+        color: #00ADB5;
+    }
+    
+    .footer-social {
+        display: flex;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    
+    .social-icon {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.03);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s;
+        border: 1px solid rgba(255,255,255,0.05);
+    }
+    
+    .social-icon:hover {
+        background: #00ADB5;
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(0, 173, 181, 0.3);
+        border-color: #00ADB5;
+    }
+    
+    .social-icon img {
+        width: 18px;
+        height: 18px;
+        filter: invert(1);
+    }
+
+    .footer-bottom {
+        text-align: center;
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+        font-size: 0.85rem;
+        color: #4A5568;
+    }
+    
+    .heart-icon {
+        color: #D500F9;
+        display: inline-block;
+        animation: pulse 1.5s infinite;
+    }
+    
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -607,194 +739,56 @@ elif selected == "About":
         st.markdown(contact_form, unsafe_allow_html=True)
 
 # Footer
+# Footer
 st.markdown("""
-<style>
-    .footer {
-        position: relative;
-        margin-top: 50px;
-        padding-top: 40px;
-        padding-bottom: 20px;
-        background: linear-gradient(180deg, rgba(5,5,5,0) 0%, rgba(22, 27, 34, 0.4) 100%);
-        border-top: 1px solid rgba(255, 255, 255, 0.05);
-        color: #94A3B8;
-        font-family: 'Outfit', sans-serif;
-    }
-    
-    .footer-content {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
-    
-    .footer-brand {
-        flex: 1;
-        min-width: 250px;
-        margin-bottom: 20px;
-    }
-    
-    .footer-brand h3 {
-        color: #F8F9FA;
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-        background: -webkit-linear-gradient(45deg, #00ADB5, #D500F9);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-weight: 800;
-    }
-    
-    .footer-brand p {
-        font-size: 0.9rem;
-        max-width: 300px;
-        line-height: 1.6;
-        color: #A0AEC0;
-    }
-    
-    .footer-links-col {
-        flex: 0.5;
-        min-width: 150px;
-        margin-bottom: 20px;
-    }
-    
-    .footer-links-col h4 {
-        color: #E2E8F0;
-        font-size: 1.1rem;
-        margin-bottom: 15px;
-        font-weight: 600;
-    }
-    
-    .footer-links-col ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .footer-links-col li {
-        margin-bottom: 8px;
-    }
-    
-    .footer-links-col a {
-        color: #64748B;
-        text-decoration: none;
-        font-size: 0.9rem;
-        transition: color 0.3s;
-    }
-    
-    .footer-links-col a:hover {
-        color: #00ADB5;
-    }
-    
-    .footer-social {
-        display: flex;
-        gap: 15px;
-        margin-top: 20px;
-    }
-    
-    .social-icon {
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        background: rgba(255,255,255,0.03);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        text-decoration: none;
-        transition: all 0.3s;
-        border: 1px solid rgba(255,255,255,0.05);
-    }
-    
-    .social-icon:hover {
-        background: #00ADB5;
-        transform: translateY(-3px);
-        box-shadow: 0 5px 15px rgba(0, 173, 181, 0.3);
-        border-color: #00ADB5;
-    }
-    
-    .social-icon img {
-        width: 18px;
-        height: 18px;
-        filter: invert(1);
-    }
-
-    .footer-bottom {
-        text-align: center;
-        margin-top: 40px;
-        padding-top: 20px;
-        border-top: 1px solid rgba(255, 255, 255, 0.05);
-        font-size: 0.85rem;
-        color: #4A5568;
-    }
-    
-    .heart-icon {
-        color: #D500F9;
-        display: inline-block;
-        animation: pulse 1.5s infinite;
-    }
-    
-    @keyframes pulse {
-        0% { transform: scale(1); }
-        50% { transform: scale(1.1); }
-        100% { transform: scale(1); }
-    }
-</style>
-
 <div class="footer">
-    <div class="footer-content">
-        <div class="footer-brand">
-            <h3>Machine Learning Hub</h3>
-            <p>Exploring the frontiers of Artificial Intelligence, one project at a time. Built for developers, researchers, and enthusiasts.</p>
-            <div class="footer-social">
-                <a href="https://github.com/HarshChoudhary2003" target="_blank" class="social-icon">
-                    <img src="https://simpleicons.org/icons/github.svg" alt="GitHub"/>
-                </a>
-                <a href="https://linkedin.com" target="_blank" class="social-icon">
-                    <img src="https://simpleicons.org/icons/linkedin.svg" alt="LinkedIn"/>
-                </a>
-                <a href="mailto:harshchoudhary1612@gmail.com" class="social-icon">
-                    <img src="https://simpleicons.org/icons/gmail.svg" alt="Email"/>
-                </a>
-                <a href="#" class="social-icon">
-                    <img src="https://simpleicons.org/icons/twitter.svg" alt="Twitter"/>
-                </a>
-            </div>
-        </div>
-        
-        <div class="footer-links-col">
-            <h4>Quick Links</h4>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Analytics</a></li>
-                <li><a href="#">About Me</a></li>
-            </ul>
-        </div>
-        
-        <div class="footer-links-col">
-            <h4>Resources</h4>
-            <ul>
-                <li><a href="https://github.com/HarshChoudhary2003?tab=repositories" target="_blank">Documentation</a></li>
-                <li><a href="#" target="_blank">Case Studies</a></li>
-                <li><a href="#" target="_blank">Community Hub</a></li>
-                <li><a href="#" target="_blank">Report Issue</a></li>
-            </ul>
-        </div>
-        
-        <div class="footer-links-col">
-            <h4>Tech Stack</h4>
-            <ul>
-                <li><a href="#">Streamlit</a></li>
-                <li><a href="#">TensorFlow</a></li>
-                <li><a href="#">PyTorch</a></li>
-                <li><a href="#">LangChain</a></li>
-            </ul>
-        </div>
-    </div>
-    
-    <div class="footer-bottom">
-        <p>© 2026 Machine Learning Projects Hub. Made with <span class="heart-icon">♥</span> by Harsh Choudhary.</p>
-    </div>
+<div class="footer-content">
+<div class="footer-brand">
+<h3>Machine Learning Hub</h3>
+<p>Exploring the frontiers of Artificial Intelligence, one project at a time. Built for developers, researchers, and enthusiasts.</p>
+<div class="footer-social">
+<a href="https://github.com/HarshChoudhary2003" target="_blank" class="social-icon">
+<img src="https://simpleicons.org/icons/github.svg" alt="GitHub"/>
+</a>
+<a href="https://linkedin.com" target="_blank" class="social-icon">
+<img src="https://simpleicons.org/icons/linkedin.svg" alt="LinkedIn"/>
+</a>
+<a href="mailto:harshchoudhary1612@gmail.com" class="social-icon">
+<img src="https://simpleicons.org/icons/gmail.svg" alt="Email"/>
+</a>
+<a href="https://twitter.com" target="_blank" class="social-icon">
+<img src="https://simpleicons.org/icons/x.svg" alt="X (Twitter)"/>
+</a>
+</div>
+</div>
+<div class="footer-links-col">
+<h4>Contact Info</h4>
+<ul>
+<li><a href="mailto:techharsh315@gmail.com">harshchoudhary1612@gmail.com</a></li>
+<li><a href="https://linkedin.com" target="_blank">LinkedIn Profile</a></li>
+<li><span style="color:#64748B; font-size:0.9rem;">India</span></li>
+</ul>
+</div>
+<div class="footer-links-col">
+<h4>Resources</h4>
+<ul>
+<li><a href="https://github.com/HarshChoudhary2003/Machine_Learning_Projects" target="_blank">Source Code</a></li>
+<li><a href="https://github.com/HarshChoudhary2003/Machine_Learning_Projects/blob/main/README.md" target="_blank">Documentation</a></li>
+<li><a href="https://github.com/HarshChoudhary2003/Machine_Learning_Projects/issues" target="_blank">Report an Issue</a></li>
+</ul>
+</div>
+<div class="footer-links-col">
+<h4>Tech Stack</h4>
+<ul>
+<li><a href="https://streamlit.io/" target="_blank">Streamlit</a></li>
+<li><a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a></li>
+<li><a href="https://pytorch.org/" target="_blank">PyTorch</a></li>
+<li><a href="https://www.langchain.com/" target="_blank">LangChain</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 Machine Learning Projects Hub. Made with <span class="heart-icon">♥</span> by Harsh Choudhary.</p>
+</div>
 </div>
 """, unsafe_allow_html=True)
