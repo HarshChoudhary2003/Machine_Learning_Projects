@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+lightgbm
+streamlit
+pickle5 # If Python < 3.8, but newer ones use built-in pickle

@@ -1,0 +1,11 @@
+attraction_id,attraction_name,attraction_type_id,city_id
+1,Tokyo Tower,4,1
+2,Louvre,1,2
+3,Central Park,2,3
+4,Universal Studios,5,4
+5,Eiffel Tower,4,2
+6,Mount Fuji,2,1
+7,DisneySea,5,4
+8,Times Square,4,3
+9,Statue of Liberty,4,3
+10,Kyoto Shrine,4,4

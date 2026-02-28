@@ -172,6 +172,22 @@ Smart energy consumption predictor to help households and businesses reduce cost
 
 </td>
 </tr>
+<tr>
+<td width="33%" valign="top">
+
+### 🌍 SkyFlow Tourism Analytics
+**Tech:** `Random Forest` `Streamlit` `Collaborative Filtering`
+
+A premium tourism intelligence platform that predicts traveler ratings, classifies visit modes, and provides personalized attraction recommendations.
+
+[![Explore](https://img.shields.io/badge/Explore-Project-00DFFD?style=for-the-badge&logo=rocket&logoColor=black)](./Tourism_Project)
+
+</td>
+<td width="33%" valign="top">
+</td>
+<td width="33%" valign="top">
+</td>
+</tr>
 </table>
 
 ---
@@ -194,6 +210,7 @@ Interactive web applications deployed directly from the repo.
 | 💼 **SkillSync Pro** | Job market & salary analyzer | Web Scraping, Streamlit, SQLite | [👉 View](./SkillSync) |
 | 💳 **EMI Precision AI** | AI-powered loan eligibility & risk assessment | XGBoost, Streamlit, MLflow | [👉 View](./EMI%20Predict) |
 | 🎙️ **Nova Voice Assistant** | Interactive AI assistant with speech | Streamlit, pyttsx3, SpeechRec | [👉 View](./Voice%20Assistant%20using%20python) |
+| 🌍 **SkyFlow Tourism** | Premium intelligence & recommendation platform | Streamlit, Random Forest, Scipy | [👉 View](./Tourism_Project) |
 | 😊 **MoodFlix (Emotion Rec)** | Mood-based movie recommender with Modern UI | FastAPI, React, Tailwind | [👉 View](./Movie%20recommendation%20based%20on%20emotion) |
 
 ---
@@ -317,6 +334,7 @@ Personalization algorithms.
 
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
+| 🌍 **SkyFlow Tourism** | Hybrid attraction recommendation system | Collaborative Filtering, Cosine Similarity | [👉 View](./Tourism_Project) |
 | 🍿 **Movie Recommender** | Content-based recommendation | Cosine Similarity, NLP | [👉 View](./Movie%20Recommender%20System) |
 | 😊 **MoodFlix (Emotion Rec)**| Mood-based movie recommender with Modern UI | FastAPI, React, Tailwind | [👉 View](./Movie%20recommendation%20based%20on%20emotion) |
 | 🎙️ **Ted Talks Recommendation** | Text-based similarity for talks | Scikit-Learn, TF-IDF | [👉 View](./Ted%20Talks%20Recommendation%20System%20with%20Machine%20Learning) |
@@ -329,6 +347,7 @@ Analytics for decision making.
 
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
+| 🌍 **SkyFlow Tourism** | AI-driven tourism experience analytics | Regression, Classification, ML | [👉 View](./Tourism_Project) |
 | 📄 **AI Resume Screening** | Automated resume parsing & ranking | NLP, TF-IDF, Streamlit | [👉 View](./Resume%20Screening%20App) |
 | 📉 **Sales Forecast Prediction** | Time series sales forecasting | XGBoost, Time Series | [👉 View](./Sales%20Forecast%20Prediction%20-%20Python) |
 | 💼 **SkillSync Pro** | Job market analyzer + salary prediction | Web Scraping, ML, Streamlit | [👉 View](./SkillSync) |
