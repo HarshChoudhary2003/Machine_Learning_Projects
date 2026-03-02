@@ -1,0 +1,10 @@
+tensorflow
+keras
+streamlit
+pandas
+numpy
+pillow
+opencv-python
+streamlit-lottie
+plotly
+requests
