@@ -1,23 +1,18 @@
 <div align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=10,12,15&height=250&section=header&text=Customer%20Segmentation&fontSize=40&animation=fadeIn&fontAlignY=38&desc=Unsupervised%20Market%20Clustering&descAlignY=55&descAlign=50" width="100%" />
 
-# 🎯 Customer Segmentation
+  <br/>
+  
+  [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+  [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+  [![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)](https://github.com/HarshChoudhary2003)
 
-### *Unsupervised Machine Learning for Market Analysis*
-
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
-[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
-
-<img src="https://img.shields.io/badge/Status-Complete-success?style=flat-square" />
-<img src="https://img.shields.io/badge/ML%20Type-Clustering-orange?style=flat-square" />
-<img src="https://img.shields.io/badge/Unsupervised-Learning-9cf?style=flat-square" />
+</div>
 
 ---
 
-*Discover hidden customer segments using K-Means clustering to enable targeted marketing strategies.*
-
-</div>
+## 🎯 Overview
+Discover hidden patterns in customer behavior using **Unsupervised Machine Learning**. This project implements K-Means clustering to segment portfolios into actionable personas, enabling precision marketing and resource optimization.
 
 ---
 
@@ -127,9 +122,7 @@ jupyter notebook main.ipynb
 ---
 
 <div align="center">
-
-### ⭐ If you found this project useful, please consider giving it a star!
-
-Made with ❤️ by [Harsh Choudhary](https://github.com/HarshChoudhary2003)
-
+  <h3>⭐ If you found this segmentation tool useful, please consider giving it a star!</h3>
+  <p>Made with ❤️ by <a href="https://github.com/HarshChoudhary2003">Harsh Choudhary</a></p>
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=10,12,15&height=100&section=footer" width="100%" />
 </div>

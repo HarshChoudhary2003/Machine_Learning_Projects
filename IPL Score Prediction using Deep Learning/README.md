@@ -1,46 +1,54 @@
-# 🏏 IPL Score Predictor UI
+<div align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=0,20,40&height=250&section=header&text=IPL%20Score%20AI&fontSize=40&animation=fadeIn&fontAlignY=38&desc=Deep%20Learning%20Sports%20Intelligence&descAlignY=55&descAlign=50" width="100%" />
 
-An advanced **AI-powered cricket score prediction application** built with Streamlit and Scikit-Learn.
-This project uses a high-accuracy Deep Learning Neural Network (MLPRegressor) to predict the final projected score of an ongoing IPL match based on real-time factors.
+  <br/>
+  
+  [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+  [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+  [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+  [![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)](https://github.com/HarshChoudhary2003)
 
-## 🌟 Key Features
-*   **Deep Learning Model**: Uses a custom-trained Scikit-Learn Pipeline with extensive Feature Engineering (One-Hot Encoding, Momentum Trend Analysis).
-*   **Max Accuracy**: Engineered features like *Current Run Rate (CRR)*, *Balls Left*, and *Wickets Left* deliver high precision.
-*   **Ultra-Modern UI**: Glassmorphism design, neon accents, and smooth CSS animations powered by Streamlit.
-*   **Live Metrics**: Real-time display of CRR and Projected Score updates as you interact.
-
-## 📸 Application Preview
-![UI Preview](ui.png)
-*(Please save your app screenshot as 'ui.png' in the project root folder)*
-
-## 🛠️ Installation & Setup
-1.  **Clone the Repository**
-    ```bash
-    git clone https://github.com/YourUsername/IPL-Predictor-AI.git
-    cd IPL-Predictor-AI
-    ```
-
-2.  **Install Dependencies**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Run the Application**
-    ```bash
-    streamlit run app.py
-    ```
-
-## 🧠 Model Architecture
-*   **Framework**: Scikit-Learn `MLPRegressor`
-*   **Layers**: Input -> Dense(512) -> Dense(256) -> Dense(128) -> Dense(64) -> Output
-*   **Encoders**: One-Hot Encoding for Venues and Teams
-*   **Scaler**: StandardScaler for numerical inputs
-
-## 📂 Project Structure
-*   `app.py`: Streamlit frontend application.
-*   `train.py`: Model training script (includes data preprocessing pipeline).
-*   `ipl_model.pkl`: Saved machine learning pipeline artifacts (model + encoders).
-*   `ipl_data.csv`: Historical IPL dataset used for training.
+</div>
 
 ---
-Built with ❤️ using **Python, Streamlit & Scikit-Learn**
+
+## 🏏 Overview
+An advanced **AI-powered cricket intelligence platform** that predicts final projected scores for IPL matches. Utilizing a high-accuracy Deep Learning Neural Network (`MLPRegressor`), the system analyzes real-time momentum, ground conditions, and historical trends.
+
+### 🌟 Project Armor
+- 🧠 **Neural Core**: Multi-layer Perceptron (MLP) architecture.
+- ⚡ **Momentum Engine**: Features tracking CRR, Balls Left, and Wicket impact.
+- 🎨 **Hyper-Modern UI**: Glassmorphism dashboard with neon tactical accents.
+- 📊 **Live Analytics**: Real-time score projection updates.
+
+---
+
+## 🏗️ Neural Architecture
+```mermaid
+graph TD
+    Input[Match telemetry] --> Processing[One-Hot Encoding]
+    Processing --> Scaler[StandardScaler]
+    Scaler --> MLP[Deep Neural Network]
+    MLP --> Output[Projected Final Score]
+    style MLP fill:#293742,stroke:#fff,stroke-width:2px,color:#fff
+```
+
+---
+
+## 🚀 Deployment Manual
+1. **Core Ignition**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. **Launch Visualizer**:
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
+<div align="center">
+  <h3>⭐ If you found this sports intelligence core useful, please consider giving it a star!</h3>
+  <p>Made with ❤️ by <a href="https://github.com/HarshChoudhary2003">Harsh Choudhary</a></p>
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=0,20,40&height=100&section=footer" width="100%" />
+</div>

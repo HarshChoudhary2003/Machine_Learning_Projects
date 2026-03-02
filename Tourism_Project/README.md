@@ -1,59 +1,55 @@
-# Tourism Experience Analytics 🌍
+<div align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=10,40,15&height=250&section=header&text=Tourism%20Intelligence&fontSize=40&animation=fadeIn&fontAlignY=38&desc=Regression%20%7C%20Classification%20%7C%20Recommendation&descAlignY=55&descAlign=50" width="100%" />
 
-A strong portfolio-level data science project involving Regression, Classification, and a Recommendation System for the Tourism Industry.
+  <br/>
+  
+  [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+  [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+  [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+  [![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)](https://github.com/HarshChoudhary2003)
 
-## 📁 Project Structure
+</div>
 
+---
+
+## 🌍 Overview
+A powerhouse data science project integrating **Regression, Classification, and Collaborative Filtering** for the tourism sector. This system automates experience forecasting and personalized attraction discovery.
+
+### 🍱 Multi-Model Architecture
+- 📈 **Rating Engine**: Random Forest Regressor for score prediction.
+- 🎯 **Visit Mode Core**: Classifier for behavioral pattern recognition.
+- 🍿 **Recommender Hub**: Matrix-based User-Item similarity.
+- 🖥️ **Tactical UI**: Modern Streamlit dashboard.
+
+---
+
+## 📁 System Blueprint
 ```
 Tourism_Project/
-│
-├── data/               # Raw and processed datasets
-├── notebooks/          # EDA plots and saved visualizations
-├── models/             # Saved ML models (Pickle files)
-├── app.py              # Streamlit Dashboard
-├── train_models.py     # Training pipeline script
-├── utils.py            # Reusable cleaning & feature engineering functions
-├── requirements.txt    # Python dependencies
-└── README.md           # Documentation
+├── data/               # Intelligence Ingress
+├── notebooks/          # Exploratory Visuals
+├── models/             # Neural Artifacts
+├── app.py              # Tactical Dashboard
+├── train_models.py     # Optimization Pipeline
+└── requirements.txt    # System Deps
 ```
 
-## 🚀 Features
+---
 
-### 1️⃣ Regression (Rating Prediction)
-Predicts the **Attraction Rating (1-5)** based on user demographics and attraction popularity using **Random Forest Regressor**.
-
-### 2️⃣ Classification (Visit Mode Prediction)
-Predicts the **Visit Mode** (Business, Family, Couples, etc.) using a **Random Forest Classifier**.
-
-### 3️⃣ Recommendation System
-Suggests top 5 attractions for users using **Collaborative Filtering** (User-Item similarity).
-
-### 4️⃣ Interactive Dashboard
-Built with **Streamlit**, allowing users to input their preferences and see real-time predictions and recommendations.
-
-## 🛠️ How to Run
-
-1. **Install Dependencies:**
+## 🚀 Operation Deployment
+1. **Core Ignition**:
    ```bash
    pip install -r requirements.txt
    ```
-
-2. **Generate Data & Train Models:** (If you want to re-run from scratch)
-   ```bash
-   python data/generate_data.py
-   python train_models.py
-   ```
-
-3. **Run Streamlit App:**
+2. **Launch Dashboard**:
    ```bash
    streamlit run app.py
    ```
 
-## 🧠 Master Strategy Applied
-- **Phase 1:** Data Cleaning Pipeline (Handling missing values, outliers, and merging 9+ tables).
-- **Phase 2:** Feature Engineering (User/Attraction aggregation, encoding).
-- **Phase 3:** Advanced EDA (Visualizing distributions and correlations).
-- **Phase 4:** Model Building (Training & Evaluating multiple ML models).
-- **Phase 5:** Deployment (Professional Streamlit UI).
+---
 
-Developed to boost the Data Science portfolio for Harsh 🔥
+<div align="center">
+  <h3>⭐ If you found this tourism engine useful, please consider giving it a star!</h3>
+  <p>Made with ❤️ by <a href="https://github.com/HarshChoudhary2003">Harsh Choudhary</a></p>
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=10,40,15&height=100&section=footer" width="100%" />
+</div>

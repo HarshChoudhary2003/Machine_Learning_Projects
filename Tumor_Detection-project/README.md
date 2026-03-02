@@ -1,36 +1,58 @@
-# 🩺 Tumor Detection Project
-
 <div align="center">
-  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn">
-  <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=10,12,15&height=250&section=header&text=Tumor%20Detection&fontSize=40&animation=fadeIn&fontAlignY=38&desc=Machine%20Learning%20Diagnostic%20Core&descAlignY=55&descAlign=50" width="100%" />
+
+  <br/>
+  
+  [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+  [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+  [![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)](https://github.com/HarshChoudhary2003)
+
 </div>
 
-## 📌 Overview
-This project focuses on detecting tumors using Machine Learning techniques. The goal is to classify tumors as **Malignant** or **Benign** based on various medical attributes.
+---
 
-## 📂 Dataset
-The dataset used is `Tumor_Detection.csv`, which contains features computed from a digitized image of a fine needle aspirate (FNA) of a breast mass.
-- **Target Variable:** `diagnosis` (M = malignant, B = benign)
-- **Features:** Radius, Texture, Perimeter, Area, Smoothness, Compactness, Concavity, Concave points, Symmetry, Fractal dimension.
+## 🩺 Overview
+This diagnostic engine focuses on the automated detection and classification of tumors. Using advanced medical feature extraction from digitized image data (FNA of breast masses), the system classifies tumors as **Malignant** or **Benign** with high precision.
 
-## 🚀 Workflow
-1. **Data Preprocessing**: Handling missing values, encoding categorical variables.
-2. **EDA**: Visualizing feature distributions and correlations.
-3. **Model Training**: Utilizing classification algorithms (e.g., Logistic Regression, Random Forest).
-4. **Evaluation**: Measuring accuracy, precision, recall, and F1-score.
+### 🔬 Key Features
+- 🏥 **Diagnostic Classification** - Accurate Malignant/Benign identification.
+- 🧬 **Biomedical Markers** - Analysis of radius, texture, area, and symmetry.
+- 📊 **Metric Validation** - Precision, Recall, and F1-score optimization.
+- 🧠 **Multi-Model Analysis** - Logistic Regression & Random Forest performance tracking.
 
-## 🔧 How to Run
-1. Clone the repository.
-2. Navigate to the project directory:
+---
+
+## 📂 Dataset Intelligence
+The system utilizes the `Tumor_Detection.csv` dataset, extracting 10+ critical feature dimensions for diagnostic reasoning.
+
+| Metric | Importance |
+|--------|------------|
+| **Radius** | Fundamental size marker |
+| **Concavity** | Severity indicator |
+| **Texture** | Surface consistency |
+| **Symmetry** | Biological alignment |
+
+---
+
+## 🚀 Operational Deployment
+1. **Clone & Target**:
    ```bash
+   git clone https://github.com/HarshChoudhary2003/Machine_Learning_Projects.git
    cd Tumor_Detection-project
    ```
-3. Install dependencies:
+2. **Dependency Ingress**:
    ```bash
-   pip install pandas numpy scikit-learn matplotlib seaborn
+   pip install pandas numpy scikit-learn matplotlib seaborn jupyter
    ```
-4. Run the notebook:
+3. **Ignition**:
    ```bash
    jupyter notebook Tumor_Detection-project.ipynb
    ```
+
+---
+
+<div align="center">
+  <h3>⭐ If you found this diagnostic tool useful, please consider giving it a star!</h3>
+  <p>Made with ❤️ by <a href="https://github.com/HarshChoudhary2003">Harsh Choudhary</a></p>
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=10,12,15&height=100&section=footer" width="100%" />
+</div>

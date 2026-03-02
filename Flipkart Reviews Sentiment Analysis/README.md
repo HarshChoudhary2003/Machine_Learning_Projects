@@ -1,23 +1,18 @@
 <div align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=2,22,25&height=250&section=header&text=Flipkart%20Sentiment%20AI&fontSize=40&animation=fadeIn&fontAlignY=38&desc=NLP-Powered%20Consumer%20Intelligence&descAlignY=55&descAlign=50" width="100%" />
 
-# 🛒 Flipkart Reviews Sentiment Analysis
+  <br/>
+  
+  [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+  [![NLTK](https://img.shields.io/badge/NLTK-NLP-green?style=for-the-badge)](https://www.nltk.org/)
+  [![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)](https://github.com/HarshChoudhary2003)
 
-### *NLP-Powered Customer Feedback Analysis*
-
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![NLTK](https://img.shields.io/badge/NLTK-NLP-green?style=for-the-badge)](https://www.nltk.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
-[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
-
-<img src="https://img.shields.io/badge/Status-Complete-success?style=flat-square" />
-<img src="https://img.shields.io/badge/Domain-NLP-blue?style=flat-square" />
-<img src="https://img.shields.io/badge/Industry-E--Commerce-orange?style=flat-square" />
+</div>
 
 ---
 
-*Analyze customer sentiments from Flipkart product reviews to extract actionable business insights.*
-
-</div>
+## 🛒 Overview
+This project applies **Natural Language Processing (NLP)** to synthesize customer feedback from Flipkart reviews. By extracting polarity and key linguistic patterns, businesses can decode consumer sentiment and drive product evolution.
 
 ---
 
@@ -127,9 +122,7 @@ jupyter notebook main.ipynb
 ---
 
 <div align="center">
-
-### ⭐ If you found this project useful, please consider giving it a star!
-
-Made with ❤️ by [Harsh Choudhary](https://github.com/HarshChoudhary2003)
-
+  <h3>⭐ If you found this NLP engine useful, please consider giving it a star!</h3>
+  <p>Made with ❤️ by <a href="https://github.com/HarshChoudhary2003">Harsh Choudhary</a></p>
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=2,22,25&height=100&section=footer" width="100%" />
 </div>

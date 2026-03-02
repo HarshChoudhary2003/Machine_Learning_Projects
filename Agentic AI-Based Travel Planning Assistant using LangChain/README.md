@@ -1,21 +1,12 @@
 <div align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=2,22,25&height=250&section=header&text=Agentic%20AI%20Travel&fontSize=40&animation=fadeIn&fontAlignY=38&desc=Autonomous%20Planning%20with%20LangChain&descAlignY=55&descAlign=50" width="100%" />
 
-# 🧳 Agentic AI Travel Planning Assistant
-
-### *Autonomous Travel Planning with LangChain*
-
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![LangChain](https://img.shields.io/badge/LangChain-🦜-green?style=for-the-badge)](https://langchain.com)
-[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com)
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
-
-<img src="https://img.shields.io/badge/Status-Complete-success?style=flat-square" />
-<img src="https://img.shields.io/badge/AI%20Type-Agentic-purple?style=flat-square" />
-<img src="https://img.shields.io/badge/Framework-LangChain-blue?style=flat-square" />
-
----
-
-*An intelligent AI agent that autonomously plans personalized travel itineraries using multiple tools and real-time data.*
+  <br/>
+  
+  [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+  [![LangChain](https://img.shields.io/badge/LangChain-🦜-green?style=for-the-badge)](https://langchain.com)
+  [![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com)
+  [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 
 </div>
 
@@ -32,15 +23,14 @@
 
 ---
 
-## 🎯 Overview
+## 🧳 Overview
+This project showcases **Agentic AI** - autonomous systems capable of planning, reasoning, and executing complex tasks. The Travel Planning Assistant uses **LangChain** to orchestrate specialized AI agents that collaborate to deliver high-fidelity, personalized travel itineraries.
 
-This project showcases **Agentic AI** - autonomous AI systems that can plan, reason, and execute complex tasks. The Travel Planning Assistant uses **LangChain** to orchestrate multiple AI agents that work together to create personalized travel plans.
-
-### 🌟 Key Highlights
-- 🤖 **Autonomous Planning** - AI agents work independently
-- 🔧 **Tool Integration** - Search, calculate, research
-- 🌐 **Real-time Data** - Current information
-- 📋 **PDF Export** - Download your itinerary
+### 🌟 Advanced Capabilities
+- 🤖 **Autonomous Orchestration** - Multi-agent collaboration logic.
+- 🔧 **Dynamic Tooling** - Integration with real-time search and research engines.
+- 🌐 **Live Data Ingress** - Gathering current destination insights.
+- 📄 **Intelligence Export** - One-click PDF itinerary generation.
 
 ---
 
@@ -105,40 +95,24 @@ Agentic AI-Based Travel Planning Assistant/
 
 ---
 
-## 🚀 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/HarshChoudhary2003/Machine_Learning_Projects.git
-
-# Navigate to project directory
-cd "Machine_Learning_Projects/Agentic AI-Based Travel Planning Assistant using LangChain"
-
-# Create virtual environment
-python -m venv venv
-venv\Scripts\activate  # Windows
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set up environment variables
-# Create .env file with:
-# OPENAI_API_KEY=your_key_here
-```
-
----
-
-## 💻 Usage
-
-### Launch Web App
-```bash
-streamlit run app.py
-```
-
-### Run Agent Directly
-```bash
-python agent.py
-```
+## 🚀 Mission Deployment
+1. **Clone Repository**:
+   ```bash
+   git clone https://github.com/HarshChoudhary2003/Machine_Learning_Projects.git
+   cd "Agentic AI-Based Travel Planning Assistant using LangChain"
+   ```
+2. **Environment Ignition**:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+3. **API Configuration**:
+   Create a `.env` file with your `OPENAI_API_KEY`.
+4. **Launch**:
+   ```bash
+   streamlit run app.py
+   ```
 
 ---
 
@@ -183,9 +157,7 @@ The system integrates with:
 ---
 
 <div align="center">
-
-### ⭐ If you found this project useful, please consider giving it a star!
-
-Made with ❤️ by [Harsh Choudhary](https://github.com/HarshChoudhary2003)
-
+  <h3>⭐ If you found this agentic system useful, please consider giving it a star!</h3>
+  <p>Made with ❤️ by <a href="https://github.com/HarshChoudhary2003">Harsh Choudhary</a></p>
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=2,22,25&height=100&section=footer" width="100%" />
 </div>

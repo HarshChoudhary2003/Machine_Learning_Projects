@@ -184,6 +184,14 @@ A premium tourism intelligence platform that predicts traveler ratings, classifi
 
 </td>
 <td width="33%" valign="top">
+
+### 🚦 GuardianEye V2 PRO
+**Tech:** `CNN` `Streamlit` `Docker` `XAI`
+
+Next-gen traffic sign recognition system featuring tactical dashboards and explainable AI insights.
+
+[![Explore](https://img.shields.io/badge/Explore-Project-00DFFD?style=for-the-badge&logo=rocket&logoColor=black)](./Traffic%20Signs%20Recognition%20using%20CNN)
+
 </td>
 <td width="33%" valign="top">
 </td>
@@ -211,6 +219,7 @@ Interactive web applications deployed directly from the repo.
 | 💳 **EMI Precision AI** | AI-powered loan eligibility & risk assessment | XGBoost, Streamlit, MLflow | [👉 View](./EMI%20Predict) |
 | 🎙️ **Nova Voice Assistant** | Interactive AI assistant with speech | Streamlit, pyttsx3, SpeechRec | [👉 View](./Voice%20Assistant%20using%20python) |
 | 🌍 **SkyFlow Tourism** | Premium intelligence & recommendation platform | Streamlit, Random Forest, Scipy | [👉 View](./Tourism_Project) |
+| 🚦 **GuardianEye V2 PRO** | Mission-critical traffic sign intelligence | CNN, TensorFlow, Streamlit, Docker | [👉 View](./Traffic%20Signs%20Recognition%20using%20CNN) |
 | 😊 **MoodFlix (Emotion Rec)** | Mood-based movie recommender with Modern UI | FastAPI, React, Tailwind | [👉 View](./Movie%20recommendation%20based%20on%20emotion) |
 
 ---
@@ -295,6 +304,7 @@ Image processing and recognition.
 | 🔢 **Handwritten Digits (Scikit-Learn)** | Digit recognition using MLP | Scikit-Learn, MLP | [👉 View](./Recognizing%20HandWritten%20Digits%20in%20Scikit%20Learn) |
 | 🔢 **Object Counter** | Count objects in images | OpenCV, Python | [👉 View](./Count%20number%20of%20Object%20using%20Python-OpenCV) |
 | 👤 **Face Recognition** | Real-time face detection & tracking | Roboflow, Supervision | [👉 View](./Face%20Recognition) |
+| 🚦 **GuardianEye V2 PRO** | Autonomous-grade traffic sign recognition | CNN, TensorFlow, Streamlit | [👉 View](./Traffic%20Signs%20Recognition%20using%20CNN) |
 
 ---
 

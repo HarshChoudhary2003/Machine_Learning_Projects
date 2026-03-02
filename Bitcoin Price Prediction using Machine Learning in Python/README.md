@@ -1,23 +1,18 @@
 <div align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=10,12,15&height=250&section=header&text=Bitcoin%20Price%20Prediction&fontSize=40&animation=fadeIn&fontAlignY=38&desc=ML%20Cryptocurrency%20Forecaster&descAlignY=55&descAlign=50" width="100%" />
 
-# 🪙 Bitcoin Price Prediction
+  <br/>
+  
+  [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+  [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+  [![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)](https://github.com/HarshChoudhary2003)
 
-### *Machine Learning for Cryptocurrency Forecasting*
-
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
-[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
-
-<img src="https://img.shields.io/badge/Status-Complete-success?style=flat-square" />
-<img src="https://img.shields.io/badge/Crypto-Bitcoin-F7931A?style=flat-square" />
-<img src="https://img.shields.io/badge/ML%20Type-Time%20Series-blue?style=flat-square" />
+</div>
 
 ---
 
-*Predict Bitcoin price movements using machine learning on historical cryptocurrency data.*
-
-</div>
+## 🪙 Overview
+Predict **Bitcoin (BTC)** price movements using advanced machine learning. This project implements time-series regression models to analyze historical volatility and forecast future trends in the cryptocurrency market.
 
 ---
 
@@ -134,9 +129,7 @@ jupyter notebook main.ipynb
 ---
 
 <div align="center">
-
-### ⭐ If you found this project useful, please consider giving it a star!
-
-Made with ❤️ by [Harsh Choudhary](https://github.com/HarshChoudhary2003)
-
+  <h3>⭐ If you found this crypto forecaster useful, please consider giving it a star!</h3>
+  <p>Made with ❤️ by <a href="https://github.com/HarshChoudhary2003">Harsh Choudhary</a></p>
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=10,12,15&height=100&section=footer" width="100%" />
 </div>

@@ -1,89 +1,67 @@
-# 🎙️ Nova | AI Powered Voice Assistant
-
 <div align="center">
-  <img src="https://img.shields.io/badge/AI-Gemini%20Pro-blue?style=for-the-badge&logo=google" />
-  <img src="https://img.shields.io/badge/Built%20With-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit" />
-  <img src="https://img.shields.io/badge/Python-3.8%2B-yellow?style=for-the-badge&logo=python" />
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=2,22,25&height=250&section=header&text=Nova%20Voice%20Assistant&fontSize=40&animation=fadeIn&fontAlignY=38&desc=AI-Powered%20Automation%20Core&descAlignY=55&descAlign=50" width="100%" />
+
+  <br/>
+  
+  [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+  [![Gemini](https://img.shields.io/badge/AI-Gemini%20Pro-blue?style=for-the-badge&logo=google&logoColor=white)](https://aistudio.google.com)
+  [![Streamlit](https://img.shields.io/badge/Built%20With-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+  [![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](https://github.com/HarshChoudhary2003)
+
 </div>
 
-<br />
+---
 
-**Nova** is a next-generation voice assistant that combines classic automation (opening apps, checking time) with the power of **Google's Gemini AI**. 
+## 🎙️ Overview
+**Nova** is an advanced AI-powered voice assistant that bridges the gap between traditional automation and generative intelligence. Unlike standard rule-based systems, Nova leverages **Google's Gemini AI** to understand context, reason through complex queries, and maintain conversational state.
 
-Unlike traditional rule-based assistants, Nova can understand context, remember your conversation history, and answer complex questions just like a human.
+### ✨ Key Capabilities
+- 🤖 **Contextual Intelligence** - Powered by Gemini 1.5 Flash for human-like reasoning.
+- 🗣️ **Multimodal Voice Control** - Natural speech-to-text and text-to-speech protocols.
+- 🎨 **Cyber-Aesthetic UI** - Premium Streamlit dashboard with modern neon aesthetics.
+- 🛠️ **System Orchestration** - Automate web searches, Wikipedia research, and system utilities.
 
 ---
 
-## ✨ Key Features
-
-- **🧠 Advanced AI Engine**: Powered by **Google Gemini 1.5 Flash** for intelligent, context-aware responses.
-- **🗣️ Context Awareness**: Remembers previous questions and answers for a natural conversation flow.
-- **🎙️ Voice Activated**: Speak naturally to interact, with text-to-speech responses.
-- **🎨 Cyberpunk UI**: A stunning, modern interface with neon aesthetics and smooth animations.
-- **🛠️ Automation Tools**:
-  - 🌐 **Web**: Open Google, YouTube.
-  - 📚 **Knowledge**: Integrated Wikipedia search.
-  - ⏰ **Utilities**: Time check, jokes.
-- **� Secure**: API Key management through the sidebar (keys are never stored).
+## 🏗️ Technical Architecture
+- **NLP Engine**: `Google Generative AI (Gemini)`
+- **Frontend Prototype**: `Streamlit` (High-fidelity interface)
+- **Audio Processing**: `SpeechRecognition`, `pyttsx3`, `pyaudio`
+- **Knowledge Core**: `Wikipedia API`, `pyjokes`
 
 ---
 
-## 🛠️ Technology Stack
+## 🚀 Installation & Mission Start
 
-- **Core**: `Python 3.x`
-- **Frontend**: `Streamlit`
-- **AI Model**: `Google Generative AI (Gemini)`
-- **Speech**: `SpeechRecognition`, `pyttsx3`, `pyaudio`
-- **Utilities**: `wikipedia`, `pyjokes`
+1. **Acquire Neural Key**:
+   Create a free API key at [Google AI Studio](https://aistudio.google.com/).
 
----
+2. **Clone & Setup**:
+   ```bash
+   git clone https://github.com/HarshChoudhary2003/Machine_Learning_Projects.git
+   cd "Voice Assistant using python"
+   pip install -r requirements.txt
+   ```
 
-## 🚀 Installation & Setup
-
-### 1. Prerequisite: Get a Gemini API Key
-You'll need a free API key to enable the AI features.
-- Go to [Google AI Studio](https://aistudio.google.com/).
-- Click **"Get API key"** and create a new key.
-
-### 2. Clone the Repository
-```bash
-git clone https://github.com/HarshChoudhary2003/Machine_Learning_Projects.git
-cd "Voice Assistant using python"
-```
-
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the Application
-```bash
-streamlit run app.py
-```
+3. **Ignition**:
+   ```bash
+   streamlit run app.py
+   ```
 
 ---
 
-## 📖 How to Use
-
-1.  **Launch the App**: Run the command above. A new tab will open in your browser.
-2.  **Enter API Key**: In the sidebar (left panel), paste your **Gemini API Key**.
-3.  **Activate Voice**: Click the **🔴 ACTIVATE VOICE PROTOCOL** button.
-4.  **Speak**:
-    *   *"Who was Albert Einstein?"* (Gemini AI)
-    *   *"Tell me a joke about programmers"* (PyJokes)
-    *   *"What time is it?"* (System Time)
-    *   *"Wikipedia Python Programming"* (Wikipedia Search)
-5.  **Chat History**: View your entire conversation with Nova in the main chat window.
+## 📖 Operational Protocol
+1. **Initialize**: Paste your Gemini Key in the sidebar.
+2. **Activate**: Click **🔴 ACTIVATE VOICE PROTOCOL**.
+3. **Execute**:
+   - *"Tell me about Quantum Computing"* (AI Reasoning)
+   - *"Wikipedia Python Programming"* (Knowledge Capture)
+   - *"Execute browser search for latest AI news"* (Automation)
 
 ---
 
-## 🛤️ Future Roadmap
-- [ ] Wake word detection ("Hey Nova").
-- [ ] IoT Home Automation integration.
-- [ ] Multi-language support.
-- [ ] Custom voice cloning.
-
----
-
-## ⚖️ License
-Distributed under the MIT License.
+<div align="center">
+  <h3>⭐ If you found Nova useful, please consider giving it a star!</h3>
+  <p>Made with ❤️ by <a href="https://github.com/HarshChoudhary2003">Harsh Choudhary</a></p>
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=2,22,25&height=100&section=footer" width="100%" />
+</div>
