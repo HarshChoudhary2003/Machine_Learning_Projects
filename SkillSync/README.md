@@ -1,21 +1,12 @@
 <div align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=50,10,60&height=250&section=header&text=SkillSync%20Pro&fontSize=40&animation=fadeIn&fontAlignY=38&desc=Intelligent%20Job%20Market%20Intelligence&descAlignY=55&descAlign=50" width="100%" />
 
-# 💼 SkillSync Pro
+  <br/>
 
-### *Intelligent Job Market Analyzer*
-
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
-[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org)
-
-<img src="https://img.shields.io/badge/Status-Complete-success?style=flat-square" />
-<img src="https://img.shields.io/badge/Type-Web%20App-blue?style=flat-square" />
-<img src="https://img.shields.io/badge/ML-Salary%20Prediction-purple?style=flat-square" />
-
----
-
-*An AI-powered job market intelligence platform that scrapes, analyzes, and predicts salary trends.*
+  [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+  [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+  [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+  [![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org)
 
 </div>
 
@@ -174,9 +165,8 @@ The salary prediction model is trained on collected job data and provides estima
 ---
 
 <div align="center">
-
-### ⭐ If you found this project useful, please consider giving it a star!
-
-Made with ❤️ by [Harsh Choudhary](https://github.com/HarshChoudhary2003)
-
+  <h3>⭐ If you found SkillSync Pro useful, please consider giving it a star!</h3>
+  <p>Made with ❤️ by <a href="https://github.com/HarshChoudhary2003">Harsh Choudhary</a></p>
+  
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=50,10,60&height=100&section=footer" width="100%" />
 </div>

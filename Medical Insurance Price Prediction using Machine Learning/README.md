@@ -1,12 +1,13 @@
+<div align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=20,80,40&height=250&section=header&text=InsurAI%20Intelligence&fontSize=40&animation=fadeIn&fontAlignY=38&desc=Machine%20Learning%20Powered%20Insurance%20Estimator&descAlignY=55&descAlign=50" width="100%" />
 
-# 🏥 Medical Insurance Price Prediction
-  <br>
-  
-  ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
-  ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
-  ![XGBoost](https://img.shields.io/badge/XGBoost-15FA00?style=for-the-badge&logo=xgboost&logoColor=white)
-  ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-  ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+  <br/>
+
+  [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+  [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+  [![XGBoost](https://img.shields.io/badge/XGBoost-15FA00?style=for-the-badge&logo=xgboost&logoColor=white)](https://xgboost.ai)
+  [![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com)
+
 </div>
 
 ## 📌 Overview
@@ -92,7 +93,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🤝 Contribution
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
----
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/HarshChoudhary2003">Harsh Choudhary</a>
-</p>
+<div align="center">
+  <h3>⭐ If you found this project useful, please consider giving it a star!</h3>
+  <p>Made with ❤️ by <a href="https://github.com/HarshChoudhary2003">Harsh Choudhary</a></p>
+  
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=20,80,40&height=100&section=footer" width="100%" />
+</div>

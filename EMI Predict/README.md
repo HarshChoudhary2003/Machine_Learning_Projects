@@ -1,13 +1,14 @@
-# EMI Precision AI 💳
+<div align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=0,40,20&height=250&section=header&text=EMI%20Precision%20AI&fontSize=40&animation=fadeIn&fontAlignY=38&desc=AI-Powered%20Financial%20Risk%20Assessment&descAlignY=55&descAlign=50" width="100%" />
 
-### **AI-Powered Financial Risk Assessment & EMI Prediction**
+  <br/>
 
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
-[![XGBoost](https://img.shields.io/badge/XGBoost-28A745?style=for-the-badge&logo=xgboost&logoColor=white)](https://xgboost.readthedocs.io/)
-[![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)](https://mlflow.org)
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+  [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+  [![XGBoost](https://img.shields.io/badge/XGBoost-28A745?style=for-the-badge&logo=xgboost&logoColor=white)](https://xgboost.ai)
+  [![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)](https://mlflow.org)
+  [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 
----
+</div>
 
 **EMI Precision AI** is a next-generation financial assessment tool designed to evaluate loan eligibility and predict the maximum affordable EMI for users in real-time. 
 
@@ -76,7 +77,9 @@ Unlike traditional calculators that use fixed formulas, this system leverages **
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
----
-
-### ⭐ **Star this repo if you find it useful!** 
-Made with ❤️ by [Harsh Choudhary](https://github.com/HarshChoudhary2003)
+<div align="center">
+  <h3>⭐ If you found EMI Precision AI useful, please consider giving it a star!</h3>
+  <p>Made with ❤️ by <a href="https://github.com/HarshChoudhary2003">Harsh Choudhary</a></p>
+  
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=0,40,20&height=100&section=footer" width="100%" />
+</div>
