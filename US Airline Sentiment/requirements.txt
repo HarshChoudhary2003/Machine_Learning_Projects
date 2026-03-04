@@ -1,0 +1,13 @@
+
+pandas
+numpy
+joblib
+scikit-learn
+nltk
+streamlit
+plotly
+wordcloud
+emoji
+contractions
+matplotlib
+spacy
