@@ -290,6 +290,7 @@ Natural Language Processing projects.
 | 🎬 **Netflix Content Clustering** | Content recommendation system | K-Means, NLP | [👉 View](./NETFLIX%20MOVIES%20AND%20TV%20SHOWS%20CLUSTERING) |
 | 🍽️ **Restaurant Review NLP** | Sentiment analysis of restaurant reviews | NLTK, Bag of Words | [👉 View](./NLP%20analysis%20of%20Restaurant%20reviews) |
 | 📘 **Facebook Sentiment Analysis** | Sentiment analysis of FB posts | NLTK, VADER | [👉 View](./Facebook%20Sentiment%20Analysis%20using%20python) |
+| 🏷️ **NLTK vs spaCy Pipeline** | Comparative analysis of NLP pipelines with ML evaluation | NLTK, spaCy, Scikit-Learn | [👉 View](./Text%20Preprocessing%20Pipeline%20-%20NLTK%20vs%20spaCy) |
 | 🎙️ **Speech Recognition** | Speech-to-text with Google API | Google Speech API, pydub | [👉 View](./Speech%20Recognition%20in%20Python%20using%20Google%20Speech%20API) |
 
 ---
