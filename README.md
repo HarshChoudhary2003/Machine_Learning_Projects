@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=0,20,40&height=300&section=header&text=Machine%20Learning%20Projects%20Hub&fontSize=50&animation=fadeIn&fontAlignY=38&desc=30%2B%20End-to-End%20AI%20%26%20ML%20Projects&descAlignY=55&descAlign=50" width="100%" />
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=0,20,40&height=300&section=header&text=Machine%20Learning%20Projects%20Hub&fontSize=50&animation=fadeIn&fontAlignY=38&desc=50%2B%20End-to-End%20AI%20%26%20ML%20Projects&descAlignY=55&descAlign=50" width="100%" />
 
   <br/>
   
@@ -58,7 +58,7 @@
 
 Welcome to the **Machine Learning Projects Hub**! 🚀 
 
-This repository is a curated collection of **30+ end-to-end projects** spanning the entire landscape of Data Science, Machine Learning, and Artificial Intelligence. Whether you are a beginner looking to learn or an expert seeking reference implementations, this hub has something for everyone.
+This repository is a curated collection of **50+ end-to-end projects** spanning the entire landscape of Data Science, Machine Learning, and Artificial Intelligence. Whether you are a beginner looking to learn or an expert seeking reference implementations, this hub has something for everyone.
 
 > **Why this Repo?**  
 > Every project here is designed to be **production-ready**, featuring clean code, robust error handling, and comprehensive documentation. We bridge the gap between theoretical ML and real-world application.
@@ -67,7 +67,7 @@ This repository is a curated collection of **30+ end-to-end projects** spanning 
 
 | 📊 Projects | 🏷️ Categories | 🔧 Technologies | 📈 Focus Areas |
 |:-----------:|:-------------:|:---------------:|:--------------:|
-| **30+** | **10** | **15+** | **Finance, NLP, CV, Agents** |
+| **50+** | **10** | **15+** | **Finance, NLP, CV, Agents** |
 
 </div>
 
@@ -121,7 +121,7 @@ An autonomous multi-agent system that plans personalized travel itineraries usin
 </td>
 <td width="33%" valign="top">
 
-### � AI Resume Screening
+###  AI Resume Screening
 **Tech:** `NLP` `Streamlit` `Plotly` `Lottie`
 
 Next-gen recruitment tool featuring Glassmorphism UI, skill extraction, and interactive analytics.
@@ -221,6 +221,9 @@ Interactive web applications deployed directly from the repo.
 | 🌍 **SkyFlow Tourism** | Premium intelligence & recommendation platform | Streamlit, Random Forest, Scipy | [👉 View](./Tourism_Project) |
 | 🚦 **GuardianEye V2 PRO** | Mission-critical traffic sign intelligence | CNN, TensorFlow, Streamlit, Docker | [👉 View](./Traffic%20Signs%20Recognition%20using%20CNN) |
 | 😊 **MoodFlix (Emotion Rec)** | Mood-based movie recommender with Modern UI | FastAPI, React, Tailwind | [👉 View](./Movie%20recommendation%20based%20on%20emotion) |
+| 🧬 **Disease Prediction AI** | Next-gen diagnostic assistant with neural pathways | Streamlit, XGBoost, Scikit-Learn | [👉 View](./Disease%20Prediction%20Using%20Machine%20Learning) |
+| ✈️ **US Airline Sentiment** | Interactive airline feedback analyzer | Streamlit, NLP, Plotly | [👉 View](./US%20Airline%20Sentiment) |
+| 📄 **AI Resume Analyzer** | Neural resume-JD matcher & skill gap analysis | Flask, Transformers, NLP | [👉 View](./AI%20Resume%20Analyzer) |
 
 ---
 
@@ -292,6 +295,9 @@ Natural Language Processing projects.
 | 📘 **Facebook Sentiment Analysis** | Sentiment analysis of FB posts | NLTK, VADER | [👉 View](./Facebook%20Sentiment%20Analysis%20using%20python) |
 | 🏷️ **NLTK vs spaCy Pipeline** | Comparative analysis of NLP pipelines with ML evaluation | NLTK, spaCy, Scikit-Learn | [👉 View](./Text%20Preprocessing%20Pipeline%20-%20NLTK%20vs%20spaCy) |
 | 🎙️ **Speech Recognition** | Speech-to-text with Google API | Google Speech API, pydub | [👉 View](./Speech%20Recognition%20in%20Python%20using%20Google%20Speech%20API) |
+| ✈️ **US Airline Sentiment** | Sentiment analysis of US airline tweets | Streamlit, NLP, Plotly | [👉 View](./US%20Airline%20Sentiment) |
+| 🧠 **Word Embeddings & Emotion** | Emotion recognition using custom word embeddings | NLP, Word2Vec, TensorFlow | [👉 View](./Word%20Embeddings%20+%20Emotion%20Recognition) |
+| 📊 **Text Representation & Classification** | Comparative analysis of text vectorization | Scikit-Learn, NLP, ML | [👉 View](./Text%20Representation%20&%20Machine%20Learning%20Classification) |
 
 ---
 
@@ -336,6 +342,7 @@ Medical and environmental projects.
 | 🌧️ **Rainfall Prediction** | Predict rainfall using Linear Regression | Linear Regression | [👉 View](./rainfall-prediction-project) |
 | 🩺 **Tumor Detection** | Detect tumors using Machine Learning | Scikit-Learn, Pandas | [👉 View](./Tumor_Detection-project) |
 | 🏥 **Medical Insurance Prediction** | Predict insurance premium with XGBoost | XGBoost, Streamlit | [👉 View](./Medical%20Insurance%20Price%20Prediction%20using%20Machine%20Learning) |
+| 🧬 **Disease Prediction AI** | Neural network-based multi-disease diagnostic system | Streamlit, Ensemble ML, Scikit-Learn | [👉 View](./Disease%20Prediction%20Using%20Machine%20Learning) |
 
 ---
 
@@ -363,6 +370,7 @@ Analytics for decision making.
 | 📉 **Sales Forecast Prediction** | Time series sales forecasting | XGBoost, Time Series | [👉 View](./Sales%20Forecast%20Prediction%20-%20Python) |
 | 💼 **SkillSync Pro** | Job market analyzer + salary prediction | Web Scraping, ML, Streamlit | [👉 View](./SkillSync) |
 | 🏏 **IPL Score Prediction** | Live match score forecasting | Deep Learning, Keras | [👉 View](./IPL%20Score%20Prediction%20using%20Deep%20Learning) |
+| 📄 **AI Resume Analyzer** | Flask-based resume skill extraction & JD matching | Flask, Sentence-Transformers, NLP | [👉 View](./AI%20Resume%20Analyzer) |
 
 ---
 
