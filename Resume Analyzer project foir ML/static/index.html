@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Analyzer AI | Advanced Glassmorphism</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="background-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <div class="container">
+        <header class="glass-panel">
+            <h1><i class="fa-solid fa-file-signature"></i> Resume Analyzer AI</h1>
+            <p>Advanced NLP-powered analysis & job description matching</p>
+        </header>
+
+        <main class="content-grid">
+            <!-- Upload Section -->
+            <section class="glass-panel input-section">
+                <h2><i class="fa-solid fa-cloud-arrow-up"></i> Upload Resume</h2>
+                <form id="uploadForm">
+                    <div class="file-drop-area" id="drop-area">
+                        <i class="fa-regular fa-file-pdf icon-large"></i>
+                        <p class="drop-text">Drag & drop your PDF resume here</p>
+                        <p class="or-text">- or -</p>
+                        <input type="file" id="fileInput" name="file" accept="application/pdf" hidden>
+                        <button type="button" class="btn-select" onclick="document.getElementById('fileInput').click()">Browse Files</button>
+                        <div id="fileNameDisplay" class="file-name-display"></div>
+                    </div>
+
+                    <div class="advanced-options">
+                        <h3><i class="fa-solid fa-sliders"></i> Optional Configuration</h3>
+                        
+                        <label for="jdInput">Target Job Description</label>
+                        <textarea id="jdInput" name="job_description" rows="4" placeholder="Paste the job description here to compare against..."></textarea>
+                        
+                        <label for="skillsInput">Specific Skills to Match (comma separated)</label>
+                        <input type="text" id="skillsInput" name="skills" placeholder="e.g. python, react, sql, machine learning">
+                    </div>
+
+                    <button type="submit" class="btn-primary" id="analyzeBtn">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Analyze Resume
+                    </button>
+                </form>
+            </section>
+
+            <!-- Loading State -->
+            <div id="loader" class="loader-container hidden">
+                <div class="spinner"></div>
+                <p>Analyzing document with NLP...</p>
+            </div>
+
+            <!-- Results Section -->
+            <section class="results-section hidden" id="resultsSection">
+                <div class="score-card glass-panel">
+                    <h2>Overall Match Score</h2>
+                    <div class="circular-progress" id="progressCircle">
+                        <div class="inner-circle">
+                            <span id="scoreValue">0%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-panel entities-card">
+                    <h2><i class="fa-solid fa-id-card"></i> Extracted Information</h2>
+                    <ul class="entity-list" id="entityList">
+                        <!-- Populated by JS -->
+                    </ul>
+                </div>
+
+                <div class="glass-panel skills-card full-width">
+                    <h2><i class="fa-solid fa-bullseye"></i> Skill Matching Analysis</h2>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-box found">
+                            <h3><i class="fa-solid fa-check-circle"></i> Skills Found</h3>
+                            <div class="chip-container" id="foundSkills">
+                                <!-- Populated by JS -->
+                            </div>
+                        </div>
+                        
+                        <div class="skill-box missing">
+                            <h3><i class="fa-solid fa-xmark-circle"></i> Skills Missing</h3>
+                            <div class="chip-container" id="missingSkills">
+                                <!-- Populated by JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
