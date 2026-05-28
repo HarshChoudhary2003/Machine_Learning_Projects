@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Next-Word Prediction Editor</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="background-radial"></div>
+
+    <div class="app-container">
+        <!-- HEADER -->
+        <header class="app-header">
+            <div class="logo-area">
+                <span class="logo-icon">🧠</span>
+                <div class="logo-text">
+                    <h1>Predictive Text Workspace</h1>
+                    <p>AI-Powered Real-Time Autocomplete System</p>
+                </div>
+            </div>
+            <div class="status-badge" id="backend-status">
+                <span class="status-dot green"></span>
+                <span class="status-lbl">System Ready</span>
+            </div>
+        </header>
+
+        <!-- MAIN LAYOUT -->
+        <main class="main-layout">
+            <!-- EDITOR SECTION -->
+            <section class="editor-section">
+                <div class="card editor-card">
+                    <div class="card-header">
+                        <div class="header-title">
+                            <span>📝</span> Write Document
+                        </div>
+                        <div class="editor-shortcuts">
+                            <span class="badge">Tab to Accept</span>
+                            <span class="badge">Esc to Clear</span>
+                        </div>
+                    </div>
+                    
+                    <div class="editor-wrapper">
+                        <!-- Backdrop is behind the transparent textarea and shows the ghost suggestions -->
+                        <div id="editor-backdrop" class="editor-text-styles"></div>
+                        <textarea 
+                            id="editor-input" 
+                            class="editor-text-styles" 
+                            placeholder="Start typing your AI, Machine Learning, or programming thoughts here..."
+                            spellcheck="false"
+                            autofocus
+                        ></textarea>
+                    </div>
+
+                    <div class="editor-footer">
+                        <span id="char-count">0 characters</span>
+                        <span id="word-count">0 words</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTROLS & METRICS SECTION -->
+            <section class="sidebar-section">
+                <!-- SUGGESTIONS CARD -->
+                <div class="card metrics-card">
+                    <div class="card-header">
+                        <div class="header-title">
+                            <span>⚡</span> Prediction Probabilities
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div id="no-suggestions" class="placeholder-text">
+                            Type some text and pause to see AI suggestion distributions.
+                        </div>
+                        <div id="suggestions-list" class="suggestions-list hidden">
+                            <!-- Populated dynamically via JS -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MODEL CONFIGURATION CARD -->
+                <div class="card settings-card">
+                    <div class="card-header">
+                        <div class="header-title">
+                            <span>⚙️</span> Model Parameters
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <!-- Temperature Slider -->
+                        <div class="setting-item">
+                            <div class="setting-label">
+                                <span>Temperature</span>
+                                <span class="setting-val" id="temp-val">1.0</span>
+                            </div>
+                            <input type="range" id="temp-slider" min="0.1" max="2.0" step="0.1" value="1.0" class="slider">
+                            <p class="setting-desc">Lower values make predictions more focused and deterministic; higher values make them more diverse.</p>
+                        </div>
+
+                        <!-- Top-K Slider -->
+                        <div class="setting-item">
+                            <div class="setting-label">
+                                <span>Top Suggestions (K)</span>
+                                <span class="setting-val" id="k-val">3</span>
+                            </div>
+                            <input type="range" id="k-slider" min="1" max="5" step="1" value="3" class="slider">
+                            <p class="setting-desc">Number of candidate suggestions to retrieve and analyze.</p>
+                        </div>
+
+                        <!-- Cache Toggle -->
+                        <div class="setting-item toggle-item">
+                            <div class="setting-label-group">
+                                <span class="setting-name">Enable Prefix Caching</span>
+                                <p class="setting-desc">Bypass neural network inference for exact-match prefix lookups.</p>
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox" id="cache-toggle" checked>
+                                <span class="toggle-slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- STATS & INFO CARD -->
+                <div class="card info-card">
+                    <div class="card-header">
+                        <div class="header-title">
+                            <span>📊</span> Performance Metrics
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="stat-grid">
+                            <div class="stat-box">
+                                <div class="stat-num" id="latency-val">0ms</div>
+                                <div class="stat-lbl">Inference Latency</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-num" id="cache-hits-val">0</div>
+                                <div class="stat-lbl">Cache Hits</div>
+                            </div>
+                        </div>
+                        <div class="model-meta-info">
+                            <div class="meta-row">
+                                <span class="meta-label">Model Engine:</span>
+                                <span class="meta-val highlight-cyan">ONNX Runtime (CPU)</span>
+                            </div>
+                            <div class="meta-row">
+                                <span class="meta-label">Precision:</span>
+                                <span class="meta-val highlight-pink">INT8 Quantized</span>
+                            </div>
+                            <div class="meta-row">
+                                <span class="meta-label">Architecture:</span>
+                                <span class="meta-val">2-Layer LSTM + Dense Softmax</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <script src="/static/app.js"></script>
+</body>
+</html>
