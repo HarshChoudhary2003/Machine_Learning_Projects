@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Emotion Detector</title>
+    <!-- Google Fonts for Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body data-emotion="neutral">
+    <div class="background-anim"></div>
+    
+    <div class="container glass-panel">
+        <header>
+            <h1>Emotion Detector</h1>
+            <p>Discover the emotion hidden in your text.</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <textarea id="text-input" placeholder="Type something here (e.g., 'I am so thrilled about my new job!')..." rows="4"></textarea>
+                <button id="analyze-btn">
+                    <span class="btn-text">Analyze Emotion</span>
+                    <div class="spinner hidden"></div>
+                </button>
+            </div>
+
+            <div id="result-section" class="result-section hidden">
+                <div class="emotion-display">
+                    <span id="emotion-emoji" class="emoji">😐</span>
+                    <h2 id="emotion-label">Neutral</h2>
+                </div>
+                
+                <div class="confidence-bar-container">
+                    <div class="confidence-label">
+                        <span>Confidence</span>
+                        <span id="confidence-percentage">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div id="confidence-fill" class="progress-fill" style="width: 0%;"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
