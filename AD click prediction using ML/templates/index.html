@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Click Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <div class="container glass-panel">
+        <header>
+            <h1>Ad Click Predictor</h1>
+            <p>Enter user behavior metrics to predict if they will click the ad.</p>
+        </header>
+
+        <main>
+            <form id="prediction-form">
+                <div class="input-group">
+                    <label for="daily_time">Daily Time Spent on Site (mins)</label>
+                    <input type="number" step="0.01" id="daily_time" required placeholder="e.g. 68.95">
+                </div>
+                
+                <div class="input-group">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" required placeholder="e.g. 35">
+                </div>
+                
+                <div class="input-group">
+                    <label for="area_income">Area Income ($)</label>
+                    <input type="number" step="0.01" id="area_income" required placeholder="e.g. 61833.90">
+                </div>
+                
+                <div class="input-group">
+                    <label for="daily_internet">Daily Internet Usage (mins)</label>
+                    <input type="number" step="0.01" id="daily_internet" required placeholder="e.g. 256.09">
+                </div>
+                
+                <div class="input-group">
+                    <label for="male">Gender</label>
+                    <select id="male" required>
+                        <option value="" disabled selected>Select Gender</option>
+                        <option value="1">Male</option>
+                        <option value="0">Female</option>
+                    </select>
+                </div>
+                
+                <button type="submit" id="submit-btn">Predict Click</button>
+            </form>
+            
+            <div id="result-container" class="hidden">
+                <h2 id="result-title">Analyzing...</h2>
+                <div class="probability-bar-container">
+                    <div id="probability-bar" class="probability-bar"></div>
+                </div>
+                <p id="result-probability">Probability: 0%</p>
+                <button id="reset-btn" class="secondary-btn">New Prediction</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
