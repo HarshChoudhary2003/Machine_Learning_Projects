@@ -280,6 +280,8 @@ Understanding customer behavior through data.
 | 🛍️ **Customer Purchase Prediction** | Predict likelihood of purchase | Scikit-Learn, Random Forest | [👉 View](./Customer%20Purchase%20Prediction) |
 | 🎯 **Customer Segmentation** | Unsupervised clustering | K-Means, PCA | [👉 View](./Customer%20Segmentation%20using%20Unsupervised%20Machine%20Learning) |
 | 🛒 **Flipkart Sentiment Analysis** | E-commerce review analysis | NLP, NLTK, TextBlob | [👉 View](./Flipkart%20Reviews%20Sentiment%20Analysis) |
+| 🖱️ **AD Click Prediction** | Predict whether a user clicks an AD | Machine Learning | [👉 View](./AD%20click%20prediction%20using%20ML) |
+| 🛒 **E-Commerce Product Classification** | Classify products into categories | NLP, Classification | [👉 View](./E-Commerce%20products%20category%20classification) |
 
 ---
 
@@ -298,6 +300,8 @@ Natural Language Processing projects.
 | ✈️ **US Airline Sentiment** | Sentiment analysis of US airline tweets | Streamlit, NLP, Plotly | [👉 View](./US%20Airline%20Sentiment) |
 | 🧠 **Word Embeddings & Emotion** | Emotion recognition using custom word embeddings | NLP, Word2Vec, TensorFlow | [👉 View](./Word%20Embeddings%20+%20Emotion%20Recognition) |
 | 📊 **Text Representation & Classification** | Comparative analysis of text vectorization | Scikit-Learn, NLP, ML | [👉 View](./Text%20Representation%20&%20Machine%20Learning%20Classification) |
+| ✍️ **AI Next-Word Prediction** | Predict the next word in a sequence | NLP, Deep Learning | [👉 View](./AI%20Next-Word%20Prediction%20System) |
+| 😊 **Emotion Detection (NLTK)** | Detect emotion from text | NLTK, NLP | [👉 View](./Emotion%20dectection%20from%20text%20using%20nltk) |
 
 ---
 
@@ -372,6 +376,7 @@ Analytics for decision making.
 | 💼 **SkillSync Pro** | Job market analyzer + salary prediction | Web Scraping, ML, Streamlit | [👉 View](./SkillSync) |
 | 🏏 **IPL Score Prediction** | Live match score forecasting | Deep Learning, Keras | [👉 View](./IPL%20Score%20Prediction%20using%20Deep%20Learning) |
 | 📄 **AI Resume Analyzer** | Flask-based resume skill extraction & JD matching | Flask, Sentence-Transformers, NLP | [👉 View](./AI%20Resume%20Analyzer) |
+| 📄 **Resume Analyzer (ML)** | Analyze resumes with ML | NLP, Scikit-Learn | [👉 View](./Resume%20Analyzer%20project%20foir%20ML) |
 
 ---
 
