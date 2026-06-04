@@ -343,6 +343,7 @@ Medical and environmental projects.
 | 🩺 **Tumor Detection** | Detect tumors using Machine Learning | Scikit-Learn, Pandas | [👉 View](./Tumor_Detection-project) |
 | 🏥 **Medical Insurance Prediction** | Predict insurance premium with XGBoost | XGBoost, Streamlit | [👉 View](./Medical%20Insurance%20Price%20Prediction%20using%20Machine%20Learning) |
 | 🧬 **Disease Prediction AI** | Neural network-based multi-disease diagnostic system | Streamlit, Ensemble ML, Scikit-Learn | [👉 View](./Disease%20Prediction%20Using%20Machine%20Learning) |
+| 🩸 **Diabetes Prediction** | Predict the onset of diabetes using ML | Scikit-Learn, Pandas | [👉 View](./Diabities%20Prediction%20using%20ML) |
 
 ---
 
